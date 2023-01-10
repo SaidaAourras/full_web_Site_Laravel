@@ -18,6 +18,7 @@
                 </div>
             </div>
         </div>
+        <a href="/create">create</a>
     </div>
 </div>
 @endsection
