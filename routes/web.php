@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 
 Route::get('/categorys/create' , [CategoryController::class, 'create']);
+Route::post('/categorys' , [CategoryController::class, 'store']);
