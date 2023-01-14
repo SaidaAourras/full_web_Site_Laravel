@@ -18,6 +18,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// All Listings
+Route::get('/', [CategoryController::class, 'index']);
 
+// Show Create Form
 Route::get('/categorys/create' , [CategoryController::class, 'create']);
+
+// Store Listing Data
 Route::post('/categorys' , [CategoryController::class, 'store']);

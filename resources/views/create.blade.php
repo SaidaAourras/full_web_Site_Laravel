@@ -17,4 +17,8 @@
         </div>
       </form>
    
+
+      @foreach ($categorys as $category)
+      {{ $category['name'] }}
+      @endforeach
   
