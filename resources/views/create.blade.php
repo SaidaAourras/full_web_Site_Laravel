@@ -22,3 +22,4 @@
       {{ $category['name'] }}
       @endforeach
   
+

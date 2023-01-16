@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,11 +19,29 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// All Listings
+// All categorys
 Route::get('/', [CategoryController::class, 'index']);
 
 // Show Create Form
-Route::get('/categorys/create' , [CategoryController::class, 'create']);
+Route::get('/categorys/create', [CategoryController::class, 'create']);
 
-// Store Listing Data
-Route::post('/categorys' , [CategoryController::class, 'store']);
+// Store categorys Data
+Route::post('/categorys', [CategoryController::class, 'store']);
+
+// Single category
+Route::get('/categorys/{category}', [CategoryController::class, 'show']);
+
+// Show Edit Form
+Route::get('/categorys/{category}/edit', [CategoryController::class, 'edit']);
+
+// Update Listing
+Route::put('/categorys/{category}', [CategoryController::class, 'update']);
+
+// All Projects
+// Route::get('/', [ProjectController::class, 'index']);
+
+// Show Create Form
+// Route::get('/projects/add' , [ProjectController::class, 'create']);
+
+// // Store categorys Data
+// Route::post('/projects' , [ProjectController::class, 'store']);
