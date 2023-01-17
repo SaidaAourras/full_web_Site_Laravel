@@ -15,10 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 // All categorys
 Route::get('/', [CategoryController::class, 'index']);
 
@@ -39,12 +35,3 @@ Route::put('/categorys/{category}', [CategoryController::class, 'update']);
 
 // Delete Listing
 Route::delete('/categorys/{category}', [CategoryController::class, 'destroy']);
-
-// All Projects
-// Route::get('/', [ProjectController::class, 'index']);
-
-// Show Create Form
-// Route::get('/projects/add' , [ProjectController::class, 'create']);
-
-// // Store categorys Data
-// Route::post('/projects' , [ProjectController::class, 'store']);

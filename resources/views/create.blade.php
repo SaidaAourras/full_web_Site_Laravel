@@ -29,12 +29,12 @@
             <td>{{ $category['id'] }}</td>
             <td>{{ $category['name'] }}</td>
             <td>
-              <form method="POST" action="/categorys/{{$category->id}}">
-                @csrf
-                @method('DELETE')
-                <button class="text-red-500"><i class="fa-solid fa-trash"></i> Delete</button>
-              </form>
-              <a href="/categorys/{{$category->id}}/edit">edit</a>
+                <form method="POST" action="/categorys/{{ $category->id }}">
+                    @csrf
+                    @method('DELETE')
+                    <button class="text-red-500"><i class="fa-solid fa-trash"></i> Delete</button>
+                </form>
+                <a href="/categorys/{{ $category->id }}/edit">edit</a>
             </td>
         </tr>
     @endforeach
