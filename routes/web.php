@@ -37,6 +37,9 @@ Route::get('/categorys/{category}/edit', [CategoryController::class, 'edit']);
 // Update Listing
 Route::put('/categorys/{category}', [CategoryController::class, 'update']);
 
+// Delete Listing
+Route::delete('/categorys/{category}', [CategoryController::class, 'destroy']);
+
 // All Projects
 // Route::get('/', [ProjectController::class, 'index']);
 
