@@ -35,3 +35,14 @@ Route::put('/categorys/{category}', [CategoryController::class, 'update']);
 
 // Delete Listing
 Route::delete('/categorys/{category}', [CategoryController::class, 'destroy']);
+
+//Projects
+
+// All categorys
+// Route::get('/', [ProjectController::class, 'index']);
+
+// Show Create Form
+// Route::get('/projects/create', [ProjectController::class, 'create']);
+
+// Store categorys Data
+Route::post('/projects', [ProjectController::class, 'store']);

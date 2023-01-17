@@ -8,6 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Project extends Model
 {
     use HasFactory;
+    protected $fillable  = ['link','image','title','discp','category_id'];
+
+
     public function category()
     {
         return $this->belongsTo(Category::class);

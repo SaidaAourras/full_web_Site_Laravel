@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Project;
+use App\Models\Category;
 
 use Illuminate\Http\Request;
 
@@ -23,7 +25,9 @@ class ProjectController extends Controller
      */
     public function create()
     {
-        return view('create');
+        // $category_id = Category::all();
+
+        // return view('createproject')->with('category_id', $category_id);
     }
 
     /**
@@ -34,7 +38,16 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        Project::create($request->post());
+        $data = new Project([
+            'link' => $request->get('link'),
+            'image' => $request->get('image'),
+            'title' => $request->get('title'),
+            'discp' => $request->get('discp'),
+            'category_id' => $request->get('category_id'),
+
+        ]);
+        // Project::create($request->post());
+        $data->save();
         return redirect('/');
     }
 
