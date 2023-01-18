@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ReferenceController;
 use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
@@ -46,3 +47,4 @@ Route::delete('/categorys/{category}', [CategoryController::class, 'destroy']);
 
 // Store categorys Data
 Route::post('/projects', [ProjectController::class, 'store']);
+Route::post('/references', [ReferenceController::class, 'store']);
