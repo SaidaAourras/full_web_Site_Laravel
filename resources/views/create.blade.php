@@ -99,6 +99,11 @@
 <form method="POST" action="/references" enctype="multipart/form-data">
     @csrf
     <div class="mb-6">
+        <label for="name" class="inline-block text-lg mb-2">name</label>
+        <input type="text" class="border border-gray-200 rounded p-2 w-full" name="name" />
+
+    </div>
+    <div class="mb-6">
         <label for="logo" class="inline-block text-lg mb-2">logo</label>
         <input type="file" class="border border-gray-200 rounded p-2 w-full" name="logo" />
 

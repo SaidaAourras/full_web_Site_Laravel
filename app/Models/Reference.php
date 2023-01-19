@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Reference extends Model
 {
-    protected $fillable  = ['logo'];
+    protected $fillable  = ['name','logo'];
     use HasFactory;
 }

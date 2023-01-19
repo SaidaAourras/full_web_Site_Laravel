@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('references', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->string('logo');
             $table->timestamps();
         });
