@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 // All categorys
-Route::get('/', [CategoryController::class, 'index']);
+// Route::get('/', [CategoryController::class, 'index']);
 
 // Show Create Form
 Route::get('/categorys/create', [CategoryController::class, 'create']);
@@ -47,4 +47,12 @@ Route::delete('/categorys/{category}', [CategoryController::class, 'destroy']);
 
 // Store categorys Data
 Route::post('/projects', [ProjectController::class, 'store']);
+
+// Store references Data
 Route::post('/references', [ReferenceController::class, 'store']);
+
+// All references
+Route::get('/all', [ReferenceController::class, 'index']);
+
+// Single references
+Route::get('/references/{reference}', [ReferenceController::class, 'show']);

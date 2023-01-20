@@ -14,7 +14,7 @@ class ReferenceController extends Controller
      */
     public function index()
     {
-        //
+        return view('create', ['references' => Reference::all()]);
     }
 
     /**
@@ -24,7 +24,6 @@ class ReferenceController extends Controller
      */
     public function create()
     {
-        //
     }
 
     /**
@@ -35,23 +34,13 @@ class ReferenceController extends Controller
      */
     public function store(Request $request)
     {
-        // $reference = new Reference();
-        // $reference->name = $request->input('name');
-
-        // if ($request->hasFile('logo')) {
-        //     $formFields['logo'] = $request
-        //         ->file('logo')
-        //         ->store('logos', 'public');
-        // }
-        // $reference->save();
-        $reference = new Reference;
+        $reference = new Reference();
         $reference->name = $request->input('name');
 
-        if($request->hasfile('logo'))
-        {
+        if ($request->hasfile('logo')) {
             $file = $request->file('logo');
             $extenstion = $file->getClientOriginalExtension();
-            $filename = time().'.'.$extenstion;
+            $filename = time() . '.' . $extenstion;
             $file->move('logos/', $filename);
             $reference->logo = $filename;
         }
@@ -68,7 +57,6 @@ class ReferenceController extends Controller
      */
     public function show($id)
     {
-        //
     }
 
     /**

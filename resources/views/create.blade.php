@@ -18,7 +18,7 @@
 
 
 
-<table>
+{{-- <table>
     <tr>
         <th>id</th>
         <th>name</th>
@@ -39,14 +39,14 @@
         </tr>
     @endforeach
 
-</table>
+</table> --}}
 
 
 
 
 
 
-
+{{-- 
 <form method="POST" action="/projects" enctype="multipart/form-data">
     @csrf
     <div class="mb-6">
@@ -89,7 +89,17 @@
 
         <a href="/" class="text-black ml-4"> Back </a>
     </div>
-</form>
+</form> --}}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -116,3 +126,30 @@
         <a href="/" class="text-black ml-4"> Back </a>
     </div>
 </form>
+
+
+<table>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>logos</th>
+        <th>action</th>
+    </tr>
+    @foreach ($references as $reference)
+        <tr>
+            <td>{{ $reference['id'] }}</td>
+            <td>{{ $reference['name'] }}</td>
+            {{-- <td>{{ $reference['logo'] }}</td> --}}
+            <td><img src="/logos/{{ $reference->logo }}" width="100px"></td>
+            {{-- <td>
+                <form method="POST" action="/references/{{ $reference->id }}">
+                    @csrf
+                    @method('DELETE')
+                    <button class="text-red-500"><i class="fa-solid fa-trash"></i> Delete</button>
+                </form>
+                <a href="/references/{{ $reference->id }}/edit">edit</a>
+            </td> --}}
+        </tr>
+    @endforeach
+
+</table>
