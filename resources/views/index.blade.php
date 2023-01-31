@@ -192,7 +192,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide-top-img d-none d-lg-block bg-overlay bg-cover" style="background-image: url('addons/img/home1/header-section3.png')"></div>
+                <div class="slide-top-img d-none d-lg-block bg-overlay bg-cover" style="background-image: url('addons/img/home1/header-section-4.jpg')"></div>
                 <div class="slide-bottom-img d-none d-xl-block bg-overlay bg-cover" style="background-image: url('addons/img/home1/header-section2.png')"></div>
             </div>
         </div>
