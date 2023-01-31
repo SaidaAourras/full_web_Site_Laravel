@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="modinatheme">
     <!-- ======== Page title ============ -->
-    <title>Techex - Information & Technology HTML Template</title>
+    <title>Global Marketing Consulting Maroc</title>
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="addons/img/favicon.png">
     <!-- ===========  All Stylesheet ================= -->
@@ -45,18 +45,18 @@
     <div id="preloader" class="preloader">
         <div class="animation-preloader">
             <div class="spinner">                
-            </div>
+            </div> 
                 <div class="txt-loading">
-                    <span data-text-preloader="T" class="letters-loading">
-                        T
+                    <span data-text-preloader="G" class="letters-loading">
+                        G
                     </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
+                    <span data-text-preloader="M" class="letters-loading">
+                        M
                     </span>
                     <span data-text-preloader="C" class="letters-loading">
                         C
                     </span>
-                    <span data-text-preloader="H" class="letters-loading">
+                    {{-- <span data-text-preloader="H" class="letters-loading">
                         H
                     </span>
                     <span data-text-preloader="E" class="letters-loading">
@@ -64,7 +64,7 @@
                     </span>
                     <span data-text-preloader="X" class="letters-loading">
                         X
-                    </span>
+                    </span> --}}
                 </div>
             <p class="text-center">Loading</p>
         </div>
@@ -94,7 +94,7 @@
                 <div class="col-6 col-sm-5 col-xl-2">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="addons/img/logo.png" alt="logo">
+                            <img src="addons/img/logo-GMC.svg" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -192,8 +192,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="slide-top-img d-none d-lg-block bg-overlay bg-cover" style="background-image: url('addons/img/home1/hero1.jpg')"></div>
-                <div class="slide-bottom-img d-none d-xl-block bg-overlay bg-cover" style="background-image: url('addons/img/home1/hero2.jpg')"></div>
+                <div class="slide-top-img d-none d-lg-block bg-overlay bg-cover" style="background-image: url('addons/img/home1/header-section3.png')"></div>
+                <div class="slide-bottom-img d-none d-xl-block bg-overlay bg-cover" style="background-image: url('addons/img/home1/header-section2.png')"></div>
             </div>
         </div>
     </section>
@@ -794,7 +794,7 @@
                     <div class="col-md-6 col-xl-3 col-12 pr-xl-4">
                         <div class="single-footer-wid site_footer_widget newsletter_widget">
                             <a href="index.html">
-                                <img src="addons/img/logo.png" alt="">
+                                <img src="addons/img/logo-GMC.svg" alt="">
                             </a>
                             <p class="mt-4">Sed ut perspiciatis unde omnis natus voluptatem accusa ntiumy doloremque laudantium.</p>
                             <div class="newsletter_box">
@@ -883,7 +883,7 @@
         <div class="footer-bottom">
             <div class="container text-center">
                 <div class="footer-bottom-content">
-                    © 2021 <a href="index.html">Techex</a>. All Rights Reserved
+                    © 2021 <a href="index.html">GMC</a>. All Rights Reserved
                 </div>
             </div>
         </div>
