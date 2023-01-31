@@ -16,8 +16,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+//home page
+Route::get('/index', function () {
+    return view('index');
+});
+
+
 // All categorys
-// Route::get('/', [CategoryController::class, 'index']);
+Route::get('/', [CategoryController::class, 'index']);
 
 // Show Create Form
 Route::get('/categorys/create', [CategoryController::class, 'create']);
@@ -46,13 +53,18 @@ Route::delete('/categorys/{category}', [CategoryController::class, 'destroy']);
 // Route::get('/projects/create', [ProjectController::class, 'create']);
 
 // Store categorys Data
-Route::post('/projects', [ProjectController::class, 'store']);
+// Route::post('/projects', [ReferenceController::class, 'store']);
+
+
+Route::get('/references/create', [ReferenceController::class, 'create']);
 
 // Store references Data
 Route::post('/references', [ReferenceController::class, 'store']);
 
 // All references
-Route::get('/all', [ReferenceController::class, 'index']);
+Route::get('/references/{references}', [ReferenceController::class, 'index']);
 
 // Single references
-Route::get('/references/{reference}', [ReferenceController::class, 'show']);
+// Route::get('/references/{reference}', [ReferenceController::class, 'show']);
+// Single category
+// Route::get('/reference/{reference}', [ReferenceController::class, 'show']);

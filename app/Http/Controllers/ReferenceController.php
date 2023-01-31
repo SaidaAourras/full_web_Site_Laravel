@@ -14,7 +14,7 @@ class ReferenceController extends Controller
      */
     public function index()
     {
-        return view('create', ['references' => Reference::all()]);
+        return view('reference', ['references' => Reference::all()]);
     }
 
     /**
@@ -24,6 +24,7 @@ class ReferenceController extends Controller
      */
     public function create()
     {
+        return view('reference');
     }
 
     /**
@@ -46,7 +47,7 @@ class ReferenceController extends Controller
         }
 
         $reference->save();
-        return redirect('/');
+        return redirect('/reference');
     }
 
     /**
@@ -57,6 +58,7 @@ class ReferenceController extends Controller
      */
     public function show($id)
     {
+        return view('reference', ['reference => $reference']);
     }
 
     /**
