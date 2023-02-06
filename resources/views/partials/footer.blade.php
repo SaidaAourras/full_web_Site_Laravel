@@ -8,13 +8,12 @@
                      <a href="index.html" class="navbar-brand">
                          <img style="width: 10rem;" class="m-0" src="addons/img/logo-GMC-blanc.svg" alt="">
                      </a>
-                     <p class="mt-3 mb-4">Lorem diam sit erat dolor elitr et, diam lorem justo amet clita stet eos sit.
-                         Elitr dolor duo lorem, elitr clita ipsum sea. Diam amet erat lorem stet eos. Diam amet et kasd
-                         eos duo.</p>
+                     <p class="mt-3 mb-4">Global Marketing Consulting,
+                         La seule distance qui nous sépare, c’est un nouveau départ</p>
                      <form action="">
                          <div class="input-group">
-                             <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                             <button class="btn btn-dark">Sign Up</button>
+                             <input type="email" class="form-control border-white p-3" placeholder="Votre e-mail">
+                             <button class="btn btn-dark">S'inscrire</button>
                          </div>
                      </form>
                  </div>
@@ -23,19 +22,54 @@
                  <div class="row gx-5">
                      <div class="col-lg-4 col-md-12 pt-5 mb-5">
                          <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                             <h3 class="text-light mb-0">Get In Touch</h3>
+                             <h3 class="text-light mb-0">Entrer en contact</h3>
                          </div>
                          <div class="d-flex mb-2">
                              <i class="bi bi-geo-alt text-primary me-2"></i>
-                             <p class="mb-0">123 Street, New York, USA</p>
+                             <p class="mb-0">N°6, Immeuble N° 139, Lot. AKABAR, Av. Hassan II, Aït Melloul 80000</p>
                          </div>
                          <div class="d-flex mb-2">
                              <i class="bi bi-envelope-open text-primary me-2"></i>
-                             <p class="mb-0">info@example.com</p>
+                             <p class="mb-0"><a style="color:#ffffff "
+                                     href="mailto:info.gmc2017@gmail.com">info.gmc2017@gmail.com</a></p>
                          </div>
                          <div class="d-flex mb-2">
                              <i class="bi bi-telephone text-primary me-2"></i>
-                             <p class="mb-0">+012 345 67890</p>
+                             <p class="mb-0"><a style="color:#ffffff " href="tel:+212 667 772 201 ">+212 667
+                                     772 201</a></p>
+                         </div>
+                         {{-- <div class="d-flex mt-4">
+                             <a class="btn btn-primary btn-square me-2" href="#"><i
+                                     class="fab fa-twitter fw-normal"></i></a>
+                             <a class="btn btn-primary btn-square me-2" href="#"><i
+                                     class="fab fa-facebook-f fw-normal"></i></a>
+                             <a class="btn btn-primary btn-square me-2" href="#"><i
+                                     class="fab fa-linkedin-in fw-normal"></i></a>
+                             <a class="btn btn-primary btn-square" href="#"><i
+                                     class="fab fa-instagram fw-normal"></i></a>
+                         </div> --}}
+                     </div>
+                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                             <h3 class="text-light mb-0">Pages</h3>
+                         </div>
+                         <div class="link-animated d-flex flex-column justify-content-start">
+                             <a class="text-light mb-2" href="#"><i
+                                     class="bi bi-arrow-right text-primary me-2"></i>Accueil</a>
+                             <a class="text-light mb-2" href="#"><i
+                                     class="bi bi-arrow-right text-primary me-2"></i>À apropos </a>
+                             <a class="text-light mb-2" href="#"><i
+                                     class="bi bi-arrow-right text-primary me-2"></i>Politique de confidentialité</a>
+                             <a class="text-light mb-2" href="#"><i
+                                     class="bi bi-arrow-right text-primary me-2"></i>Mentions légales</a>
+
+
+
+                         </div>
+                     </div>
+                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                             <h3 class="text-light mb-0">Nous suivre</h3>
                          </div>
                          <div class="d-flex mt-4">
                              <a class="btn btn-primary btn-square me-2" href="#"><i
@@ -47,12 +81,7 @@
                              <a class="btn btn-primary btn-square" href="#"><i
                                      class="fab fa-instagram fw-normal"></i></a>
                          </div>
-                     </div>
-                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                             <h3 class="text-light mb-0">Quick Links</h3>
-                         </div>
-                         <div class="link-animated d-flex flex-column justify-content-start">
+                         {{-- <div class="link-animated d-flex flex-column justify-content-start">
                              <a class="text-light mb-2" href="#"><i
                                      class="bi bi-arrow-right text-primary me-2"></i>Home</a>
                              <a class="text-light mb-2" href="#"><i
@@ -65,26 +94,7 @@
                                      class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
                              <a class="text-light" href="#"><i
                                      class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
-                         </div>
-                     </div>
-                     <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
-                             <h3 class="text-light mb-0">Popular Links</h3>
-                         </div>
-                         <div class="link-animated d-flex flex-column justify-content-start">
-                             <a class="text-light mb-2" href="#"><i
-                                     class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                             <a class="text-light mb-2" href="#"><i
-                                     class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                             <a class="text-light mb-2" href="#"><i
-                                     class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                             <a class="text-light mb-2" href="#"><i
-                                     class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                             <a class="text-light mb-2" href="#"><i
-                                     class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                             <a class="text-light" href="#"><i
-                                     class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
-                         </div>
+                         </div> --}}
                      </div>
                  </div>
              </div>
@@ -108,5 +118,4 @@
 
 
  <!-- Back to Top -->
- <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i
-         class="bi bi-arrow-up"></i></a>
+ <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
