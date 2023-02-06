@@ -23,6 +23,11 @@ Route::get('/index', function () {
 });
 
 
+//home page
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 // All categorys
 Route::get('/', [CategoryController::class, 'index']);
 
