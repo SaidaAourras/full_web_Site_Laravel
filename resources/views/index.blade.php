@@ -1,3 +1,7 @@
+<head>
+    <link rel="stylesheet" href="{{ asset('../addons/css/creative-studio.css') }}">
+    @stack('css')
+</head>
 @extends('layouts.base')
 
 @section('title', 'Global Marketing Consulting Maroc')
@@ -178,21 +182,28 @@
     </div>
     <!-- Features Start -->
 
+
+
+
+
     <!-- Service Start -->
+
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">NOS SERVICES</h5>
-                <h3 class="mb-0">Un point, une ligne, un nouveau horizon</h3>
+                <h5 class="fw-bold text-primary text-uppercase">NOS SOLUTIONS</h5>
+                <h3 class="mb-0">Des solutions pour votre entreprise prospère</h3>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div
                         class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fa fa-shield-alt text-white"></i>
+                        <div class="icon">
+                            {{-- <i class="fa fa-shield-alt text-white"></i> --}}
+                            <img style="width: 250px; padding-bottom: 2rem" src="addons/img/gmc_print.png"
+                                alt="">
                         </div>
-                        <h4 class="mb-3">Cyber Security</h4>
+                        <h4 class="mb-3" style="color: #009FE3;">Solutions Print & Publicité</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
                         </p>
                         <a class="btn btn-lg btn-primary rounded" href="">
@@ -203,10 +214,12 @@
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div
                         class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fa fa-chart-pie text-white"></i>
+                        <div class="icon">
+                            {{-- <i class="fa fa-shield-alt text-white"></i> --}}
+                            <img style="width: 250px; padding-bottom: 2rem" src="addons/img/gmc_digital.png"
+                                alt="">
                         </div>
-                        <h4 class="mb-3">Data Analytics</h4>
+                        <h4 class="mb-3" style="color: #E72787;">Solutions Web & Réseaux Sociaux</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
                         </p>
                         <a class="btn btn-lg btn-primary rounded" href="">
@@ -217,10 +230,12 @@
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                     <div
                         class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fa fa-code text-white"></i>
+                        <div class="icon">
+                            {{-- <i class="fa fa-shield-alt text-white"></i> --}}
+                            <img style="width: 250px; padding-bottom: 2rem" src="addons/img/gmc_visuel.png"
+                                alt="">
                         </div>
-                        <h4 class="mb-3">Web Development</h4>
+                        <h4 class="mb-3" style="color: #EB6409;">Solutions Publicité industrielle</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
                         </p>
                         <a class="btn btn-lg btn-primary rounded" href="">
@@ -231,10 +246,11 @@
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div
                         class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fab fa-android text-white"></i>
+                        <div class="icon">
+                            {{-- <i class="fa fa-shield-alt text-white"></i> --}}
+                            <img style="width: 250px; padding-bottom: 2rem" src="addons/img/gmc_edit.png" alt="">
                         </div>
-                        <h4 class="mb-3">Apps Development</h4>
+                        <h4 class="mb-3" style="color: #49AD33;">Solutions EDITION</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
                         </p>
                         <a class="btn btn-lg btn-primary rounded" href="">
@@ -245,10 +261,12 @@
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div
                         class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fa fa-search text-white"></i>
+                        <div class="icon">
+                            {{-- <i class="fa fa-shield-alt text-white"></i> --}}
+                            <img style="width: 250px; padding-bottom: 2rem" src="addons/img/gmc_design.png"
+                                alt="">
                         </div>
-                        <h4 class="mb-3">SEO Optimization</h4>
+                        <h4 class="mb-3" style="color: #936037;">Solutions Aménagement & Agencement</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
                         </p>
                         <a class="btn btn-lg btn-primary rounded" href="">
@@ -256,28 +274,128 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div
-                        class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
-                        <h3 class="text-white mb-3">Call Us For Quote</h3>
-                        <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna
-                            stet eirmod</p>
-                        <h2 class="text-white mb-0">+012 345 6789</h2>
+                        class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="icon">
+                            {{-- <i class="fa fa-shield-alt text-white"></i> --}}
+                            <img style="width: 250px; padding-bottom: 2rem" src="addons/img/gmc_tech.png" alt="">
+                        </div>
+                        <h4 class="mb-3" style="color: #24388D;">Solutions INFORMATIQUES</h4>
+                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
+                        </p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Service End -->
-     <!-- Vendor Start -->
-     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+
+
+
+
+
+
+
+
+    <!-- Portfolio section -->
+    <section id="portfolio">
+        <div class="container text-center">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Notre portfolio</h5>
+                <h6 class="mb-0">GMC réalise des solutions sur mesure pour ses clients. Nous vous présentons ici quelques
+                    unes de nos dernières réalisations. Nous serions ravis que vous en ferez partie...</h6>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="addons/img/folio-1.jpg"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="addons/img/folio-2.jpg"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="addons/img/folio-3.jpg"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="addons/img/folio-4.jpg"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="img-wrapper">
+                        <img src="addons/img/folio-5.jpg"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="addons/img/folio-6.jpg"
+                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Project Title</h5>
+                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
+                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of portfolio section -->
+
+
+    <!-- Vendor Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5 mb-5">
             <div class="bg-white">
                 <div class="owl-carousel vendor-carousel">
                     <img src="addons/img/refecences-logo_AEM-01.png" alt="">
                     <img src="addons/img/refecences-logo_LINAGREEN-01.png" alt="">
                     <img src="addons/img/refecences-logo_INTECA_Model2.png" alt="">
-                    <img src="addons/imgrefecences-logo_CMGP-01.png" alt="">
                     <img src="addons/img/refecences-logo_AMAL IRRIGATION-01.png" alt="">
                     <img src="addons/img/refecences-logo_rodamaroc.png" alt="">
                     <img src="addons/img/refecences-logo_tecnidex.png" alt="">
@@ -286,7 +404,11 @@
                     <img src="addons/img/refecences-logo_rodamaroc.png" alt="">
                     <img src="addons/img/refecences-logo_tecnidex.png" alt="">
                     <img src="addons/img/refecences-logo_carrefourmanu.png" alt="">
-                    <img src="addons/img/refecences-logo_hortisud.png" alt="">
+                    <img src="addons/img/refecences-logo_hortisud.png" alt=""><img
+                        src="addons/img/refecences-logo_INTECA_Model2.png" alt="">
+                    <img src="addons/img/refecences-logo_AMAL IRRIGATION-01.png" alt="">
+                    <img src="addons/img/refecences-logo_rodamaroc.png" alt="">
+                    <img src="addons/img/refecences-logo_tecnidex.png" alt="">
                 </div>
             </div>
         </div>

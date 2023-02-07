@@ -25,12 +25,17 @@
     <!-- Libraries Stylesheet -->
     <link href="addons/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="addons/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="addons/css/creative-studio.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="addons/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="addons/css/style.css" rel="stylesheet">
+    <!-- font icons -->
+    <link rel="stylesheet" href="addons/vendors/themify-icons/css/themify-icons.css">
+
+    
 </head>
 
 <body>
@@ -56,7 +61,15 @@
     <script src="addons/lib/waypoints/waypoints.min.js"></script>
     <script src="addons/lib/counterup/counterup.min.js"></script>
     <script src="addons/lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- core  -->
+    <script src="addons/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="addons/vendors/bootstrap/bootstrap.bundle.js"></script>
 
+    <!-- bootstrap affix -->
+    <script src="addons/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Creative Studio js -->
+    <script src="addons/js/creative-studio.js"></script>
     <!-- Template Javascript -->
     <script src="addons/js/main.js"></script>
 
