@@ -62,5 +62,59 @@
             </div>
         </div>
     </div>
+    <!-- Facts Start -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">QUI SOMMES NOUS?</h5>
+                        <h3 class="mb-0">Global Marketing Consulting,
+                            La seule distance qui nous sépare, c’est un nouveau départ</h3>
+                    </div>
+                    <h4 style="color: #1BAC92">Pour nous le point de départ, c'est vous</h4>
+                    <p class="mb-4">Faisons le point pour définir vos besoins, vos objectifs, vos ambitions. Ensemble,
+                        nous partirons de ce point pour tracer une ligne, suite de points stratégiques dessinant votre
+                        nouvel horizon.</p>
+                    <h4 style="color: #1BAC92">Entre nous, les liens ne sont pas seulement hypertextes.</h4>
+                    <p class="mb-4">D’abord, il y a une rencontre et une écoute active. Entre vous et nous. Entre votre
+                        problématique et notre expertise. Et puis les liens se tissent, la relation s’enrichit, les
+                        stratégies et les solutions pertinentes naissent. Pour nous, il y a autant de rencontres que de
+                        clients, avec chaque fois, des lignes d’horizon sur mesure et différentes, issues d’une réflexion
+                        commune.</p>
+                    {{-- <div class="row g-0 mb-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Award Winning</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
+                        </div>
+                    </div> --}}
+                    {{-- <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="mb-2">Call to ask any question</h5>
+                            <h4 class="text-primary mb-0">+012 345 6789</h4>
+                        </div>
+                    </div> --}}
+                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Lire la suite</a>
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
+                            src="addons/img/about.png" style="object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
 @endsection
-<!-- Facts Start -->
