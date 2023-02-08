@@ -45,8 +45,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Accueil</a>
-                        <a href="about.html" class="nav-item nav-link">À apropos </a>
+                        <a href="index.html" class="nav-item nav-link">Accueil</a>
+                        <a href="about.html" class="nav-item nav-link">À propos </a>
                         <a href="service.html" class="nav-item nav-link">Solutions</a>
                         <a href="service.html" class="nav-item nav-link">Portfolio</a>
                         <a href="/contact" class="nav-item nav-link">Reference </a>
@@ -256,7 +256,7 @@
         <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
             <div class="row py-5">
                 <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-                    <h1 class="display-4 text-white animated zoomIn">Contactez-nous</h1>
+                    <h1 id="chnageTitle" class="display-4 text-white animated zoomIn"></h1>
                     {{-- <a href="" class="h5 text-white">Home</a>
                     <i class="far fa-circle text-white px-2"></i>
                     <a href="" class="h5 text-white">Contact</a> --}}

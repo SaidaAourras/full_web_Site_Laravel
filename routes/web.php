@@ -28,6 +28,11 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+//home page
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});
+
 // All categorys
 Route::get('/', [CategoryController::class, 'index']);
 

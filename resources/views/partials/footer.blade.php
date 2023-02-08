@@ -1,3 +1,25 @@
+   <!-- Vendor Start -->
+   <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5 mb-5">
+        <div class="bg-white">
+            <div class="owl-carousel vendor-carousel">
+                <img src="addons/img/refecences-logo_AEM-01.png" alt="">
+                <img src="addons/img/refecences-logo_LINAGREEN-01.png" alt="">
+                <img src="addons/img/refecences-logo_INTECA_Model2.png" alt="">
+                <img src="addons/img/refecences-logo_AMAL IRRIGATION-01.png" alt="">
+                <img src="addons/img/refecences-logo_rodamaroc.png" alt="">
+                <img src="addons/img/refecences-logo_tecnidex.png" alt="">
+                <img src="addons/img/refecences-logo_carrefourmanu.png" alt="">
+                <img src="addons/img/refecences-logo_hortisud.png" alt="">
+                <img src="addons/img/refecences-logo_rodamaroc.png" alt="">
+                <img src="addons/img/refecences-logo_tecnidex.png" alt="">
+                <img src="addons/img/refecences-logo_carrefourmanu.png" alt="">
+                <img src="addons/img/refecences-logo_hortisud.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Vendor End -->
  <!-- Footer Start -->
  <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
      <div class="container">
@@ -31,11 +53,20 @@
                          <div class="d-flex mb-2">
                              <i class="bi bi-envelope-open text-primary me-2"></i>
                              <p class="mb-0"><a style="color:#ffffff "
-                                     href="mailto:info.gmc2017@gmail.com">info.gmc2017@gmail.com</a></p>
+                                     href="mailto:info@gmcmaroc.com">info@gmcmaroc.com</a></p>
+                         </div>
+                         <div class="d-flex mb-2">
+                             <p class="mb-0"><a style="color:#ffffff "
+                                     href="mailto:info.gmc2017@gmail.com">&nbsp; &nbsp; &nbsp;info.gmc2017@gmail.com</a></p>
                          </div>
                          <div class="d-flex mb-2">
                              <i class="bi bi-telephone text-primary me-2"></i>
-                             <p class="mb-0"><a style="color:#ffffff " href="tel:+212 667 772 201 ">+212 667
+                             <p class="mb-0"><a style="color:#ffffff " href="tel:+212 528 245 517 ">+212 528 245
+                                     517</a></p>
+                         </div>
+                         <div class="d-flex mb-2">
+                             <p class="mb-0"><a style="color:#ffffff " href="tel:+212 667 772 201 ">&nbsp; &nbsp;
+                                     &nbsp; +212 667
                                      772 201</a></p>
                          </div>
                          {{-- <div class="d-flex mt-4">
@@ -57,7 +88,7 @@
                              <a class="text-light mb-2" href="#"><i
                                      class="bi bi-arrow-right text-primary me-2"></i>Accueil</a>
                              <a class="text-light mb-2" href="#"><i
-                                     class="bi bi-arrow-right text-primary me-2"></i>À apropos </a>
+                                     class="bi bi-arrow-right text-primary me-2"></i>À propos </a>
                              <a class="text-light mb-2" href="#"><i
                                      class="bi bi-arrow-right text-primary me-2"></i>Politique de confidentialité</a>
                              <a class="text-light mb-2" href="#"><i

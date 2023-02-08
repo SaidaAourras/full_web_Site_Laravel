@@ -10,7 +10,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link active">Accueil</a>
-                    <a href="about.html" class="nav-item nav-link">À apropos </a>
+                    <a href="about.html" class="nav-item nav-link">À propos </a>
                     <a href="service.html" class="nav-item nav-link">Solutions</a>
                     <a href="service.html" class="nav-item nav-link">Portfolio</a>
                     <a href="/contact" class="nav-item nav-link">Reference </a>
