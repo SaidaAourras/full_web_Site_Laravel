@@ -33,6 +33,11 @@ Route::get('/portfolio', function () {
     return view('portfolio');
 });
 
+//home page
+Route::get('/about', function () {
+    return view('about');
+});
+
 // All categorys
 Route::get('/', [CategoryController::class, 'index']);
 
