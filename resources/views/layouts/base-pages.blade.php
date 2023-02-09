@@ -26,6 +26,7 @@
     <link href="addons/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="addons/lib/animate/animate.min.css" rel="stylesheet">
     <link href="addons/css/creative-studio.css" rel="stylesheet">
+    {{-- <link href="addons/css/style.c.css" rel="stylesheet"> --}}
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="addons/css/bootstrap.min.css" rel="stylesheet">

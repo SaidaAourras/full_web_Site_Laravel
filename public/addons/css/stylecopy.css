@@ -1,0 +1,22 @@
+
+
+
+.about_image {
+    width: 100%;
+    float: left;
+    padding-left: 22px;
+    padding-top: 37px;
+}
+.about_image::after {
+    content: '';
+    position: absolute;
+    width: 124px;
+    height: 598px;
+    background-color: #13a25d;
+    left: 0px;
+    right: initial;
+    top: 0;
+    z-index: -1;
+}
+
+
