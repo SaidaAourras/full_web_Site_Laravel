@@ -56,7 +56,16 @@
     visibility: visible;
     opacity: 1;
 }
-
+#position-relative::after{    
+    content: '';
+    position: absolute;
+    width: 8rem;
+    height: 33rem;
+    background-color: #1BAC92;
+    left: -19px;
+    right: initial;
+    top: -13px;
+    z-index: -1;}
 
 /*** Heading ***/
 h1,
