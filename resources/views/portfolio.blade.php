@@ -242,5 +242,7 @@
     <script>
         const element = document.getElementById("chnageTitle");
         element.innerHTML = "Portfolio ";
+        document.getElementById('img-bg-header').style.background = "url(addons/img/Image.png) center center no-repeat ";
+        document.getElementById('img-bg-header').style.backgroundSize = "cover";
     </script>
 @endsection

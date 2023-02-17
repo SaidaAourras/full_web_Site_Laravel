@@ -34,7 +34,7 @@
 </head>
 
 <body>
-    <div id="img-bg-header" class="container-fluid position-relative p-0">
+    <div  class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <div class="container">
                 <a href="index.html" class="navbar-brand p-0">

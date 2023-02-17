@@ -114,5 +114,8 @@
     <script>
         const element = document.getElementById("chnageTitle");
         element.innerHTML = "Contactez-nous ";
+        document.getElementById('img-bg-header').style.background = "url(addons/img/bg-contact.jpg) center center no-repeat ";
+        document.getElementById('img-bg-header').style.backgroundSize = "cover";
+        
     </script>
 @endsection
