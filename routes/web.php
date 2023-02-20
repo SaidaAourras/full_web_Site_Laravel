@@ -37,6 +37,10 @@ Route::get('/portfolio', function () {
 Route::get('/about', function () {
     return view('about');
 });
+//home page
+Route::get('/referencee', function () {
+    return view('referencee');
+});
 
 // All categorys
 Route::get('/', [CategoryController::class, 'index']);
