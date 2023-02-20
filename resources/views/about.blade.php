@@ -84,7 +84,7 @@
                         clients, avec chaque fois, des lignes d’horizon sur mesure et différentes, issues d’une réflexion
                         commune.</p>
                     <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s"
-                        style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">Request A Quote</a>
+                        style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">Contactez-nous</a>
 
 
                 </div>
@@ -223,8 +223,8 @@
         </div> --}}
 
         <!-- Testimonial Start -->
-        <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container py-5">
+        <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
                 <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
                     <h5 class="fw-bold text-primary text-uppercase">TÉMOIGNAGE</h5>
                     <h3 class="mb-0">Ce que nos clients disent de nos services numériques</h3>
