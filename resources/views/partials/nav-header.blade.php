@@ -9,11 +9,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Accueil</a>
-                    <a href="about.html" class="nav-item nav-link">À propos </a>
-                    <a href="service.html" class="nav-item nav-link">Solutions</a>
-                    <a href="service.html" class="nav-item nav-link">Portfolio</a>
-                    <a href="/contact" class="nav-item nav-link">Reference </a>
+                    <a href="/index" class="nav-item nav-link active">Accueil</a>
+                    <a href="/about" class="nav-item nav-link">À propos </a>
+                    <a href="/solutions" class="nav-item nav-link">Solutions</a>
+                    <a href="/portfolio" class="nav-item nav-link">Portfolio</a>
+                    <a href="/reference" class="nav-item nav-link">Reference </a>
                     <!-- <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Portfolio</a>
                     <div class="dropdown-menu m-0">
@@ -31,7 +31,7 @@
                         <a href="quote.html" class="dropdown-item">Free Quote</a>
                     </div>
                 </div> -->
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="/contact" class="nav-item nav-link">Contact</a>
                 </div>
                 <!-- <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> -->
                 <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-primary py-2 px-4 ms-3">
@@ -223,8 +223,8 @@
                 <img class="w-100" src="addons/img/groupe-personnes-preparant-plan-affaires-dans-bureau.jpg" alt="Image">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3" style="max-width: 900px;">
-                        <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
-                        <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution
+                        {{-- <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5> --}}
+                        <h1 class="display-1 text-white mb-md-4 animated zoomIn">Un point, Une ligne, Un nouveau horizon
                         </h1>
                         {{-- <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free
                             Quote</a>
@@ -237,8 +237,8 @@
                 <img class="w-100" src="addons/img/Image 14.png" alt="Image">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3" style="max-width: 900px;">
-                        <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
-                        <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution
+                        {{-- <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5> --}}
+                        <h1 class="display-1 text-white mb-md-4 animated zoomIn">Un point, Une ligne, Un nouveau horizon
                         </h1>
                         {{-- <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free
                             Quote</a>

@@ -45,11 +45,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link">Accueil</a>
-                        <a href="about.html" class="nav-item nav-link">À propos </a>
-                        <a href="service.html" class="nav-item nav-link">Solutions</a>
-                        <a href="service.html" class="nav-item nav-link">Portfolio</a>
-                        <a href="/contact" class="nav-item nav-link">Reference </a>
+                        <a href="/index" class="nav-item nav-link">Accueil</a>
+                        <a href="/about" class="nav-item nav-link">À propos </a>
+                        <a href="/solutions" class="nav-item nav-link">Solutions</a>
+                        <a href="/portfolio" class="nav-item nav-link">Portfolio</a>
+                        <a href="/reference" class="nav-item nav-link">Reference </a>
                         <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Portfolio</a>
                         <div class="dropdown-menu m-0">
@@ -67,7 +67,7 @@
                             <a href="quote.html" class="dropdown-item">Free Quote</a>
                         </div>
                     </div> -->
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="/contact" class="nav-item nav-link">Contact</a>
                     </div>
                     <!-- <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> -->
                     <a href="#" class="btn btn-primary py-2 px-4 ms-3">
