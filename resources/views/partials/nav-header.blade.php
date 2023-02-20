@@ -14,6 +14,7 @@
                     <a href="/solutions" class="nav-item nav-link">Solutions</a>
                     <a href="/portfolio" class="nav-item nav-link">Portfolio</a>
                     <a href="/referencee" class="nav-item nav-link">Reference </a>
+                    <a href="/blog" class="nav-item nav-link">Blog </a>
                     <!-- <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Portfolio</a>
                     <div class="dropdown-menu m-0">
@@ -34,7 +35,7 @@
                     <a href="/contact" class="nav-item nav-link">Contact</a>
                 </div>
                 <!-- <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> -->
-                <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-primary py-2 px-4 ms-3">
+                <a href="#" class="btn btn-primary py-2 px-4 ms-3">
                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
                         style="enable-background:new 0 0 512 512;width: 2rem;fill:white" xml:space="preserve">

@@ -83,7 +83,7 @@
                         stratégies et les solutions pertinentes naissent. Pour nous, il y a autant de rencontres que de
                         clients, avec chaque fois, des lignes d’horizon sur mesure et différentes, issues d’une réflexion
                         commune.</p>
-                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s"
+                    <a href="/contact" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s"
                         style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">Contactez-nous</a>
 
 
