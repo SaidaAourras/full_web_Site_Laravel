@@ -3,6 +3,11 @@
 @section('title', 'Global Marketing Consulting Maroc')
 
 @section('sections.container')
+<style>
+    .img-fluid{
+        height: 500px;
+    }
+</style>
 
     <div class="container py-5">
         <div class="row g-5">
@@ -111,7 +116,7 @@
         const element = document.getElementById("chnageTitle");
         element.innerHTML = "Détail du blog ";
         document.getElementById('img-bg-header').style.background =
-            "url(addons/img/referenceBg1.png) center center no-repeat ";
+            "url(addons/img/influence.png) center center no-repeat ";
         document.getElementById('img-bg-header').style.backgroundSize = "cover";
     </script>
 @endsection
