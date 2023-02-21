@@ -34,7 +34,8 @@
                                     </div>
                                     <h4 class="mb-3">How to build a website</h4>
                                     <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                    <a class="text-uppercase" href="/blogProjet">Read More <i
+                                            class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +54,8 @@
                                     </div>
                                     <h4 class="mb-3">How to build a website</h4>
                                     <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                    <a class="text-uppercase" href="/blogProjet">Read More <i
+                                            class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +74,8 @@
                                     </div>
                                     <h4 class="mb-3">How to build a website</h4>
                                     <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                    <a class="text-uppercase" href="/blogProjet">Read More <i
+                                            class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +94,8 @@
                                     </div>
                                     <h4 class="mb-3">How to build a website</h4>
                                     <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                                    <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                                    <a class="text-uppercase" href="/blogProjet">Read More <i
+                                            class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -110,7 +114,7 @@
                                     </div>
                                     <h4 class="mb-3">How to build a website</h4>
                                     <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                                    <a class="text-uppercase" href="">Read More <i
+                                    <a class="text-uppercase" href="/blogProjet">Read More <i
                                             class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
