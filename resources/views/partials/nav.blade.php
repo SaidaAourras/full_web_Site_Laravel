@@ -37,7 +37,7 @@
     <div  class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <div class="container">
-                <a href="index.html" class="navbar-brand p-0">
+                <a href="/index" class="navbar-brand p-0">
                     <img style="width: 10rem;" class="m-0" src="addons/img/logo-GMC.svg" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">

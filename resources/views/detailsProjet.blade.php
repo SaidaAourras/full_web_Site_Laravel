@@ -57,16 +57,17 @@
 
                     </div>
 
-                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s"
+                    <a href="https://amalirrigation.com/" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn"
+                        data-wow-delay="0.9s"
                         style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">Visiter le site</a>
                 </div>
             </div>
         </div>
         <div class=" text-center portfolio-nav">
             <span></span>
-            <a href="3e-art" class="transition"><i class="fa fa-angle-left"></i></a>
-            <a href="index#portfolio" class="transition"><i class="fa fa-th"></i></a>
-            <a href="elysee-travels" class="transition"><i class="fa fa-angle-right"></i></a>
+            <a href="/detailsProjet" class="transition"><i class="fa fa-angle-left"></i></a>
+            <a href="/portfolio" class="transition"><i class="fa fa-th"></i></a>
+            <a href="/detailsProjet" class="transition"><i class="fa fa-angle-right"></i></a>
         </div>
     </div>
 
@@ -79,7 +80,7 @@
         const element = document.getElementById("chnageTitle");
         element.innerHTML = "Nos réalisations";
         document.getElementById('img-bg-header').style.background =
-            "url(addons/img/referenceBg1.png) center center no-repeat ";
+            "url(addons/img/Métodos-para-definir-objetivos.png) center center no-repeat ";
         document.getElementById('img-bg-header').style.backgroundSize = "cover";
     </script>
 @endsection
