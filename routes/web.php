@@ -41,6 +41,10 @@ Route::get('/about', function () {
 Route::get('/referencee', function () {
     return view('referencee');
 });
+Route::get('/detailsProjet', function () {
+    return view('detailsProjet');
+});
+
 
 // All categorys
 Route::get('/', [CategoryController::class, 'index']);

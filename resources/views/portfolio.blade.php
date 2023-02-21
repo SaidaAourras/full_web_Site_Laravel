@@ -48,8 +48,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -59,8 +59,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -72,8 +72,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -83,8 +83,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -96,8 +96,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -107,8 +107,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -120,8 +120,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -131,8 +131,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -144,8 +144,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -155,8 +155,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -168,8 +168,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -179,8 +179,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -192,8 +192,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -203,8 +203,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -216,8 +216,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -227,8 +227,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
+                                <a href="/detailsProjet"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
