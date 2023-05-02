@@ -51,48 +51,59 @@ Route::get('/blogProjet', function () {
     return view('blogProjet');
 });
 
-// All categorys
-Route::get('/', [CategoryController::class, 'index']);
+// // All categorys
+// Route::get('/', [CategoryController::class, 'index']);
 
-// Show Create Form
-Route::get('/categorys/create', [CategoryController::class, 'create']);
+// // Show Create Form
+// Route::get('/categorys/create', [CategoryController::class, 'create']);
 
-// Store categorys Data
-Route::post('/categorys', [CategoryController::class, 'store']);
+// // Store categorys Data
+// Route::post('/categorys', [CategoryController::class, 'store']);
 
-// Single category
-Route::get('/categorys/{category}', [CategoryController::class, 'show']);
+// // Single category
+// Route::get('/categorys/{category}', [CategoryController::class, 'show']);
 
-// Show Edit Form
-Route::get('/categorys/{category}/edit', [CategoryController::class, 'edit']);
+// // Show Edit Form
+// Route::get('/categorys/{category}/edit', [CategoryController::class, 'edit']);
 
-// Update Listing
-Route::put('/categorys/{category}', [CategoryController::class, 'update']);
+// // Update Listing
+// Route::put('/categorys/{category}', [CategoryController::class, 'update']);
 
-// Delete Listing
-Route::delete('/categorys/{category}', [CategoryController::class, 'destroy']);
+// // Delete Listing
+// Route::delete('/categorys/{category}', [CategoryController::class, 'destroy']);
 
-//Projects
+// //Projects
 
-// All categorys
-// Route::get('/', [ProjectController::class, 'index']);
+// // All categorys
+// // Route::get('/', [ProjectController::class, 'index']);
 
-// Show Create Form
-// Route::get('/projects/create', [ProjectController::class, 'create']);
+// // Show Create Form
+// // Route::get('/projects/create', [ProjectController::class, 'create']);
 
-// Store categorys Data
-// Route::post('/projects', [ReferenceController::class, 'store']);
+// // Store categorys Data
+// // Route::post('/projects', [ReferenceController::class, 'store']);
 
 
-Route::get('/references/create', [ReferenceController::class, 'create']);
+// // Show Create Form
+// Route::get('/references/create', [ReferenceController::class, 'create']);
 
-// Store references Data
-Route::post('/references', [ReferenceController::class, 'store']);
+// // Store references Data
+// Route::post('/references', [ReferenceController::class, 'store']);
 
-// All references
-Route::get('/references/{references}', [ReferenceController::class, 'index']);
+// // All references
+// Route::get('/', [ReferenceController::class, 'index']);
+// Route::get('/edit/reference/{id}', [ReferenceController::class, 'edit'])->name('reference.edit');
 
-// Single references
-// Route::get('/references/{reference}', [ReferenceController::class, 'show']);
-// Single category
-// Route::get('/reference/{reference}', [ReferenceController::class, 'show']);
+// // Update Listing
+// Route::put('/references/{reference}', [ReferenceController::class, 'update']);
+
+// // Delete Listing
+// Route::delete('/references/{reference}', [ReferenceController::class, 'destroy']);
+
+// // Single references
+// // Route::get('/references/{reference}', [ReferenceController::class, 'show']);
+// // Single category
+// // Route::get('/reference/{reference}', [ReferenceController::class, 'show']);
+
+
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -24,7 +24,7 @@ class ReferenceController extends Controller
      */
     public function create()
     {
-        return view('reference');
+        return view('create');
     }
 
     /**
@@ -47,18 +47,22 @@ class ReferenceController extends Controller
         }
 
         $reference->save();
-        return redirect('/reference');
+        return redirect('/');
     }
 
+    
     /**
      * Display the specified resource.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Reference $reference )
     {
-        return view('reference', ['reference => $reference']);
+        return view('show', [
+            'reference' => $reference,
+
+        ]);
     }
 
     /**
@@ -67,9 +71,11 @@ class ReferenceController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Reference $reference)
     {
-        //
+        return view('edit', [
+            'reference' => $reference,
+        ]);
     }
 
     /**
@@ -79,10 +85,17 @@ class ReferenceController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Reference $reference)
     {
-        //
+        $reference->update(
+            $request->validate([
+                'name' => $request->name,
+                'logo' =>"https://via.placeholder.com/640x480.png/00ee00?text=new post",
+            ])
+        );
+        return redirect()->route('home');
     }
+
 
     /**
      * Remove the specified resource from storage.
@@ -92,6 +105,10 @@ class ReferenceController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $reference = Reference::find($id);
+        $reference->delete();
+        return redirect()->route('home')->with([
+            'siccess' => 'Article supprime'
+        ]);
     }
 }
