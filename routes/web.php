@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 
 //home page
-Route::get('/index', function () {
+Route::get('/', function () {
     return view('index');
 });
 
@@ -52,7 +52,7 @@ Route::get('/blogProjet', function () {
 });
 
 // All categorys
-Route::get('/', [CategoryController::class, 'index']);
+// Route::get('/', [CategoryController::class, 'index']);
 
 // Show Create Form
 Route::get('/categorys/create', [CategoryController::class, 'create']);
