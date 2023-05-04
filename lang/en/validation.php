@@ -158,9 +158,12 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'name' => [
+            'required' => 'le champ name est obligatoire',
+            'min' => 'le champ titre doit avoir au moins :min caracteres',
+            'max' => 'le champ titre ne doit pas depasser :max caracteres'
         ],
+        
     ],
 
     /*

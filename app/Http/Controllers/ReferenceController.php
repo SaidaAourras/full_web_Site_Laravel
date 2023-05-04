@@ -14,101 +14,93 @@ class ReferenceController extends Controller
      */
     public function index()
     {
-        return view('reference', ['references' => Reference::all()]);
+        $references = Reference::all();
+        return view('reference')->with([
+            'references' => $references
+        ]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        return view('create');
+
+
+    public function create(){
+        return view ("create");
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        $reference = new Reference();
-        $reference->name = $request->input('name');
+    public function store(Request $request){
 
-        if ($request->hasfile('logo')) {
-            $file = $request->file('logo');
-            $extenstion = $file->getClientOriginalExtension();
-            $filename = time() . '.' . $extenstion;
-            $file->move('logos/', $filename);
-            $reference->logo = $filename;
+        if($request->has('logo')){
+            $file = $request->logo;
+            $image_name = time() . '_' . $file->getClientOriginalName(); // file name + Date
+            $file->move(public_path('uploads'), $image_name);
         }
 
-        $reference->save();
-        return redirect('/');
+        $this->validate($request,[
+            'name'=> 'required|min:3|max:100',
+            
+        ]);
+        Reference::create([
+              'name' => $request->name,
+              'logo'  => $image_name,
+        ]);
+             return redirect()->route('reference')->with([
+                'success' => 'la reference ajoute '
+             ]) ;
     }
 
-    
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Reference $reference )
-    {
-        return view('show', [
-            'reference' => $reference,
+     // **
+       //edit references
+     // **
 
+    public function edit($id){
+        $reference = Reference::find($id);
+        return view('reference')->with([
+              'reference' => $reference
         ]);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Reference $reference)
-    {
-        return view('edit', [
-            'reference' => $reference,
+    // **
+       //to update what is edited
+    // **
+
+    public function update(Request $request,$id){
+
+        $this->validate($request,[
+            'name'=> 'required|min:3|max:100',
+            
         ]);
+        $reference = Reference::find($id);
+        
+        // **
+        //update logo
+
+        if($request->has('logo')){
+            $file = $request->logo;
+            $image_name = time() . '_' . $file->getClientOriginalName(); // file name + Date
+            $file->move(public_path('uploads'), $image_name);
+
+            //pour supprimer l'ancienne image dans la base de donne
+            unlink(public_path('uploads') . '/' . $reference->logo);
+            $reference->logo = $image_name;
+        }
+         
+         // **
+         //update all
+
+        $reference->update([
+            'name' => $request->name,
+            'logo'  => $reference->logo,
+      ]);
+           return redirect()->route('reference')->with([
+              'success' => 'la reference est modifiee '
+           ]) ;
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Reference $reference)
-    {
-        $reference->update(
-            $request->validate([
-                'name' => $request->name,
-                'logo' =>"https://via.placeholder.com/640x480.png/00ee00?text=new post",
-            ])
-        );
-        return redirect()->route('home');
-    }
-
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
+    public function delete($id){
         $reference = Reference::find($id);
         $reference->delete();
-        return redirect()->route('home')->with([
-            'siccess' => 'Article supprime'
+        return redirect()->route('reference')->with([
+          'success' => 'Reference supprime'
         ]);
     }
+
 }

@@ -1,4 +1,4 @@
-<form method="POST" action="/categorys" enctype="multipart/form-data">
+{{-- <form method="POST" action="/categorys" enctype="multipart/form-data">
     @csrf
     <div class="mb-6">
         <label for="name" class="inline-block text-lg mb-2">Company Name</label>
@@ -82,70 +82,69 @@
 
         <a href="/" class="text-black ml-4"> Back </a>
     </div>
-</form>
+</form> --}}
 
 
 
+{{-- ---------------------------------------------------------------------------- --}}
 
 
 
+@extends('master.layout')
 
-
-
-<a href="/references">references</a>
-
-
-{{--------------------------------------  --}}
-
-<table>
-    <tr>
-        <th>id</th>
-        <th>name</th>
-        <th>logos</th>
-        <th>action</th>
-    </tr>
-    @foreach ($references as $reference)
-    <tr>
-        <td>{{ $reference['id'] }}</td>
-        <td>{{ $reference['name'] }}</td>
-        <td>{{ $reference['logo'] }}</td>
-        <td>
-            <form method="POST" action="/references/{{ $reference->id }}">
-                @csrf
-                @method('DELETE')
-                <button class="text-red-500"><i class="fa-solid fa-trash"></i> Delete</button>
-            </form>
-            <a href="{{ route('reference.edit',$reference->id)}}/edit">edit</a>
-        </td>
-    </tr>
-@endforeach
-</table>
-
-<form method="POST" action="/references" enctype="multipart/form-data">
-    @csrf
-    <div class="mb-6">
-        <label for="name" class="inline-block text-lg mb-2">name</label>
-        <input type="text" class="border border-gray-200 rounded p-2 w-full" name="name" />
-    </div>
-    <div class="mb-6">
-        <label for="logo" class="inline-block text-lg mb-2">logo</label>
-        <input type="file" class="border border-gray-200 rounded p-2 w-full" name="logo" />
-
-    </div>
+@section('style')
     
+@endsection
 
-    <select name="reference_id">
-        @foreach ($references as $reference)
-            <option value="{{ $refenrce->id }}"> {{ $refernce->name }} </option>
-        @endforeach
-    </select>
+@section('name')
+    create new rerefence
+@endsection
 
-    <div class="mb-6">
-        <button class="bg-laravel text-white rounded py-2 px-4 hover:bg-black">
-            Create Gig
-        </button>
-
-        <a href="/" class="text-black ml-4"> Back </a>
+@section('content')
+    <div class="row my-4">
+      <div class="col-md-8 mx-auto">
+        @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">
+                    add
+                </h3>
+            </div>
+            <div class="card-body">
+                <form action="{{route('reference.store')}}" method="post" enctype="multipart/form-data">
+                    @csrf
+                    <form>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Name</label>
+                          <input type="text" class="form-control" name="name"placeholder="name">
+                        </div>
+                        <div class="mb-3">
+                          <label for="logo" class="form-label">Logo</label>
+                          <input type="file" class="form-control" name="logo">
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-outline-success">
+                                Valider
+                            </button>
+                        </div>
+                      </form>
+                </form>
+            </div>
+        </div>
+         
+      </div>
     </div>
-</form>
+@endsection
+@section('script')
+    
+@endsection
+
 
