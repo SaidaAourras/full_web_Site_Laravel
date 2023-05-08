@@ -33,7 +33,7 @@
                     <form>
                         <div class="mb-3">
                           <label for="name" class="form-label">Name</label>
-                          <input type="text" class="form-control" name="name"placeholder="name" value="{{$reference->name}}">
+                          <input type="text" class="form-control" name="name" placeholder="name" value="{{$reference->name}}">
                         </div>
                         <div class="mb-3">
                           <label for="logo" class="form-label">Logo</label>

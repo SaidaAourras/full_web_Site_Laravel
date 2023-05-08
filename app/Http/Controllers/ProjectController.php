@@ -13,10 +13,16 @@ class ProjectController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    
+    
+        public function index()
     {
-        //
+        $projects = Project::all();
+        return view('project')->with([
+            'projects' => $projects
+        ]);
     }
+    
 
     /**
      * Show the form for creating a new resource.
@@ -25,9 +31,8 @@ class ProjectController extends Controller
      */
     public function create()
     {
-        // $category_id = Category::all();
-
-        // return view('createproject')->with('category_id', $category_id);
+        $categories = Category::all();
+        return view('createProject', compact('categories'));
     }
 
     /**
@@ -38,17 +43,25 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        $data = new Project([
-            'link' => $request->get('link'),
-            'image' => $request->get('image'),
-            'title' => $request->get('title'),
-            'discp' => $request->get('discp'),
-            'category_id' => $request->get('category_id'),
+        if($request->has('image')){
+            $file = $request->image;
+            $image_name = time() . '_' . $file->getClientOriginalName(); // file name + Date
+            $file->move(public_path('image_project'), $image_name);
+        }
 
+        // $this->validate($request,[
+        //     'title'=> 'required|min:3|max:100',
+            
+        // ]);
+             
+       Project::create([
+            'title' => $request->title,
+            'image' =>  $image_name,
+            'link' => $request->link,
+            'discp' => $request->discp,
+            'category_id' => $request->category_id,
         ]);
-        // Project::create($request->post());
-        $data->save();
-        return redirect('/');
+        return redirect()->route('project');
     }
 
     /**
@@ -70,7 +83,11 @@ class ProjectController extends Controller
      */
     public function edit($id)
     {
-        //
+        $categories = Category::all();
+        $project = Project::find($id);
+        return view('editProject' ,compact('categories'))->with([
+              'project' => $project
+        ]);
     }
 
     /**
@@ -81,8 +98,39 @@ class ProjectController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
-    {
-        //
+     {
+        $this->validate($request,[
+            'title'=> 'required|min:3|max:100',
+            
+        ]);
+        $project = Project::find($id);
+        
+        // **
+        //update logo
+
+        if($request->has('image')){
+            $file = $request->image;
+            $image_name = time() . '_' . $file->getClientOriginalName(); // file name + Date
+            $file->move(public_path('image_project'), $image_name);
+
+            //pour supprimer l'ancienne image dans la base de donne
+            // unlink(public_path('uploads') . '/' . $project->image);
+            // $project->image = $image_name;
+        }
+         
+         // **
+         //update all
+
+        $project->update([
+            'title' => $request->title,
+            'image'  => $project->image,
+            'link' => $request->link,
+            'discp' => $request->discp,
+            'category_id' => $request->category_id,
+      ]);
+           return redirect()->route('project')->with([
+              'success' => 'la project est modifiee '
+           ]) ;
     }
 
     /**
@@ -91,8 +139,10 @@ class ProjectController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function delete($id)
     {
-        //
+        $project = Project::find($id);
+        $project->delete();
+        return redirect()->route('project');
     }
 }

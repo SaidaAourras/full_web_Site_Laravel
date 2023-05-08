@@ -11,6 +11,8 @@
                     <div class="navbar-nav ms-auto py-0">
                         <a class="nav-link active" aria-current="page" href="{{ route('home') }}" style="color:black;">Acceuil</a>
                         <a class="nav-link" href="{{ route('reference.create') }}" style="color:black;">Add Reference</a>
+                        <a class="nav-link" href="{{ route('category.create') }}" style="color:black;">Add Category</a>
+                        <a class="nav-link" href="{{ route('project.create') }}" style="color:black;">Add Projects</a>
                     </div>
                 </div>
                 </div>

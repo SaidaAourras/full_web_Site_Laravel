@@ -15,8 +15,9 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        return view('create', [
-            'categorys' => Category::all(),
+        $categories = Category::all();
+        return view('category')->with([
+            'categories' => $categories
         ]);
     }
 
@@ -27,7 +28,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        return view('create');
+        return view('createCategory');
     }
 
     /**
@@ -38,21 +39,16 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        Category::create($request->post());
-        return redirect('/');
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Category $category)
-    {
-        return view('show', [
-            'category' => $category,
+        $this->validate($request,[
+            'name'=> 'required|min:3|max:100',
+            
         ]);
+        Category::create([
+              'name' => $request->name,
+        ]);
+             return redirect()->route('category')->with([
+                'success' => 'bien'
+             ]) ;
     }
 
     /**
@@ -61,10 +57,10 @@ class CategoryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Category $category)
-    {
-        return view('edit', [
-            'category' => $category,
+    public function edit($id){
+        $category = Category::find($id);
+        return view('editCategory')->with([
+              'category' => $category
         ]);
     }
 
@@ -75,14 +71,23 @@ class CategoryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Category $category)
-    {
-        $category->update(
-            $request->validate([
-                'name' => 'required',
-            ])
-        );
-        return redirect('/');
+    public function update(Request $request,$id){
+
+        $this->validate($request,[
+            'name'=> 'required|min:3|max:100',
+            
+        ]);
+        $category = Category::find($id);
+        
+         // **
+         //update all
+
+        $category->update([
+            'name' => $request->name,
+      ]);
+           return redirect()->route('category')->with([
+              'success' => 'la category est modifiee '
+           ]) ;
     }
 
     /**
@@ -91,9 +96,11 @@ class CategoryController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Category $category)
-    {
+    public function delete($id){
+        $category = Category::find($id);
         $category->delete();
-        return redirect('/');
+        return redirect()->route('category')->with([
+          'success' => 'category supprime'
+        ]);
     }
 }

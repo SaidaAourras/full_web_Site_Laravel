@@ -23,7 +23,7 @@ class ReferenceController extends Controller
 
 
     public function create(){
-        return view ("create");
+        return view("createReference");
     }
 
     public function store(Request $request){
@@ -53,7 +53,7 @@ class ReferenceController extends Controller
 
     public function edit($id){
         $reference = Reference::find($id);
-        return view('reference')->with([
+        return view('editReference')->with([
               'reference' => $reference
         ]);
     }

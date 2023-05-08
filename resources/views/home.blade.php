@@ -16,7 +16,7 @@
         <div class="card-body">
           <h5 class="card-title">all references</h5>
           <p class="card-text"></p>
-          <a href="#" class="btn btn-success">Check it</a>
+          <a href="{{route('reference')}}" class="btn btn-success">Check it</a>
         </div>
       </div>
     </div>
@@ -25,7 +25,7 @@
         <div class="card-body">
           <h5 class="card-title">all Categories</h5>
           <p class="card-text"></p>
-          <a href="#" class="btn btn-success">check it</a>
+          <a href="{{route('category')}}" class="btn btn-success">check it</a>
         </div>
       </div>
     </div>
@@ -34,7 +34,7 @@
           <div class="card-body">
             <h5 class="card-title">add project</h5>
             <p class="card-text"></p>
-            <a href="#" class="btn btn-success">check it</a>
+            <a href="{{route('project')}}" class="btn btn-success">check it</a>
           </div>
         </div>
       </div>
