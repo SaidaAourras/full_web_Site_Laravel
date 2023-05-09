@@ -49,7 +49,7 @@
                         <a href="/about" class="nav-item nav-link">À propos </a>
                         <a href="/solutions" class="nav-item nav-link">Solutions</a>
                         <a href="/portfolio" class="nav-item nav-link">Portfolio</a>
-                        <a href="/referencee" class="nav-item nav-link">Reference </a>
+                        <a href="/reference" class="nav-item nav-link">Reference </a>
                         <a href="/blog" class="nav-item nav-link">Blog </a>
                         <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Portfolio</a>

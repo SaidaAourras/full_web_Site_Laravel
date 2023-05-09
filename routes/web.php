@@ -37,10 +37,10 @@ Route::get('/portfolio', function () {
 Route::get('/about', function () {
     return view('about');
 });
-//home page
-Route::get('/referencee', function () {
-    return view('referencee');
-});
+// //home page
+// Route::get('/referencee', function () {
+//     return view('referencee');
+// });
 Route::get('/detailsProjet', function () {
     return view('detailsProjet');
 });
@@ -54,7 +54,8 @@ Route::get('/blogProjet', function () {
 // CRUD REFERENCE
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/reference', [App\Http\Controllers\ReferenceController::class, 'index'])->name('reference');
+Route::get('/referencee', [App\Http\Controllers\ReferenceController::class, 'index'])->name('referencee');
+Route::get('/reference', [App\Http\Controllers\ReferenceController::class, 'indexView'])->name('reference');
 Route::get('/create/reference', [App\Http\Controllers\ReferenceController::class, 'create'])->name('reference.create');
 Route::post('/store/reference', [App\Http\Controllers\ReferenceController::class, 'store'])->name('reference.store');
 Route::get('/edit/reference/{id}', [App\Http\Controllers\ReferenceController::class, 'edit'])->name('reference.edit');

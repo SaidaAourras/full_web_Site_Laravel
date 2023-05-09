@@ -15,11 +15,18 @@ class ReferenceController extends Controller
     public function index()
     {
         $references = Reference::all();
-        return view('home.reference')->with([
+        return view('home.referencee')->with([
             'references' => $references
         ]);
     }
 
+    public function indexView()
+    {
+        $references = Reference::all();
+        return view('reference')->with([
+            'references' => $references
+        ]);
+    }
 
 
     public function create(){
@@ -42,7 +49,7 @@ class ReferenceController extends Controller
               'name' => $request->name,
               'logo'  => $image_name,
         ]);
-             return redirect()->route('reference')->with([
+             return redirect()->route('referencee')->with([
                 'success' => 'la reference ajoute '
              ]) ;
     }
@@ -90,7 +97,7 @@ class ReferenceController extends Controller
             'name' => $request->name,
             'logo'  => $reference->logo,
       ]);
-           return redirect()->route('reference')->with([
+           return redirect()->route('referencee')->with([
               'success' => 'la reference est modifiee '
            ]) ;
     }
@@ -98,7 +105,7 @@ class ReferenceController extends Controller
     public function delete($id){
         $reference = Reference::find($id);
         $reference->delete();
-        return redirect()->route('reference')->with([
+        return redirect()->route('referencee')->with([
           'success' => 'Reference supprime'
         ]);
     }
