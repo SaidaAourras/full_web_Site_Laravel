@@ -16,7 +16,7 @@
         <div class="card-body">
           <h5 class="card-title">all references</h5>
           <p class="card-text"></p>
-          <a href="{{route('reference')}}" class="btn btn-success">Check it</a>
+          <a href="{{route('referencee')}}" class="btn btn-success">Check it</a>
         </div>
       </div>
     </div>
