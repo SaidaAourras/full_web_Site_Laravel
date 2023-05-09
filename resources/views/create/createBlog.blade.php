@@ -27,33 +27,33 @@
                 </h3>
             </div>
             <div class="card-body">
-                <form action="{{route('blog.store')}}" method="post">
-                    @csrf
-                    <form>
-                        <div class="mb-3">
-                          <label for="title" class="form-label">Title</label>
-                          <input type="text" class="form-control" name="title"placeholder="title" value="{{$blog->title}}">
+                <form action="{{route('blog.store')}}" method="post" enctype="multipart/form-data">
+                  @csrf
+                  <form>
+                     
+                      <div class="mb-2">
+                        <label for="title" class="form-label">Title</label>
+                        <input type="text" class="form-control" name="title" placeholder="title">
+                      </div>
+                      <div class="mb-2">
+                        <label for="title" class="form-label">Title</label>
+                        <input type="text" class="form-control" name="title_two" placeholder="title">
+                      </div>
+                      <div class="mb-2">
+                          <label for="image" class="form-label">image</label>
+                          <input type="file" class="form-control" name="image">
                         </div>
-                         <div class="mb-3">
-                            <label for="title_Two" class="form-label">Little title</label>
-                            <input type="text" class="form-control" name="title_Two"placeholder="title_Two" value="{{$blog->title_Two}}">
-                          </div>
-                          <div class="mb-3">
-                            <label for="image" class="form-label">image</label>
-                            <input type="file" class="form-control" name="image"placeholder="image" value="{{$blog->image}}">
-                          </div>
-                          <div class="mb-3">
-                            <label for="discp" class="form-label">Description</label>
-                            <input type="text" class="form-control" name="discp"placeholder="discp" value="{{$blog->discp}}">
-                          </div>
-                        
-                        <div class="mb-3">
-                            <button class="btn btn-outline-success">
-                                Valider
-                            </button>
-                        </div>
-                      </form>
-                </form>
+                      <div class="mb-2">
+                          <label for="description">Description</label>
+                          <textarea type="text" id="description" name="discp" placeholder="Enter a description"  class="form-control" aria-label="With textarea" ></textarea>
+                      </div>
+                      <div class="mb-2">
+                          <button class="btn btn-outline-success">
+                              Valider
+                          </button>
+                      </div>
+                    </form>
+              </form>
             </div>
         </div>
       </div>
