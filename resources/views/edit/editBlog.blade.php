@@ -27,7 +27,7 @@
                 </h3>
             </div>
             <div class="card-body">
-                <form action="{{route('title.update',$blog->id)}}" method="post">
+                <form action="{{route('blog.update',$blog->id)}}" method="post">
                     @csrf
                     @method('PUT')
                     <form>
@@ -37,11 +37,11 @@
                         </div>
                         <div class="mb-3">
                             <label for="title_Two" class="form-label">Little title</label>
-                            <input type="text" class="form-control" name="title_Two"placeholder="title_Two" value="{{$blog->title_Two}}">
+                            <input type="text" class="form-control" name="title_two" value="{{$blog->title_Two}}">
                           </div>
                           <div class="mb-3">
                             <label for="image" class="form-label">image</label>
-                            <input type="file" class="form-control" name="image"placeholder="image" value="{{$blog->image}}">
+                            <input type="file" class="form-control" name="image" value="{{$blog->image}}">
                           </div>
                           <div class="mb-3">
                             <label for="discp" class="form-label">Description</label>

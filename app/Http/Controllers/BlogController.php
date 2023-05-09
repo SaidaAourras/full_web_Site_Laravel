@@ -37,39 +37,10 @@ class BlogController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    // public function store(Request $request)
-    // {
-    //     if($request->has('image')){
-    //         $file = $request->image;
-    //         $image_name = time() . '_' . $file->getClientOriginalName(); // file name + Date
-    //         $file->move(public_path('image_blog'), $image_name);
-    //     }
-
-    //     $this->validate($request,[
-    //         'title'=> 'required|min:3|max:100',  
-    //         'title_two'=> 'required|min:3|max:100',
-    //         'image'=> 'required',  
-    //         'discp'=> 'required|min:3',                        
-    //     ]);
-             
-    //    Blog::create([
-    //         'title' => $request->title,
-    //         'title_two' => $request->title_two,
-    //         'image' =>  $image_name,
-    //         'discp' => $request->discp,
-    //     ]);
-    //     return redirect()->route('blog')->with([
-    //             'success' => 'blog added'
-    //          ]) ;
-    // }
-
+  
     public function store(Request $request)
     {
-        // if($request->has('image')){
-        //     $file = $request->image;
-        //     $image_name = time() . '_' . $file->getClientOriginalName(); // file name + Date
-        //     $file->move(public_path('image_project'), $image_name);
-        // }
+       
         if($request->has('image')){
             $file = $request->image;
             $image_name = time() . '_' . $file->getClientOriginalName(); // file name + Date
@@ -77,11 +48,10 @@ class BlogController extends Controller
         }
 
         $this->validate($request,[
-            'title'=> 'required|min:3|max:100',       
-            'title_two'=> 'required|min:3|max:100',            
-            // 'image'=> 'required',            
-
-            
+            'title'=> 'required|min:3|max:100',  
+            'title_two'=> 'required|min:3|max:100',
+            // 'image'=> 'required',  
+            'discp'=> 'required|min:3',                        
         ]);
              
         Blog::create([
@@ -133,10 +103,10 @@ class BlogController extends Controller
     {
 
         $this->validate($request,[
-            'title'=> 'required|min:3|max:100',
-            'title_two'=> 'required|min:3|max:100',                      
-            'image'=> 'required',            
-            'discp'=> 'required|min:3',            
+            'title'=> 'required|min:3|max:100',  
+            'title_two'=> 'required|min:3|max:100',
+            // 'image'=> 'required',  
+            'discp'=> 'required|min:3',                        
         ]);
 
         $blog = Blog::find($id);
@@ -144,8 +114,9 @@ class BlogController extends Controller
         
         if($request->has('image')){
             $file = $request->image;
-            $image_name = time() . '_' . $file->getClientOriginalName();
-            $file->move(public_path('image_blog',$image_name));
+            $image_name = time() . '_' . $file->getClientOriginalName(); // file name + Date
+            $file->move(public_path('image_blog'), $image_name);
+        
 
             
             //pour supprimer l'ancienne image dans la base de donne
@@ -153,10 +124,10 @@ class BlogController extends Controller
             $blog->image = $image_name;
         }
         $blog->update([
-            'title'=> $request->title, 
-            'title_two'=> $request->title_two,
-            'image'  => $blog->image,
-            'discp'=> $request->discp,
+            'title' => $request->title,
+            'title_two' => $request->title_two,
+            'image' =>  $image_name,
+            'discp' => $request->discp,
         
         ]);
         return redirect()->route('blog')->with([
