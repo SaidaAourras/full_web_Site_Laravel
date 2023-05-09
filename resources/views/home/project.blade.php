@@ -9,6 +9,11 @@
     Projects
 @endsection
  @section('content')
+  @if (session()->has('success'))
+                 <div class="alert alert-success">
+                  {{ session()->get('success') }}
+                 </div>
+             @endif
  <div class="row  justify-content-center">
     @foreach ($projects as $project)
     <div class="col-sm-6 col-md-3 ">

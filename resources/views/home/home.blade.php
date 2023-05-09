@@ -32,9 +32,18 @@
     <div class="col-sm-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">add project</h5>
+            <h5 class="card-title">all project</h5>
             <p class="card-text"></p>
             <a href="{{route('project')}}" class="btn btn-success">check it</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">all Blogs</h5>
+            <p class="card-text"></p>
+            <a href="{{route('blog')}}" class="btn btn-success">check it</a>
           </div>
         </div>
       </div>

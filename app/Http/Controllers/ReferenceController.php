@@ -15,7 +15,7 @@ class ReferenceController extends Controller
     public function index()
     {
         $references = Reference::all();
-        return view('reference')->with([
+        return view('home.reference')->with([
             'references' => $references
         ]);
     }
@@ -23,7 +23,7 @@ class ReferenceController extends Controller
 
 
     public function create(){
-        return view("createReference");
+        return view("create.createReference");
     }
 
     public function store(Request $request){
@@ -53,7 +53,7 @@ class ReferenceController extends Controller
 
     public function edit($id){
         $reference = Reference::find($id);
-        return view('editReference')->with([
+        return view('edit.editReference')->with([
               'reference' => $reference
         ]);
     }

@@ -13,6 +13,7 @@
                         <a class="nav-link" href="{{ route('reference.create') }}" style="color:black;">Add Reference</a>
                         <a class="nav-link" href="{{ route('category.create') }}" style="color:black;">Add Category</a>
                         <a class="nav-link" href="{{ route('project.create') }}" style="color:black;">Add Projects</a>
+                        <a class="nav-link" href="{{ route('blog.create') }}" style="color:black;">Add Blogs</a>
                     </div>
                 </div>
                 </div>

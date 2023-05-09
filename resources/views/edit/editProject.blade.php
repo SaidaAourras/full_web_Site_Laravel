@@ -11,7 +11,7 @@
 @section('content')
     <div class="row my-4">
       <div class="col-md-8 mx-auto">
-        {{-- @if ($errors->any())
+        @if ($errors->any())
         <div class="alert alert-danger">
             <ul>
                 @foreach ($errors->all() as $error)
@@ -19,7 +19,7 @@
                 @endforeach
             </ul>
         </div>
-    @endif --}}
+    @endif
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">
