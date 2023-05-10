@@ -309,6 +309,7 @@
                     unes de nos dernières réalisations. Nous serions ravis que vous en ferez partie...</h6>
             </div>
             <div class="row">
+               
                 <div class="col-sm-4">
                     <div class="img-wrapper">
                         <img src="addons/img/folio-1.jpg"

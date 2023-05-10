@@ -42,6 +42,7 @@ class ProjectController extends Controller
             
             public function indexPortfolio(Request $request)
         {
+            $references = Reference::all();
             $categories = Category::all();
             $selectedCategory = $request->query('category');
             if ($selectedCategory) {
@@ -49,7 +50,9 @@ class ProjectController extends Controller
             } else {
                 $projects = Project::all();
             }
-            return view('portfolio', compact('projects', 'categories', 'selectedCategory'));
+            return view('portfolio', compact('projects', 'categories', 'selectedCategory'))->with([
+                       'references' => $references
+            ]);
         }
 
     /**

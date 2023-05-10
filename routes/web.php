@@ -75,10 +75,6 @@ Route::get('/edit/reference/{id}', [App\Http\Controllers\ReferenceController::cl
 Route::put('/update/reference/{id}', [App\Http\Controllers\ReferenceController::class, 'update'])->name('reference.update');
 Route::delete('/delete/reference/{id}', [App\Http\Controllers\ReferenceController::class, 'delete'])->name('reference.delete');
 
-//* Reference footer
-
-Route::get('/footer/reference', [App\Http\Controllers\ReferenceController::class, 'indexFotter'])->name('reference.footer');
-
 
 // CRUD CATEGORY
 
