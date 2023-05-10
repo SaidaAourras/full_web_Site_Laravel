@@ -17,6 +17,7 @@ class ContactController extends Controller
 
   public function store(Request $request){
 
+    $references = Reference::all();
     $this->validate($request,[
         'name'=> 'required|min:3|max:100',       
         'email'=> 'required',       
@@ -32,7 +33,8 @@ class ContactController extends Controller
         'message'=> $request -> message,
     ]);
 
-    return redirect()->route('thanks')->with([
+    return view('thanks')->with([
+      'references' => $references,
      'thank' => 'thaks you to contact us '
     ]);
   }

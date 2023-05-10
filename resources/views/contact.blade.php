@@ -55,10 +55,17 @@
             </div>
             <div class="row g-5">
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
+                    @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
                     <form action="{{route('contact.msg')}}" method="post">
-                    
                         @csrf
-                        <form>
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <input type="text" name="name" class="form-control border-0 bg-light px-4"
@@ -72,20 +79,19 @@
 
                                 <input class="form-control border-0 bg-light px-4" placeholder="+212 6 00000000"
                                     style="height: 55px;" type="tel" id="phone" name="num"
-                                    pattern="0[5-9][0-9]{8}" required>
+                                    pattern="0[5-9][0-9]{8}" >
                             </div>
                             <div class="col-12">
                                 <input type="text" class="form-control border-0 bg-light px-4" placeholder="Object"
-                                    style="height: 55px;">
+                                    style="height: 55px;" name="object">
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
+                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" name="message" placeholder="Message"></textarea>
                             </div>
                             <div class="col-12">
                                 <button class="btn btn-primary w-100 py-3" type="submit">Envoyer</button>
                             </div>
                         </div>
-                    </form>
                     </form>
                 </div>
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
