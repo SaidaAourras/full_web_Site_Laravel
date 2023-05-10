@@ -47,6 +47,15 @@
           </div>
         </div>
       </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">all Contact</h5>
+            <p class="card-text"></p>
+            <a href="{{route('contact')}}" class="btn btn-success">check it</a>
+          </div>
+        </div>
+      </div>
   </div>
 @endsection
 @section('script')

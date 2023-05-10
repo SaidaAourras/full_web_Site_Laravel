@@ -26,12 +26,6 @@ Route::get('/index', function () {
     ]);;
 });
 
-
-//home page
-Route::get('/contact', [App\Http\Controllers\ContactController::class, 'index']);
-Route::post('/store/contact', [App\Http\Controllers\ContactController::class, 'store'])->name('contact.msg');
-
-
 //home page
 Route::get('/about', function () {
     $references = Reference::all();
@@ -93,6 +87,12 @@ Route::post('/store/blog', [App\Http\Controllers\BlogController::class, 'store']
 Route::get('/edit/blog/{id}', [App\Http\Controllers\BlogController::class, 'edit'])->name('blog.edit');
 Route::put('/update/blog/{id}', [App\Http\Controllers\BlogController::class, 'update'])->name('blog.update');
 Route::delete('/delete/blog/{id}', [App\Http\Controllers\BlogController::class, 'delete'])->name('blog.delete');
+
+//Contact
+Route::get('/contact', [App\Http\Controllers\ContactController::class, 'indexView']);
+Route::get('/contacts', [App\Http\Controllers\ContactController::class, 'index'])->name('contact');
+Route::post('/store/contact', [App\Http\Controllers\ContactController::class, 'store'])->name('contact.msg');
+Route::delete('/delete/contact/{name}', [App\Http\Controllers\ContactController::class, 'delete'])->name('contact.delete');
 
 Route::middleware([
     'auth:sanctum',
