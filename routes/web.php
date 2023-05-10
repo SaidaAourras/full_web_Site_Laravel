@@ -4,6 +4,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ReferenceController;
 use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
+use App\Models\Reference;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,13 +20,19 @@ use Illuminate\Support\Facades\Route;
 
 //home page
 Route::get('/index', function () {
-    return view('index');
+    $references = Reference::all();
+    return view('index')->with([
+        'references' => $references
+    ]);;
 });
 
 
 //home page
 Route::get('/contact', function () {
-    return view('contact');
+    $references = Reference::all();
+    return view('contact')->with([
+        'references' => $references
+    ]);;
 });
 
 //home page
@@ -35,7 +42,10 @@ Route::get('/contact', function () {
 
 //home page
 Route::get('/about', function () {
-    return view('about');
+    $references = Reference::all();
+    return view('about')->with([
+        'references' => $references
+    ]);;
 });
 // //home page
 // Route::get('/referencee', function () {
@@ -45,7 +55,10 @@ Route::get('/detailsProjet', function () {
     return view('detailsProjet');
 });
 Route::get('/blog', function () {
-    return view('blog');
+    $references = Reference::all();
+    return view('blog')->with([
+        'references' => $references
+    ]);;
 });
 Route::get('/blogProjet', function () {
     return view('blogProjet');
@@ -88,7 +101,8 @@ Route::delete('/delete/project/{id}', [App\Http\Controllers\ProjectController::c
 Route::get('/portfolios', [App\Http\Controllers\ProjectController::class, 'indexPortfolio'])->name('portfolio.index');
 // CRUD BLOGS
 
-Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'])->name('blog');
+Route::get('/blogs', [App\Http\Controllers\BlogController::class, 'index'])->name('blogs');
+Route::get('/blog', [App\Http\Controllers\BlogController::class, 'indexView'])->name('blog');
 Route::get('/create/blog', [App\Http\Controllers\BlogController::class, 'create'])->name('blog.create');
 Route::post('/store/blog', [App\Http\Controllers\BlogController::class, 'store'])->name('blog.store');
 Route::get('/edit/blog/{id}', [App\Http\Controllers\BlogController::class, 'edit'])->name('blog.edit');

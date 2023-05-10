@@ -28,15 +28,6 @@ class ReferenceController extends Controller
         ]);
     }
 
-    public function indexFotter()
-    {
-
-        $references = Reference::all();
-        return view('partials.footer')->with([
-            'references' => $references
-        ]);   
-    }
-
     public function create(){
         return view("create.createReference");
     }
