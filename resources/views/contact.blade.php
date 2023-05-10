@@ -55,21 +55,24 @@
             </div>
             <div class="row g-5">
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                    <form>
+                    <form action="{{route('contact.msg')}}" method="post">
+                    
+                        @csrf
+                        <form>
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <input type="text" class="form-control border-0 bg-light px-4"
+                                <input type="text" name="name" class="form-control border-0 bg-light px-4"
                                     placeholder=" Nom et Prénom *" style="height: 55px;">
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control border-0 bg-light px-4"
+                                <input type="email" name="email" class="form-control border-0 bg-light px-4"
                                     placeholder="Adresse Email *" style="height: 55px;">
                             </div>
                             <div class="col-12">
 
                                 <input class="form-control border-0 bg-light px-4" placeholder="+212 6 00000000"
-                                    style="height: 55px;" type="tel" id="phone" name="phone"
-                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                                    style="height: 55px;" type="tel" id="phone" name="num"
+                                    pattern="0[5-9][0-9]{8}" required>
                             </div>
                             <div class="col-12">
                                 <input type="text" class="form-control border-0 bg-light px-4" placeholder="Object"
@@ -78,20 +81,11 @@
                             <div class="col-12">
                                 <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
                             </div>
-
-                            <label>
-                                <input type="checkbox" name="remember" style="margin-bottom:15px">
-                                Je ne suis pas un robot
-                            </label>
-
-                            <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                            <div class="g-recaptcha" id="feedback-recaptcha"
-                                data-sitekey="{{ env('GOOGLE_RECAPTCHA_KEY') }}">
-                            </div>
                             <div class="col-12">
                                 <button class="btn btn-primary w-100 py-3" type="submit">Envoyer</button>
                             </div>
                         </div>
+                    </form>
                     </form>
                 </div>
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">

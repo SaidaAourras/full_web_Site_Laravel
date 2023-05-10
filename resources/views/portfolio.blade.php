@@ -41,8 +41,6 @@
             
             <div class="row">
                 @foreach ($projects as $project)
-
-                
                 <div class="col-sm-3">
                     <div class="img-wrapper">
                         <div class="overlay">

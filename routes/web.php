@@ -28,17 +28,9 @@ Route::get('/index', function () {
 
 
 //home page
-Route::get('/contact', function () {
-    $references = Reference::all();
-    return view('contact')->with([
-        'references' => $references
-    ]);;
-});
+Route::get('/contact', [App\Http\Controllers\ContactController::class, 'index']);
+Route::post('/store/contact', [App\Http\Controllers\ContactController::class, 'store'])->name('contact.msg');
 
-//home page
-// Route::get('/portfolio', function () {
-//     return view('portfolio');
-// });
 
 //home page
 Route::get('/about', function () {
@@ -47,10 +39,7 @@ Route::get('/about', function () {
         'references' => $references
     ]);;
 });
-// //home page
-// Route::get('/referencee', function () {
-//     return view('referencee');
-// });
+
 Route::get('/detailsProjet', function () {
     return view('detailsProjet');
 });

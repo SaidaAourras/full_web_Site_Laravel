@@ -30,7 +30,6 @@
                 <form action="{{route('project.store')}}" method="post" enctype="multipart/form-data">
                     @csrf
                     <form>
-                       
                         <div class="mb-2">
                           <label for="title" class="form-label">Title</label>
                           <input type="text" class="form-control" name="title" placeholder="title">
@@ -61,7 +60,7 @@
                                 Valider
                             </button>
                         </div>
-                      </form>
+                    </form>
                 </form>
             </div>
         </div>
