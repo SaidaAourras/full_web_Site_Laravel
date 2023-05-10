@@ -3,18 +3,9 @@
     <div class="container py-3 mb-5">
         <div class="bg-white">
             <div class="owl-carousel vendor-carousel">
-                <img src="addons/img/refecences-logo_AEM-01.png" alt="">
-                <img src="addons/img/refecences-logo_LINAGREEN-01.png" alt="">
-                <img src="addons/img/refecences-logo_INTECA_Model2.png" alt="">
-                <img src="addons/img/refecences-logo_AMAL IRRIGATION-01.png" alt="">
-                <img src="addons/img/refecences-logo_rodamaroc.png" alt="">
-                <img src="addons/img/refecences-logo_tecnidex.png" alt="">
-                <img src="addons/img/refecences-logo_carrefourmanu.png" alt="">
-                <img src="addons/img/refecences-logo_hortisud.png" alt="">
-                <img src="addons/img/refecences-logo_rodamaroc.png" alt="">
-                <img src="addons/img/refecences-logo_tecnidex.png" alt="">
-                <img src="addons/img/refecences-logo_carrefourmanu.png" alt="">
-                <img src="addons/img/refecences-logo_hortisud.png" alt="">
+                @foreach ($references as $reference)
+               <img src="{{asset('./uploads/'.$reference->logo)}}" alt="">
+               @endforeach
             </div>
         </div>
     </div>
