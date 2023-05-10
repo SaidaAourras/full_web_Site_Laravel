@@ -29,9 +29,9 @@ Route::get('/contact', function () {
 });
 
 //home page
-Route::get('/portfolio', function () {
-    return view('portfolio');
-});
+// Route::get('/portfolio', function () {
+//     return view('portfolio');
+// });
 
 //home page
 Route::get('/about', function () {
@@ -74,12 +74,13 @@ Route::delete('/delete/category/{id}', [App\Http\Controllers\CategoryController:
 // CRUD PROJECTS
 
 Route::get('/project', [App\Http\Controllers\ProjectController::class, 'index'])->name('project');
+Route::get('/portfolio', [App\Http\Controllers\ProjectController::class, 'indexView'])->name('portfolio');
 Route::get('/create/project', [App\Http\Controllers\ProjectController::class, 'create'])->name('project.create');
 Route::post('/store/project', [App\Http\Controllers\ProjectController::class, 'store'])->name('project.store');
 Route::get('/edit/project/{id}', [App\Http\Controllers\ProjectController::class, 'edit'])->name('project.edit');
 Route::put('/update/project/{id}', [App\Http\Controllers\ProjectController::class, 'update'])->name('project.update');
 Route::delete('/delete/project/{id}', [App\Http\Controllers\ProjectController::class, 'delete'])->name('project.delete');
-
+Route::get('/portfolios', [App\Http\Controllers\ProjectController::class, 'indexPortfolio'])->name('portfolio.index');
 // CRUD BLOGS
 
 Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'])->name('blog');

@@ -22,7 +22,32 @@ class ProjectController extends Controller
             'projects' => $projects
         ]);
     }
-    
+
+    // portfolio front end
+
+    public function indexView()
+    {
+        $categories = Category::all();
+        $projects = Project::all();
+        return view('portfolio')->with([
+             'categories' => $categories,
+            'projects' => $projects
+        ]);
+    }
+
+    // chaque project a son categery
+            
+            public function indexPortfolio(Request $request)
+        {
+            $categories = Category::all();
+            $selectedCategory = $request->query('category');
+            if ($selectedCategory) {
+                $projects = Project::where('category_id', $selectedCategory)->get();
+            } else {
+                $projects = Project::all();
+            }
+            return view('portfolio', compact('projects', 'categories', 'selectedCategory'));
+        }
 
     /**
      * Show the form for creating a new resource.
