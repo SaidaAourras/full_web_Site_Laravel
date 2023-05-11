@@ -92,7 +92,7 @@ Route::delete('/delete/blog/{id}', [App\Http\Controllers\BlogController::class, 
 Route::get('/contact', [App\Http\Controllers\ContactController::class, 'indexView']);
 Route::get('/contacts', [App\Http\Controllers\ContactController::class, 'index'])->name('contact');
 Route::post('/store/contact', [App\Http\Controllers\ContactController::class, 'store'])->name('contact.msg');
-Route::delete('/delete/contact/{name}', [App\Http\Controllers\ContactController::class, 'delete'])->name('contact.delete');
+Route::delete('/delete/contact/{id}', [App\Http\Controllers\ContactController::class, 'delete'])->name('contact.delete');
 
 Route::middleware([
     'auth:sanctum',

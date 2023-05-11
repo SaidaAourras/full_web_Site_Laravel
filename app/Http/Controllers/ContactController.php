@@ -47,9 +47,9 @@ class ContactController extends Controller
     ]);
   }
   public function delete($id){
-    $contacts = Contact::find($id);
-    $contacts->delete();
-    return view('home.contact')->with([
+    $contact = Contact::find($id);
+    $contact->delete();
+    return redirect()->route('contact')->with([
       'success' => 'deleted'
     ]);
 }
