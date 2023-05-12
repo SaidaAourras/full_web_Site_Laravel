@@ -16,13 +16,13 @@ class BlogController extends Controller
     public function index()
     {
         $blogs = Blog::all();
-        return view('home.Blogs')->with([
+        return view('home.Blog')->with([
             'blogs' => $blogs
         ]);
     }
     public function indexView()
     {
-        $blogs = Blog::all();
+        $blogs = Blog::latest()->paginate(3);
         return view('Blog')->with([
             'blogs' => $blogs
         ]);
@@ -67,7 +67,7 @@ class BlogController extends Controller
             'image' =>  $image_name,
             'discp' => $request->discp,
         ]);
-        return redirect()->route('blog')->with([
+        return redirect()->route('blogs')->with([
                         'success' => 'blog added'
                      ]) ;
     }
@@ -79,9 +79,12 @@ class BlogController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($title)
     {
-        //
+        $blog = Blog::where('title',$title);
+      return view('blogProjet')->with([
+        'blog' => $blog
+      ]);
     }
 
     /**

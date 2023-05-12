@@ -21,7 +21,7 @@
             <a href="#"><img style='height: 250px; width: 250px; object-fit: contain' src="{{ asset('image_project/' . $project->image) }}" ></a>
             <div class="caption">
                 <h3>{{ $project->title }}</h3>
-                <p>{{ $project->discp }}</p>
+                <p class="card-text-td">{{ $project->discp }}</p>
                 <p>
                     <form action="{{ route('project.delete',$project->id) }}" method="post">
                        @csrf

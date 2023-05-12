@@ -1,13 +1,7 @@
 @extends('master.layout')
 
 @section('style')
-   <style>
-    .card-text-td {
-      max-width: 400px; /* ajustez la largeur maximale selon vos besoins */
-      word-wrap: break-word;
-      overflow-wrap: break-word;
-    }
-    </style>
+   
 @endsection
 
 @section('name')

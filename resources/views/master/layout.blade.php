@@ -10,7 +10,13 @@
         body{
            background-color: rgb(235, 243, 241);
         }
-
+       
+    .card-text-td {
+      max-width: 400px; /* ajustez la largeur maximale selon vos besoins */
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+   
    </style>
     <title>@yield('name')</title>
 </head>

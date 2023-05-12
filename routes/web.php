@@ -5,6 +5,7 @@ use App\Http\Controllers\ReferenceController;
 use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Reference;
+use App\Models\Blog;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,6 +36,7 @@ Route::get('/about', function () {
 });
 
 Route::get('/detailsProjet', function () {
+    
     return view('detailsProjet');
 });
 Route::get('/blog', function () {
@@ -43,9 +45,7 @@ Route::get('/blog', function () {
         'references' => $references
     ]);;
 });
-Route::get('/blogProjet', function () {
-    return view('blogProjet');
-});
+Route::get('/blog/Projet/{title}', [App\Http\Controllers\BlogController::class, 'show'])->name('blogProjet');
 
 // CRUD REFERENCE
 
