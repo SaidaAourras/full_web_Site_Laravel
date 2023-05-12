@@ -6,6 +6,7 @@ use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Reference;
 use App\Models\Blog;
+use App\Models\Project;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,29 +23,29 @@ use App\Models\Blog;
 //home page
 Route::get('/index', function () {
     $references = Reference::all();
+    $blogs = Blog::latest()->paginate(3);
     return view('index')->with([
+        'blogs' => $blogs,
         'references' => $references
     ]);;
 });
 
 //home page
 Route::get('/about', function () {
-    $references = Reference::all();
+    $reference = Reference::all();
     return view('about')->with([
-        'references' => $references
+        'reference' => $reference
     ]);;
 });
 
-Route::get('/detailsProjet', function () {
-    
-    return view('detailsProjet');
-});
+
 Route::get('/blog', function () {
     $references = Reference::all();
     return view('blog')->with([
         'references' => $references
     ]);;
 });
+Route::get('/detailsProjet/{title}', [App\Http\Controllers\ProjectController::class, 'show'])->name('showProject');
 Route::get('/blog/Projet/{title}', [App\Http\Controllers\BlogController::class, 'show'])->name('blogProjet');
 
 // CRUD REFERENCE

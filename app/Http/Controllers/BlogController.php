@@ -81,7 +81,7 @@ class BlogController extends Controller
      */
     public function show($title)
     {
-        $blog = Blog::where('title',$title);
+        $blog = Blog::where('title',$title)->first();
       return view('blogProjet')->with([
         'blog' => $blog
       ]);
@@ -155,7 +155,7 @@ class BlogController extends Controller
     {
         $blog = Blog::find($id);
         $blog->delete();
-        return redirect()->route('blog')->with([
+        return redirect()->route('blogs')->with([
           'success' => 'Blog deleted'
         ]);
     }

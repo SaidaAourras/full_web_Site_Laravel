@@ -46,8 +46,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>{{$project->title}}</h5>
-                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
-                                <a href="/detailsProjet"><i class="ti-link"></i></a>
+                                <a href="{{ route('showProject' , $project->title)}}"><i class="ti-zoom-in"></i></a>
+                                <a href="{{ route('showProject' , $project->title)}}"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>
@@ -57,8 +57,8 @@
                         <div class="overlay">
                             <div class="overlay-infos">
                                 <h5>{{$project->title}}</h5>
-                                <a href="/detailsProjet"><i class="ti-zoom-in"></i></a>
-                                <a href="/detailsProjet"><i class="ti-link"></i></a>
+                                <a href="{{ route('showProject' , $project->title)}}"><i class="ti-zoom-in"></i></a>
+                                <a href="{{ route('showProject' , $project->title)}}"><i class="ti-link"></i></a>
                             </div>
                         </div>
                     </div>

@@ -34,7 +34,7 @@
                 <div class="col-lg-6" style="min-height: 500px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
-                            src="addons/img/folio-2.jpg"
+                            src="{{asset('./image_project/'.$project->discp)}}"
                             style="object-fit: cover; visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">
                     </div>
                 </div>
@@ -42,17 +42,12 @@
                     <div id="padding-topp" class="section-title position-relative pb-3 mb-5">
                         <h3 class="mb-0">DESCRIPTION DU PROJET</h3>
                     </div>
-                    <p class="mb-4">A propos. Etude et revitalisation des projets d'irrigation. Vente, installation de
-                        matériels d'irrigation. Matériel agricole -espaces verts. Activité
-
-                    </p>
+                    <p class="mb-4">{{$project->discp}}</p>
                     <div class="row g-0 mb-3">
                         <div class="" data-wow-delay="0.2s"
                             style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Client : AMAL IRRIGATION</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Date : 2010</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Tages : CMS, laravel, Responsive
-                                Design, SEO</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Client : {{$project->title}}</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Tages : {{$project->category_id}}</h5>
                         </div>
 
                     </div>
