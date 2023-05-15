@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
-            <x-authentication-card-logo />
+            <img style="width: 10rem;" class="m-0" src="addons/img/logo-GMC.svg" alt="">
         </x-slot>
 
         <x-validation-errors class="mb-4" />

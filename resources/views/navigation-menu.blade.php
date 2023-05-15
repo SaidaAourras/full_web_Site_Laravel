@@ -4,11 +4,47 @@
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
+
+
+                {{-- <nav class="cc-navbar navbar navbar-expand-lg position-fixed navbar-dark w-100">
+                    <div class="container-fluid">
+                        <a href="{{ route('dashboard') }}">
+                            <img style="width: 10rem;" class="m-0" src="addons/img/logo-GMC.svg" alt="">
+                        </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item pe-4">
+                            <a class="nav-link active" href="http://localhost:8000" aria-current="page" >Accueil</a>
+                          </li>
+                          <li class="nav-item pe-4">
+                            <a class="nav-link"  href="http://localhost:8000/create/reference" style="color:black; >Add Reference</a>
+                          </li>
+                      
+                          <li class="nav-item pe-4">
+                            <a class="nav-link " href="http://localhost:8000/create/category" >Add Category</a>
+                          </li>
+                          <li class="nav-item pe-4">
+                            <a class="nav-link " href="http://localhost:8000/create/project" >Add Projects</a>
+                          </li>
+                          <li class="nav-item pe-4">
+                            <a class="nav-link " href="http://localhost:8000/create/blog" >Add Blogs</a>
+                          </li>
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  </nav> --}}
+
+
                 <div class="shrink-0 flex items-center">
-                    <a href="{{ route('dashboard') }}">
-                        <img style="width: 10rem;" class="m-0" src="addons/img/logo-GMC.svg" alt="">
-                    </a>
-                    <a class="nav-link active" aria-current="page" href="http://localhost:8000"
+                      <a href="{{ route('dashboard') }}">
+                            <img style="width: 10rem;" class="m-0" src="addons/img/logo-GMC.svg" alt="">
+                        </a>
+                    <a class="nav-link active" aria-current="page" href="/"
                         style="color:black;">Acceuil</a>
                     <a class="nav-link" href="http://localhost:8000/create/reference" style="color:black;">Add
                         Reference</a>
@@ -19,12 +55,12 @@
                     <a class="nav-link" href="http://localhost:8000/create/blog" style="color:black;">Add Blogs</a>
                 </div>
 
-                <!-- Navigation Links -->
+                {{-- <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
-                </div>
+                </div> --}}
             </div>
 
             <div class="hidden sm:flex sm:items-center sm:ml-6">

@@ -49,7 +49,7 @@
           <div class="card-body">
             <h5 class="card-title">all Blogs</h5>
             <p class="card-text"></p>
-            <a href="{{route('blog')}}" class="btn btn-success">check it</a>
+            <a href="{{route('blogs')}}" class="btn btn-success">check it</a>
           </div>
         </div>
       </div>
