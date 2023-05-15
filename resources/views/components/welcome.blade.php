@@ -1,6 +1,11 @@
 @extends('master.layout')
 
 @section('style')
+<style>
+  .col-sm-4{
+    margin: 1rem;
+  }
+</style>
    
     
 @endsection
