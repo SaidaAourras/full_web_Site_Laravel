@@ -2,6 +2,7 @@
 
 @section('style')
 <style>
+ 
   .col-sm-4{
     margin: 1rem;
   }
@@ -15,7 +16,7 @@
 @endsection
 
 @section('content') 
-<div class="row" style="margin-top:10px;">
+<div class="row justify-content-center" style="margin-top:10px;">
     <div class="col-sm-4">
       <div class="card">
         <div class="card-body">
