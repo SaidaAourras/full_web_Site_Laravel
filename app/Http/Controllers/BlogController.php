@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\Blog;
+use App\Models\Reference;
 use Illuminate\Http\Request;
 
 class BlogController extends Controller
@@ -21,9 +22,11 @@ class BlogController extends Controller
         ]);
     }
     public function indexView()
-    {
+    {   
+        $references = Reference::all();
         $blogs = Blog::latest()->paginate(3);
         return view('Blog')->with([
+            'references' => $references,
             'blogs' => $blogs
         ]);
     }

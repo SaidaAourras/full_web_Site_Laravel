@@ -32,19 +32,13 @@ Route::get('/index', function () {
 
 //home page
 Route::get('/about', function () {
-    $reference = Reference::all();
-    return view('about')->with([
-        'reference' => $reference
-    ]);;
-});
-
-
-Route::get('/blog', function () {
     $references = Reference::all();
-    return view('blog')->with([
+    return view('about')->with([
         'references' => $references
     ]);;
 });
+
+
 Route::get('/detailsProjet/{title}', [App\Http\Controllers\ProjectController::class, 'show'])->name('showProject');
 Route::get('/blog/{title}', [App\Http\Controllers\BlogController::class, 'show'])->name('blogProjet');
 

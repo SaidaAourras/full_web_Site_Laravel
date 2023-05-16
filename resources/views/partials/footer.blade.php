@@ -1,5 +1,5 @@
    <!-- Vendor Start -->
-   {{-- <div id="reference" class="container-fluid py-3 wow fadeInUp" data-wow-delay="0.1s">
+   <div id="reference" class="container-fluid py-3 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-3 mb-5">
         <div class="bg-white">
             <div class="owl-carousel vendor-carousel">
@@ -9,7 +9,7 @@
             </div>
         </div>
     </div>
-</div> --}}
+</div>
 <!-- Vendor End -->
  <!-- Footer Start -->
  <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
