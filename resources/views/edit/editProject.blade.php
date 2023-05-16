@@ -49,10 +49,9 @@
                       </div>
                       <div class="mb-2">
                           <label for="category_id" class="form-label">Category</label>
-                          <select class="form-select" name="category_id" aria-label="Default select example">
-                              <option selected>Choose a category</option>
+                          <select class="form-select" name="category_id"  aria-label="Default select example">
                               @foreach($categories as $category)
-                                  <option value="{{ $category->id }}">{{ $category->name }}</option>
+                                  <option value="{{ $category->id }}" selected>{{ $category->name }}</option>
                               @endforeach
                           </select>
                       </div>

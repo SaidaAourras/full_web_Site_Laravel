@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Storage;
 use App\Http\Controllers\Controller;
 use App\Models\Blog;
 use Illuminate\Http\Request;
@@ -57,7 +58,6 @@ class BlogController extends Controller
         $this->validate($request,[
             'title'=> 'required|min:3|max:100',  
             'title_two'=> 'required|min:3|max:100',
-            // 'image'=> 'required',  
             'discp'=> 'required|min:3',                        
         ]);
              
@@ -114,29 +114,26 @@ class BlogController extends Controller
 
         $this->validate($request,[
             'title'=> 'required|min:3|max:100',  
-            'title_two'=> 'required|min:3|max:100',
-            // 'image'=> 'required',  
+            'title_two'=> 'required|min:3|max:100',  
             'discp'=> 'required|min:3',                        
         ]);
 
         $blog = Blog::find($id);
-
+       
+        $image_name=null;
         
         if($request->has('image')){
             $file = $request->image;
             $image_name = time() . '_' . $file->getClientOriginalName(); // file name + Date
             $file->move(public_path('image_blog'), $image_name);
+            // Storage::putFileAs('image_blog',$file, $image_name);
+        }
         
 
-            
-            //pour supprimer l'ancienne image dans la base de donne
-            unlink(public_path('image_blog') . '/' . $blog->image);
-            $blog->image = $image_name;
-        }
         $blog->update([
             'title' => $request->title,
             'title_two' => $request->title_two,
-            'image' =>  $image_name,
+            'image' =>  $blog->image,
             'discp' => $request->discp,
         
         ]);

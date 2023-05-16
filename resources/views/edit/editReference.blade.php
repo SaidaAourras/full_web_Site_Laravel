@@ -37,7 +37,7 @@
                         </div>
                         <div class="mb-3">
                           <label for="logo" class="form-label">Logo</label>
-                          <input type="file" class="form-control" name="logo">
+                          <input type="file" class="form-control" name="logo" value="{{$reference->logo}}">
                         </div>
                         <div class="mb-3">
                             <button class="btn btn-outline-success">

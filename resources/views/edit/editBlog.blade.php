@@ -37,7 +37,8 @@
                         </div>
                         <div class="mb-3">
                             <label for="title_Two" class="form-label">Little title</label>
-                            <input type="text" class="form-control" name="title_two" value="{{$blog->title_Two}}">
+                            <input type="text" class="form-control" name="title_two">
+                            {{$blog->title_Two}}
                           </div>
                           <div class="mb-3">
                             <label for="image" class="form-label">image</label>

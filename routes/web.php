@@ -46,7 +46,7 @@ Route::get('/blog', function () {
     ]);;
 });
 Route::get('/detailsProjet/{title}', [App\Http\Controllers\ProjectController::class, 'show'])->name('showProject');
-Route::get('/blog/Projet/{title}', [App\Http\Controllers\BlogController::class, 'show'])->name('blogProjet');
+Route::get('/blog/{title}', [App\Http\Controllers\BlogController::class, 'show'])->name('blogProjet');
 
 // CRUD REFERENCE
 

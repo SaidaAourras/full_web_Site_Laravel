@@ -41,7 +41,7 @@
 
 
                 <div class="shrink-0 flex items-center">
-                      <a href="{{ route('dashboard') }}">
+                      <a href="/index">
                             <img style="width: 10rem;" class="m-0" src="addons/img/logo-GMC.svg" alt="">
                         </a>
                     <a class="nav-link active" aria-current="page" href="/"
