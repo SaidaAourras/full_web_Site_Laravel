@@ -84,8 +84,10 @@ class BlogController extends Controller
      */
     public function show($title)
     {
+        $references = Reference::all();
         $blog = Blog::where('title',$title)->first();
       return view('blogProjet')->with([
+        'references' => $references,
         'blog' => $blog
       ]);
     }

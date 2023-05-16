@@ -309,7 +309,7 @@
                     unes de nos dernières réalisations. Nous serions ravis que vous en ferez partie...</h6>
             </div>
             <div class="row">
-               
+              
                 <div class="col-sm-4">
                     <div class="img-wrapper">
                         <img src="addons/img/folio-1.jpg"
@@ -334,7 +334,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                {{-- <div class="col-sm-4">
                     <div class="img-wrapper">
                         <img src="addons/img/folio-3.jpg"
                             alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
@@ -381,7 +381,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
             <a style="text-decoration:none" href="/portfolio" class=" py-3 px-4 color-primary text-center"
                 data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">Voir

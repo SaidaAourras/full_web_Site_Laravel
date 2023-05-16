@@ -109,8 +109,10 @@ class ProjectController extends Controller
      */
     public function show($title)
     {
+        $references = Reference::all();
       $project = Project::where('title',$title)->first();
       return view('detailsProjet')->with([
+        'reference' => $references,
      'project' => $project
       ]);
     }
