@@ -36,9 +36,8 @@
                           <input type="text" class="form-control" name="title"placeholder="title" value="{{$blog->title}}">
                         </div>
                         <div class="mb-3">
-                            <label for="title_Two" class="form-label">Little title</label>
-                            <input type="text" class="form-control" name="title_two">
-                            {{$blog->title_Two}}
+                            <label for="title_two" class="form-label">Little title</label>
+                            <input type="text" class="form-control" name="title_two" value="{{$blog->title_two}}">
                           </div>
                           <div class="mb-3">
                             <label for="image" class="form-label">image</label>
