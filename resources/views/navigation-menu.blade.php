@@ -6,53 +6,21 @@
                 <!-- Logo -->
 
 
-                {{-- <nav class="cc-navbar navbar navbar-expand-lg position-fixed navbar-dark w-100">
-                    <div class="container-fluid">
-                        <a href="{{ route('dashboard') }}">
-                            <img style="width: 10rem;" class="m-0" src="addons/img/logo-GMC.svg" alt="">
-                        </a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-                              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                          <li class="nav-item pe-4">
-                            <a class="nav-link active" href="http://localhost:8000" aria-current="page" >Accueil</a>
-                          </li>
-                          <li class="nav-item pe-4">
-                            <a class="nav-link"  href="http://localhost:8000/create/reference" style="color:black; >Add Reference</a>
-                          </li>
-                      
-                          <li class="nav-item pe-4">
-                            <a class="nav-link " href="http://localhost:8000/create/category" >Add Category</a>
-                          </li>
-                          <li class="nav-item pe-4">
-                            <a class="nav-link " href="http://localhost:8000/create/project" >Add Projects</a>
-                          </li>
-                          <li class="nav-item pe-4">
-                            <a class="nav-link " href="http://localhost:8000/create/blog" >Add Blogs</a>
-                          </li>
-                        </ul>
-                        
-                      </div>
-                    </div>
-                  </nav> --}}
-
-
                 <div class="shrink-0 flex items-center">
                       <a href="/index">
-                            <img style="width: 10rem;" class="m-0" src="addons/img/logo-GMC.svg" alt="">
+                            <img  class="m-0" src="" alt="">
                         </a>
-                    <a class="nav-link active" aria-current="page" href="/"
+                    <a  id="displaynone1" class="nav-link active" aria-current="page" href="/"
                         style="color:black;">Acceuil</a>
-                    <a class="nav-link" href="http://localhost:8000/create/reference" style="color:black;">Add
+                    <a id="displaynone1" class="nav-link" href="http://localhost:8000/create/reference" style="color:black;">Add
                         Reference</a>
-                    <a class="nav-link" href="http://localhost:8000/create/category" style="color:black;">Add
+                    <a  id="displaynone1" class="nav-link" href="http://localhost:8000/create/category" style="color:black;">Add
                         Category</a>
-                    <a class="nav-link" href="http://localhost:8000/create/project" style="color:black;">Add
+                    <a  id="displaynone1" class="nav-link" href="http://localhost:8000/create/project" style="color:black;">Add
                         Projects</a>
-                    <a class="nav-link" href="http://localhost:8000/create/blog" style="color:black;">Add Blogs</a>
+                    <a  id="displaynone1" class="nav-link" href="http://localhost:8000/create/blog" style="color:black;">Add Blogs</a>
+                    
+                    <a  id="displaynone1" class="nav-link" href="http://localhost:8000/contacts" style="color:black;">Contacts</a>
                 </div>
 
                 {{-- <!-- Navigation Links -->

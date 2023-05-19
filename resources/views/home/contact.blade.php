@@ -24,13 +24,13 @@
                     <tbody>
                       @foreach ($contacts as $contact)
                       <tr>
-                        <th scope="row">{{$contact->id}}</th>
-                        <td>{{$contact->name}}</td>
-                        <td>{{$contact->email}}</td>
-                        <td>{{$contact->num}}</td>
-                        <td>{{$contact->object}}</td>
-                        <td class="card-text-td"><p class="card-text">{{$contact->message}}</p></td>
-                        <td> <form id="{{$contact->id}}" action="{{ route('contact.delete',$contact->id) }}" method="POST">
+                        <th scope="row" class="table-dark">{{$contact->id}}</th>
+                        <td  class="banner-desc  table-dark ">{{$contact->name}}</td>
+                        <td  class="banner-desc  table-dark"  >{{$contact->email}}</td>
+                        <td  class="banner-desc  table-dark " >{{$contact->num}}</td>
+                        <td  class="banner-desc  table-dark">{{$contact->object}}</td>
+                        <td class="card-text-td  table-dark"><p class="banner-desc">{{$contact->message}}</p></td>
+                        <td class="table-dark"> <form id="{{$contact->id}}" action="{{ route('contact.delete',$contact->id) }}" method="POST">
                             @csrf
                             @method('DELETE')
                         </form>
@@ -42,7 +42,9 @@
                                 Delete
                             </button>
                         </td>
+                      
                       </tr>
+                    
                       @endforeach
                     </tbody>
                   </table>  

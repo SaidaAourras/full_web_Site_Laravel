@@ -30,6 +30,14 @@ Route::get('/index', function () {
     ]);;
 });
 
+Route::get('/solutions', function () {
+    $references = Reference::all();
+    return view('solution')->with([
+        'references' => $references
+    ]);;
+});
+
+
 //home page
 Route::get('/about', function () {
     $references = Reference::all();

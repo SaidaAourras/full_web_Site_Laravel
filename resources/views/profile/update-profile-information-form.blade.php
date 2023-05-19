@@ -93,3 +93,10 @@
         </x-button>
     </x-slot>
 </x-form-section>
+
+<script>
+    const boxes = document.querySelectorAll('#displaynone1');
+    boxes.forEach(box => {
+        box.style.display = 'none';
+    });
+</script>

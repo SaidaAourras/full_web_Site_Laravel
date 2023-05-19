@@ -20,31 +20,31 @@
             </ul>
         </div>
     @endif
-        <div class="card">
-            <div class="card-header">
+        <div class="card body-trensparent">
+            <div class="card-header  header-trensparent">
                 <h3 class="card-title">
                     add
                 </h3>
             </div>
-            <div class="card-body">
+            <div class="card-body body-trensparent">
                 <form action="{{route('blog.store')}}" method="post" enctype="multipart/form-data">
                   @csrf
                   <form>
                      
                       <div class="mb-2">
-                        <label for="title" class="form-label">Title</label>
+                        <label for="title" class="form-label banner-desc" >Title</label>
                         <input type="text" class="form-control" name="title" placeholder="title">
                       </div>
                       <div class="mb-2">
-                        <label for="title" class="form-label">Title</label>
+                        <label for="title" class="form-label banner-desc" >Title</label>
                         <input type="text" class="form-control" name="title_two" placeholder="title">
                       </div>
                       <div class="mb-2">
-                          <label for="image" class="form-label">image</label>
+                          <label for="image" class="form-label banner-desc"  >image</label>
                           <input type="file" class="form-control" name="image">
                         </div>
                       <div class="mb-2">
-                          <label for="description">Description</label>
+                          <label for="description" class=" banner-desc" >Description</label>
                           <textarea type="text" id="description" name="discp" placeholder="Enter a description"  class="form-control" aria-label="With textarea" ></textarea>
                       </div>
                       <div class="mb-2">
