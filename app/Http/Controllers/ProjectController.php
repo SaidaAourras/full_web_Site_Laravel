@@ -108,11 +108,12 @@ class ProjectController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show($title)
-    {
+    { $categories = Category::all();
         $references = Reference::all();
       $project = Project::where('title',$title)->first();
       return view('detailsProjet')->with([
-        'reference' => $references,
+        'categories' => $categories,
+        'references' => $references,
      'project' => $project
       ]);
     }

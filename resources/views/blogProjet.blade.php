@@ -29,7 +29,7 @@
         const element = document.getElementById("chnageTitle");
         element.innerHTML = "Détail du blog ";
         document.getElementById('img-bg-header').style.background =
-            "url(addons/img/influence.png) center center no-repeat ";
+            "url(http://localhost:8000/addons/img/influence.png) center center no-repeat ";
         document.getElementById('img-bg-header').style.backgroundSize = "cover";
     </script>
 @endsection

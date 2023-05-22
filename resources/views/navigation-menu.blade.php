@@ -7,9 +7,9 @@
 
 
                 <div class="shrink-0 flex items-center">
-                      <a href="/index">
-                            <img  class="m-0" src="" alt="">
-                        </a>
+                    <a class="navbar-brand text-uppercase fw-bolder mx-3 py-3" href="/index"> 
+                        <img style="width: 10rem;" class="m-0" src="addons/img/logo-GMC.svg" alt="">
+                    </a>
                     <a  id="displaynone1" class="nav-link active" aria-current="page" href="/"
                         style="color:black;">Acceuil</a>
                     <a id="displaynone1" class="nav-link" href="http://localhost:8000/create/reference" style="color:black;">Add

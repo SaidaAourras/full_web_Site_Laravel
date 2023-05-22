@@ -23,18 +23,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="addons/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="addons/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="addons/css/creative-studio.css" rel="stylesheet">
+    <link href="http://localhost:8000/addons/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="http://localhost:8000/addons/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="http://localhost:8000/addons/css/creative-studio.css" rel="stylesheet">
     {{-- <link href="addons/css/style.c.css" rel="stylesheet"> --}}
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="addons/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost:8000/addons/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="addons/css/style.css" rel="stylesheet">
+    <link href="http://localhost:8000/addons/css/style.css" rel="stylesheet">
     <!-- font icons -->
-    <link rel="stylesheet" href="addons/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="http://localhost:8000/addons/vendors/themify-icons/css/themify-icons.css">
 
     
 </head>
@@ -57,22 +57,22 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="addons/lib/wow/wow.min.js"></script>
-    <script src="addons/lib/easing/easing.min.js"></script>
-    <script src="addons/lib/waypoints/waypoints.min.js"></script>
-    <script src="addons/lib/counterup/counterup.min.js"></script>
-    <script src="addons/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="http://localhost:8000/addons/lib/wow/wow.min.js"></script>
+    <script src="http://localhost:8000/addons/lib/easing/easing.min.js"></script>
+    <script src="http://localhost:8000/addons/lib/waypoints/waypoints.min.js"></script>
+    <script src="http://localhost:8000/addons/lib/counterup/counterup.min.js"></script>
+    <script src="http://localhost:8000/addons/lib/owlcarousel/owl.carousel.min.js"></script>
     <!-- core  -->
-    <script src="addons/vendors/jquery/jquery-3.4.1.js"></script>
-    <script src="addons/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <script src="http://localhost:8000/addons/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="http://localhost:8000/addons/vendors/bootstrap/bootstrap.bundle.js"></script>
 
     <!-- bootstrap affix -->
-    <script src="addons/vendors/bootstrap/bootstrap.affix.js"></script>
+    <script src="http://localhost:8000/addons/vendors/bootstrap/bootstrap.affix.js"></script>
 
     <!-- Creative Studio js -->
-    <script src="addons/js/creative-studio.js"></script>
+    <script src="http://localhost:8000/addons/js/creative-studio.js"></script>
     <!-- Template Javascript -->
-    <script src="addons/js/main.js"></script>
+    <script src="http://localhost:8000/addons/js/main.js"></script>
 
 </body>
 

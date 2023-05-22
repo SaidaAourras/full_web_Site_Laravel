@@ -14,14 +14,14 @@
                   {{ session()->get('success') }}
                  </div>
              @endif
- <div class="row  justify-content-center">
+ <div class="row  justify-content-center bg-color py-4">
     @foreach ($projects as $project)
     <div class="col-sm-6 col-md-3 ">
         <div class="thumbnail">
             <a href="#"><img style='height: 250px; width: 250px; object-fit: contain' src="{{ asset('image_project/' . $project->image) }}" ></a>
             <div class="caption">
                 <h3>{{ $project->title }}</h3>
-                <p class="card-text-td">{{ $project->discp }}</p>
+                <p class="banner-desc">{{ $project->discp }}</p>
                 <p>
                     <form action="{{ route('project.delete',$project->id) }}" method="post">
                        @csrf

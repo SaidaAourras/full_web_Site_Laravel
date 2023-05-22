@@ -27,14 +27,14 @@ Route::get('/index', function () {
     return view('index')->with([
         'blogs' => $blogs,
         'references' => $references
-    ]);;
+    ]);
 });
 
 Route::get('/solutions', function () {
     $references = Reference::all();
     return view('solution')->with([
         'references' => $references
-    ]);;
+    ]);
 });
 
 
@@ -43,7 +43,7 @@ Route::get('/about', function () {
     $references = Reference::all();
     return view('about')->with([
         'references' => $references
-    ]);;
+    ]);
 });
 
 

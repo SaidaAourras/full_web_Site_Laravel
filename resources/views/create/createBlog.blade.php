@@ -20,8 +20,8 @@
             </ul>
         </div>
     @endif
-        <div class="card body-trensparent">
-            <div class="card-header  header-trensparent">
+        <div class="card  header-color border-shortand">
+            <div class="card-header text-white header-color">
                 <h3 class="card-title">
                     add
                 </h3>
@@ -32,20 +32,20 @@
                   <form>
                      
                       <div class="mb-2">
-                        <label for="title" class="form-label banner-desc" >Title</label>
-                        <input type="text" class="form-control" name="title" placeholder="title">
+                        <label for="title" class="form-label banner-desc " >Title</label>
+                        <input type="text" class="form-control  border-shortand" name="title" placeholder="title">
                       </div>
                       <div class="mb-2">
                         <label for="title" class="form-label banner-desc" >Title</label>
-                        <input type="text" class="form-control" name="title_two" placeholder="title">
+                        <input type="text" class="form-control  border-shortand" name="title_two" placeholder="title">
                       </div>
                       <div class="mb-2">
                           <label for="image" class="form-label banner-desc"  >image</label>
-                          <input type="file" class="form-control" name="image">
+                          <input type="file" class="form-control  border-shortand" name="image">
                         </div>
                       <div class="mb-2">
                           <label for="description" class=" banner-desc" >Description</label>
-                          <textarea type="text" id="description" name="discp" placeholder="Enter a description"  class="form-control" aria-label="With textarea" ></textarea>
+                          <textarea type="text" id="description" name="discp" placeholder="Enter a description"  class="form-control  border-shortand" aria-label="With textarea" ></textarea>
                       </div>
                       <div class="mb-2">
                           <button class="btn btn-outline-success">

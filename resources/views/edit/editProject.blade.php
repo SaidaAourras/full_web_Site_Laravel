@@ -20,36 +20,36 @@
             </ul>
         </div>
     @endif
-        <div class="card">
-            <div class="card-header">
+        <div class="card header-color  border-shortand">
+            <div class="card-header text-white header-color">
                 <h3 class="card-title">
                    Modifier {{ $project->title }}
                 </h3>
             </div>
-            <div class="card-body">
+            <div class="card-body body-trensparent">
                 <form action="{{route('project.update',$project->id)}}" method="post" enctype="multipart/form-data">
                     @csrf
                     @method('PUT')
                     <form>
                       <div class="mb-2">
-                        <label for="title" class="form-label">Title</label>
-                        <input type="text" class="form-control" name="title" value="{{$project->title}}">
+                        <label for="title" class="form-label  banner-desc">Title</label>
+                        <input type="text" class="form-control  border-shortand" name="title" value="{{$project->title}}">
                       </div>
                       <div class="mb-2">
-                          <label for="image" class="form-label">image</label>
-                          <input type="file" class="form-control" name="image">
+                          <label for="image" class="form-label  banner-desc">image</label>
+                          <input type="file" class="form-control  border-shortand" name="image">
                         </div>
                       <div class="mb-2">
                           <label for="link">Link</label>
-                          <input type="url" id="link" name="link" value="{{$project->link}}"  class="form-control" aria-label="With textarea"  required>
+                          <input type="url" id="link" name="link  banner-desc" value="{{$project->link}}"  class="form-control  border-shortand" aria-label="With textarea"  required>
                       </div>
                       <div class="mb-2">
-                          <label for="description">Description</label>
-                          <textarea type="text" id="description" name="discp" placeholder="Enter a description"  class="form-control" aria-label="With textarea" >{{$project->discp}}</textarea>
+                          <label for="description  banner-desc">Description</label>
+                          <textarea type="text" id="description" name="discp" placeholder="Enter a description"  class="form-control  border-shortand" aria-label="With textarea" >{{$project->discp}}</textarea>
                       </div>
                       <div class="mb-2">
-                          <label for="category_id" class="form-label">Category</label>
-                          <select class="form-select" name="category_id"  aria-label="Default select example">
+                          <label for="category_id" class="form-label  banner-desc">Category</label>
+                          <select class="form-select  border-shortand" name="category_id"  aria-label="Default select example">
                               @foreach($categories as $category)
                                   <option value="{{ $category->id }}" selected>{{ $category->name }}</option>
                               @endforeach

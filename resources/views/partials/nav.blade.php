@@ -23,14 +23,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="addons/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="addons/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="http://localhost:8000/addons/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="http://localhost:8000/addons/lib/animate/animate.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="addons/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost:8000/addons/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="addons/css/style.css" rel="stylesheet">
+    <link href="http://localhost:8000/addons/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -38,7 +38,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <div class="container">
                 <a href="/index" class="navbar-brand p-0">
-                    <img style="width: 10rem;" class="m-0" src="addons/img/logo-GMC.svg" alt="">
+                    <img style="width: 10rem;" class="m-0" src="http://localhost:8000/addons/img/logo-GMC.svg" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -268,14 +268,14 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="addons/lib/wow/wow.min.js"></script>
-    <script src="addons/lib/easing/easing.min.js"></script>
-    <script src="addons/lib/waypoints/waypoints.min.js"></script>
-    <script src="addons/lib/counterup/counterup.min.js"></script>
-    <script src="addons/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="http://localhost:8000/addons/lib/wow/wow.min.js"></script>
+    <script src="http://localhost:8000/addons/lib/easing/easing.min.js"></script>
+    <script src="http://localhost:8000/addons/lib/waypoints/waypoints.min.js"></script>
+    <script src="http://localhost:8000/addons/lib/counterup/counterup.min.js"></script>
+    <script src="http://localhost:8000/addons/lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="addons/js/main.js"></script>
+    <script src="http://localhost:8000/addons/js/main.js"></script>
 </body>
 
 </html>

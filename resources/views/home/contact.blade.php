@@ -10,8 +10,8 @@
 
 @section('content') 
                   <table class="table ">
-                    <thead>
-                      <tr class="table-success">
+                    <thead class="table-dark">
+                      <tr >
                         <th scope="col">#</th>
                         <th scope="col">name</th>
                         <th scope="col">email</th>
@@ -21,16 +21,16 @@
                         <th scope="col">Delete</th>
                       </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="table-transparent">
                       @foreach ($contacts as $contact)
                       <tr>
-                        <th scope="row" class="table-dark">{{$contact->id}}</th>
-                        <td  class="banner-desc  table-dark ">{{$contact->name}}</td>
-                        <td  class="banner-desc  table-dark"  >{{$contact->email}}</td>
-                        <td  class="banner-desc  table-dark " >{{$contact->num}}</td>
-                        <td  class="banner-desc  table-dark">{{$contact->object}}</td>
-                        <td class="card-text-td  table-dark"><p class="banner-desc">{{$contact->message}}</p></td>
-                        <td class="table-dark"> <form id="{{$contact->id}}" action="{{ route('contact.delete',$contact->id) }}" method="POST">
+                        <th scope="row" >{{$contact->id}}</th>
+                        <td  class="banner-desc">{{$contact->name}}</td>
+                        <td  class="banner-desc"  >{{$contact->email}}</td>
+                        <td  class="banner-desc" >{{$contact->num}}</td>
+                        <td  class="banner-desc">{{$contact->object}}</td>
+                        <td ><p class="banner-desc">{{$contact->message}}</p></td>
+                        <td > <form id="{{$contact->id}}" action="{{ route('contact.delete',$contact->id) }}" method="POST">
                             @csrf
                             @method('DELETE')
                         </form>

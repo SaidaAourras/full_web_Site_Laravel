@@ -20,24 +20,24 @@
             </ul>
         </div>
     @endif
-        <div class="card">
-            <div class="card-header">
+        <div class="card  header-color border-shortand">
+            <div class="card-header text-white header-color">
                 <h3 class="card-title">
                    Modifier {{ $reference->name }}
                 </h3>
             </div>
-            <div class="card-body">
+            <div class="card-body body-trensparent">
                 <form action="{{route('reference.update',$reference->id)}}" method="post" enctype="multipart/form-data">
                     @csrf
                     @method('PUT')
                     <form>
                         <div class="mb-3">
-                          <label for="name" class="form-label">Name</label>
-                          <input type="text" class="form-control" name="name" placeholder="name" value="{{$reference->name}}">
+                          <label for="name" class="form-label  banner-desc">Name</label>
+                          <input type="text" class="form-control  border-shortand" name="name" placeholder="name" value="{{$reference->name}}">
                         </div>
                         <div class="mb-3">
-                          <label for="logo" class="form-label">Logo</label>
-                          <input type="file" class="form-control" name="logo" value="{{$reference->logo}}">
+                          <label for="logo" class="form-label  banner-desc">Logo</label>
+                          <input type="file" class="form-control  border-shortand" name="logo" value="{{$reference->logo}}">
                         </div>
                         <div class="mb-3">
                             <button class="btn btn-outline-success">
