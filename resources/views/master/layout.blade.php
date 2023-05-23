@@ -50,14 +50,14 @@
 .order-form{
     background:linear-gradient(rgba(0, 0, 0, 0.300) , rgba(0, 0, 0, 0.300)) ,url('../addons/img/1_Plan de travail 1.jpg') center center 
     fixed no-repeat;
-    height: 800px;
+    height: 100vh;
     background-size: cover;
 
 }
 
-.order-form{
+/* .order-form{
     height: 500px;
-}
+} */
 
 
 
