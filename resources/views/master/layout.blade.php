@@ -48,7 +48,7 @@
 
 .banner ,
 .order-form{
-    background:linear-gradient(rgba(0, 0, 0, 0.300) , rgba(0, 0, 0, 0.300)) ,url('../addons/img/1_Plan de travail 1.jpg') center center 
+    background:linear-gradient(rgba(0, 0, 0, 0.300) , rgba(0, 0, 0, 0.300)) ,url('http://localhost:8000/addons/img/bg_gmc.jpg') center center 
     fixed no-repeat;
     height: 100vh;
     background-size: cover;
