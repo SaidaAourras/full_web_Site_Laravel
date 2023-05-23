@@ -2,7 +2,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
         <div class="container">
             <a href="/index" class="navbar-brand p-0">
-                <img style="width: 10rem;" class="m-0" src="http://localhost:8000/addons/img/logo-GMC.svg" alt="">
+                <img style="width: 10rem;" class="m-0" src="http://localhost:8000/addons/img/logo-GMC.svg"
+                    alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -15,27 +16,10 @@
                     <a href="/portfolio" class="nav-item nav-link">Portfolio</a>
                     <a href="/reference" class="nav-item nav-link">Reference </a>
                     <a href="/blog" class="nav-item nav-link">Blog </a>
-                    <!-- <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Portfolio</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                        <a href="detail.html" class="dropdown-item">Blog Detail</a>
-                    </div>
-                </div>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="price.html" class="dropdown-item">Pricing Plan</a>
-                        <a href="feature.html" class="dropdown-item">Our features</a>
-                        <a href="team.html" class="dropdown-item">Team Members</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="quote.html" class="dropdown-item">Free Quote</a>
-                    </div>
-                </div> -->
                     <a href="/contact" class="nav-item nav-link">Contact</a>
                 </div>
                 <!-- <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> -->
-                <a href="#" class="btn btn-primary py-2 px-4 ms-3">
+                <a href="/contact" class="btn btn-primary py-2 px-4 ms-3">
                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
                         style="enable-background:new 0 0 512 512;width: 2rem;fill:white" xml:space="preserve">
@@ -221,7 +205,9 @@
     <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="w-100" src="http://localhost:8000/addons/img/groupe-personnes-preparant-plan-affaires-dans-bureau.jpg" alt="Image">
+                <img class="w-100"
+                    src="http://localhost:8000/addons/img/groupe-personnes-preparant-plan-affaires-dans-bureau.jpg"
+                    alt="Image">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                     <div class="p-3" style="max-width: 900px;">
                         {{-- <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5> --}}
