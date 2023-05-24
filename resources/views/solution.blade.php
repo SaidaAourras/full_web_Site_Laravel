@@ -90,12 +90,6 @@
                     <div class="card-body text-dark">
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     </div>
                     <div class="card-header bg-transparent  merriweather fs-4">
                         <nav>
@@ -103,9 +97,9 @@
                               <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
                               <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
                               <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt=""style="width:100px"></button>
-                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
-                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
-                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
+                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-edit" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_edit.png" alt="" style="width:100px"></button>
+                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-design" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_design.png" alt="" style="width:100px"></button>
+                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-tech" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_tech.png" alt="" style="width:100px"></button>
                             </div>
                           </nav>
                           <div class="tab-content" id="nav-tabContent">
@@ -162,12 +156,12 @@
                                 </div>
                             </div>
                         </div>
-                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"> <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-tech"> <div class="row row-cols-1 row-cols-md-2 g-4">
                                 <div class="col d-sm-none d-md-block">
                                     <div class="card">
                                         <img src="assets/img/Carousel/carousel3.jpg" class="card-img-top" alt="..." />
                                         <div class="card-body">
-                                            <h5 class="card-title">hello</h5>
+                                            <h5 class="card-title">fffffffffffffffffff</h5>
                                             <p class="card-text">
                                                 This is a longer card with supporting text below as a natural lead-in to additional content.
                                             </p>
