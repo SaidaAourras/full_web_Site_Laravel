@@ -5,6 +5,15 @@
 @section('sections.container')
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+.redressed {
+	font-family: 'Redressed', cursive;
+}
+
+.merriweather {
+	font-family: 'Merriweather', serif;
+}
         * {
             margin: 0;
             padding: 0;
@@ -19,12 +28,12 @@
         }
 
         body {
-            display: grid;
+            /* display: grid; */
             place-items: center;
             /* overflow: hidden; */
         }
 
-        .carousel {
+        /* .carousel {
             position: relative;
             width: 65vw;
             height: 300px;
@@ -63,70 +72,137 @@
             min-width: 100%;
             font: 900 1rem helvetica, sans-serif;
             border: .5px solid rgba(0, 0, 0, .5);
-        }
+        } */
+
+        .cc-menu {
+            background:transparent;
+           
+       }
     </style>
 
     {{-- vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv --}}
 
-    <main class='carousel'>
-        <button class='carousel__btn--right'>⮁</button>
-        <button class='carousel__btn--left'>⮃</button>
-        <div class='carousel__slider'>
-            <div class='carousel__slide'>0</div>
+    <section class="cc-menu merriweather py-5">
+        <div class="container">
+            <div class="row">
+                <h3 class="text-center text-dark merriweather">Nos Services</h3>
+                <div class="card bg-transparent text-center mb-4">
+                    <div class="card-body text-dark">
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-header bg-transparent  merriweather fs-4">
+                        <nav>
+                            <div class="nav nav-tabs justify-content-center " id="nav-tab" role="tablist">
+                              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
+                              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
+                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt=""style="width:100px"></button>
+                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
+                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
+                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
+                            </div>
+                          </nav>
+                          <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <div class="row row-cols-1 row-cols-md-2 g-4">
+                                    <div class="col d-sm-none d-md-block">
+                                        <div class="card">
+                                            <img src="assets/img/Carousel/carousel3.jpg" class="card-img-top" alt="..." />
+                                            <div class="card-body">
+                                                <h5 class="card-title">hello</h5>
+                                                <p class="card-text">
+                                                    This is a longer card with supporting text below as a natural lead-in to additional content.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col d-sm-none d-md-block">
+                                        <div class="card">
+                                            <img src="assets/img/Carousel/carousel4.jpg" class="card-img-top" alt="..." />
+                                            <div class="card-body">
+                                                <h5 class="card-title">hello</h5>
+                                                <p class="card-text">
+                                                    This is a longer card with supporting text below as a natural lead-in to additional content. This
+                                                    content is a little bit longer.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"> <div class="row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col d-sm-none d-md-block">
+                                    <div class="card">
+                                        <img src="assets/img/Carousel/carousel3.jpg" class="card-img-top" alt="..." />
+                                        <div class="card-body">
+                                            <h5 class="card-title">hello</h5>
+                                            <p class="card-text">
+                                                This is a longer card with supporting text below as a natural lead-in to additional content.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col d-sm-none d-md-block">
+                                    <div class="card">
+                                        <img src="assets/img/Carousel/carousel4.jpg" class="card-img-top" alt="..." />
+                                        <div class="card-body">
+                                            <h5 class="card-title">hello</h5>
+                                            <p class="card-text">
+                                                This is a longer card with supporting text below as a natural lead-in to additional content. This
+                                                content is a little bit longer.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"> <div class="row row-cols-1 row-cols-md-2 g-4">
+                                <div class="col d-sm-none d-md-block">
+                                    <div class="card">
+                                        <img src="assets/img/Carousel/carousel3.jpg" class="card-img-top" alt="..." />
+                                        <div class="card-body">
+                                            <h5 class="card-title">hello</h5>
+                                            <p class="card-text">
+                                                This is a longer card with supporting text below as a natural lead-in to additional content.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col d-sm-none d-md-block">
+                                    <div class="card">
+                                        <img src="assets/img/Carousel/carousel4.jpg" class="card-img-top" alt="..." />
+                                        <div class="card-body">
+                                            <h5 class="card-title">hello</h5>
+                                            <p class="card-text">
+                                                This is a longer card with supporting text below as a natural lead-in to additional content. This
+                                                content is a little bit longer.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
-    </main>
+    </section>
 
     {{-- vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv --}}
     <script>
         const element = document.getElementById("chnageTitle");
         element.innerHTML = "Solution ";
         document.getElementById('img-bg-header').style.background =
-            "url(addons/img/referenceBg1.png) center center no-repeat ";
+            "url(http://localhost:8000/addons/img/referenceBg1.png) center center fixed no-repeat";
         document.getElementById('img-bg-header').style.backgroundSize = "cover";
+        document.getElementById('img-bg-header').style.margin = "0px";
     </script>
-    <script>
-        const slider = document.querySelector('.carousel__slider');
-        let i = 0;
-        let unit = 100;
-        let time = 650;
-        let active;
 
-        function createSlide(increment, method) {
-            const slide = document.createElement('div');
-            slide.className = 'carousel__slide';
-            slide.textContent = increment;
-            slider[method](slide);
-        }
 
-        function toLeft() {
-            if (active) return;
-            createSlide(--i, 'prepend');
-            slider.style.left = `${i*unit}%`;
-            slider.style.transform = `translateX(${-i*unit}%)`;
-            setTimeout(() => slider.children[1].remove(), time);
-        }
-
-        function toRight() {
-            if (active) return;
-            createSlide(++i, 'append');
-            slider.style.transform = `translateX(${-i*unit}%)`;
-            setTimeout(() => {
-                slider.style.left = `${i*unit}%`;
-                slider.children[0].remove();
-            }, time);
-        }
-
-        const start = () => active = true;
-        const end = () => active = false;
-
-        function activate(e) {
-            e.target.className === 'carousel__btn--left' && toLeft();
-            e.target.className === 'carousel__btn--right' && toRight();
-        }
-
-        window.addEventListener('click', activate, false);
-        slider.addEventListener('transitionstart', start, false);
-        slider.addEventListener('transitionend', end, false);
-    </script>
 
 @endsection
