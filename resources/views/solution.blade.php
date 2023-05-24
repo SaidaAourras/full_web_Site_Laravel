@@ -76,7 +76,7 @@
 
         .cc-menu {
             background:transparent;
-           
+
        }
     </style>
 
@@ -100,98 +100,93 @@
                     <div class="card-header bg-transparent  merriweather fs-4">
                         <nav>
                             <div class="nav nav-tabs justify-content-center " id="nav-tab" role="tablist">
-                              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
-                              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
-                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt=""style="width:100px"></button>
+                              <button class="nav-link active bg-nav-link" id="nav-print-tab" data-bs-toggle="tab" data-bs-target="#nav-print" type="button" role="tab" aria-controls="nav-print" aria-selected="true"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
+                              <button class="nav-link" id="nav-digital-tab" data-bs-toggle="tab" data-bs-target="#nav-digital" type="button" role="tab" aria-controls="nav-digital" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_visuel.png" alt="" style="width:100px"></button>
+                              <button class="nav-link" id="nav-visaul-tab" data-bs-toggle="tab" data-bs-target="#nav-visual" type="button" role="tab" aria-controls="nav-visual" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_digital.png" alt=""style="width:100px"></button>
+                              {{-- <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
                               <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
-                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
-                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button>
+                              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><img src="http://localhost:8000/addons/img/gmc_print.png" alt="" style="width:100px"></button> --}}
                             </div>
                           </nav>
                           <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                                <div class="row row-cols-1 row-cols-md-2 g-4">
-                                    <div class="col d-sm-none d-md-block">
-                                        <div class="card">
-                                            <img src="assets/img/Carousel/carousel3.jpg" class="card-img-top" alt="..." />
-                                            <div class="card-body">
-                                                <h5 class="card-title">hello</h5>
-                                                <p class="card-text">
-                                                    This is a longer card with supporting text below as a natural lead-in to additional content.
-                                                </p>
+                            <div class="tab-pane fade show active" id="nav-print" role="tabpanel" aria-labelledby="nav-print-tab">
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                      <div class="card h-100">
+                                        <div class="card-body">
+                                          <h5 class="card-title">IDENTITE VISUELLE</h5>
+                                          <ul>
+                                            <li class="list-group-item">LOGOTYPE</li>
+                                            <li class="list-group-item"> iDENTITE VISUELLE</li>
+                                            <li class="list-group-item">CHARTE GRPHIQUE</li>
+                                            <li class="list-group-item">CONCEPTION ET CREATION </li>
+                                          </ul>                                       
+                                         </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card h-100">
+                                        <div class="card-body py-5">
+                                          <h5 class="card-title">OBJETS & TEXTILES</h5>
+                                          <ul >
+                                            <li class="list-group-item">SIGNALISATION PAR OBJET</li>
+                                            <li class="list-group-item"> TEXTILES PUBLICITAIRE</li>
+                                            <li class="list-group-item">SUBLIMATION</li>
+                                          </ul>  
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card h-100">
+                                        <div class="card-body">
+                                          <h5 class="card-title">IMRESSION OFFSET & NUMERIQUE</h5>
+                                          <ul >
+                                            <li class="list-group-item">BROCHURES</li>
+                                            <li class="list-group-item"> DEPLIANTS </li>
+                                            <li class="list-group-item"> PAPTIER ENTETE</li>
+                                            <li class="list-group-item">AFFICHES</li>
+                                            <li class="list-group-item">PROSPECTUS</li>
+                                            <li class="list-group-item">AUTOCOLLANTS</li>
+                                          </ul>  
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-digital" role="tabpanel" aria-labelledby="nav-digital-tab"> <div class="row row-cols-1 row-cols-md-2 g-4">
+                               
+                            </div>
+                        </div>
+                            <div class="tab-pane fade available" id="nav-visual" role="tabpanel" aria-labelledby="nav-visual-tab"> <div class="row row-cols-1 row-cols-md-2 g-4">
+                                            <div class="col-12">
+                                                <div class="col-md-12">
+                                                    <img src="http://localhost:8000/addons/img/detailsProjet.jpg" class="img-fluid" alt="..." />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="card-body px-0">
+                                                    <h3 class="card-title">Card title</h3>
+                                                    <p class="card-text">
+                                                       
+                                                            <li >enseignes pulicitaires</li>
+                                                            <li > Panneaus signalétiques </li>
+                                                            <li > Habillage alucobonde</li>
+                                                            <li >Marquage véhicules</li>
+                                                            <li >Totem publicitaire</li>
+                                                            <li >Lettrage en relief</li>
+                                                            <li >Palissades et panneaux de chantier</li>
+                                                            <li >Signalisations publicitaires</li>
+                                                            <li >Drapeaux publicitaire</li>
+                                                          
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col d-sm-none d-md-block">
-                                        <div class="card">
-                                            <img src="assets/img/Carousel/carousel4.jpg" class="card-img-top" alt="..." />
-                                            <div class="card-body">
-                                                <h5 class="card-title">hello</h5>
-                                                <p class="card-text">
-                                                    This is a longer card with supporting text below as a natural lead-in to additional content. This
-                                                    content is a little bit longer.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"> <div class="row row-cols-1 row-cols-md-2 g-4">
-                                <div class="col d-sm-none d-md-block">
-                                    <div class="card">
-                                        <img src="assets/img/Carousel/carousel3.jpg" class="card-img-top" alt="..." />
-                                        <div class="card-body">
-                                            <h5 class="card-title">hello</h5>
-                                            <p class="card-text">
-                                                This is a longer card with supporting text below as a natural lead-in to additional content.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col d-sm-none d-md-block">
-                                    <div class="card">
-                                        <img src="assets/img/Carousel/carousel4.jpg" class="card-img-top" alt="..." />
-                                        <div class="card-body">
-                                            <h5 class="card-title">hello</h5>
-                                            <p class="card-text">
-                                                This is a longer card with supporting text below as a natural lead-in to additional content. This
-                                                content is a little bit longer.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"> <div class="row row-cols-1 row-cols-md-2 g-4">
-                                <div class="col d-sm-none d-md-block">
-                                    <div class="card">
-                                        <img src="assets/img/Carousel/carousel3.jpg" class="card-img-top" alt="..." />
-                                        <div class="card-body">
-                                            <h5 class="card-title">hello</h5>
-                                            <p class="card-text">
-                                                This is a longer card with supporting text below as a natural lead-in to additional content.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col d-sm-none d-md-block">
-                                    <div class="card">
-                                        <img src="assets/img/Carousel/carousel4.jpg" class="card-img-top" alt="..." />
-                                        <div class="card-body">
-                                            <h5 class="card-title">hello</h5>
-                                            <p class="card-text">
-                                                This is a longer card with supporting text below as a natural lead-in to additional content. This
-                                                content is a little bit longer.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </section>
+                      </div>
+                </section>
 
     {{-- vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv --}}
     <script>
