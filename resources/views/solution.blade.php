@@ -584,7 +584,7 @@
 
                                         <br>
                                         <h3
-                                            style="color: #6D8299;font-family: 'Nunito', sans-serif; font-size: 1.5rem;margin-bottom: 1rem;">
+                                            style="color: #6D8299;font-family: 'Nunito', sans-serif; font-size: 1.5rem;margin-bottom: 1rem;text-align: initial;">
                                             Packs Réseaux Sociaux</h3>
                                         <div class="offre-list">
                                             <div class="offre-item">
@@ -797,7 +797,7 @@
                                             </div>
                                         </div>
                                         <h3
-                                            style="color: #6D8299;font-family:'Nunito', sans-serif;font-size: 1.5rem; margin-top: 3rem; margin-bottom: 1rem;">
+                                            style="text-align: initial;color: #6D8299;font-family:'Nunito', sans-serif;font-size: 1.5rem; margin-top: 3rem; margin-bottom: 1rem;">
                                             Packs Site Web</h3>
                                         <style>
                                             .box-container {
