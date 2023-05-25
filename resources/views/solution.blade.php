@@ -7,10 +7,104 @@
     <style>
         /* @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap'); */
 
-        .card-header {
-          border-bottom: none;
+        .offre-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 5px;
+        }
+
+        .offre-item>.front {
+            transform: rotateY(0deg);
+        }
+
+        .offre-item>.front,
+        .offre-item>.back {
+            background-color: white;
+            display: block;
+            transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition-duration: 0.5s;
+            transition-property: transform, opacity;
+        }
+
+        .offre-item>.back {
+            position: absolute;
+            opacity: 0;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            transform: rotateY(-180deg);
+        }
+
+        .offre-item>.front,
+        .offre-item>.back {
+            background-color: white;
+            display: block;
+            transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition-duration: 0.5s;
+            transition-property: transform, opacity;
+        }
+
+        .card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, 0.125);
+            border-radius: 0.25rem;
+        }
+
+        .standar-background {
+            background-color: rgb(29, 112, 184);
+            color: white;
+        }
+
+        .premium-background {
+            background-color: rgb(162, 25, 91);
+            color: white;
+        }
+
+        .gold-background {
+            background-color: rgb(176, 125, 50);
+            color: white;
+        }
+
+        .platinium-background {
+            background-color: rgb(234, 90, 42);
+            /* border-radius: 0px 15px 0px 0px; */
+            color: white;
+        }
+.offre-description-item{
+  font-size: 1rem;F
 }
-          
+        .basic-background {
+            background-color: rgb(10, 174, 151);
+            /* border-radius: 10px 0px 0px 0px; */
+            color: white;
+        }
+
+        .card-body {
+            flex: 1 1 auto;
+            padding: 1rem 1rem;
+        }
+
+        .offre-title {
+            font-size: large;
+            font-weight: bold;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .offre-item {
+            position: relative;
+        }
+
+        .card-header {
+            border-bottom: none;
+        }
+
         .redressed {
             font-family: 'Nunito', sans-serif;
 
@@ -37,11 +131,14 @@
         body {
             /* display: grid; */
             place-items: center;
+            font-family: 'Nunito', sans-serif !important;
+
             /* overflow: hidden; */
         }
 
         .card {
             border: none;
+            text-align: initial;
             font-family: 'Nunito', sans-serif;
 
         }
@@ -487,7 +584,220 @@
 
                                         <br>
                                         <h3
-                                            style="color: #6D8299;font-family:'Nunito', sans-serif;;font-size: 1.5rem; margin-bottom: 2rem;">
+                                            style="color: #6D8299;font-family: 'Nunito', sans-serif; font-size: 1.5rem;margin-bottom: 1rem;">
+                                            Packs Réseaux Sociaux</h3>
+                                        <div class="offre-list">
+                                            <div class="offre-item">
+                                                <div class="front">
+                                                    <div class="card">
+                                                        <div class="card-body basic-background">
+                                                            <div class="offre-title">
+                                                                <i class="fa fa-flash offre-icon"></i>
+                                                                BASIC
+                                                            </div>
+                                                            <div class="offre-description">
+                                                                <div class="offre-description-item">
+                                                                    4 heures par mois </div>
+                                                                <div class="offre-description-item">
+                                                                    1 réseau au choix </div>
+                                                                <div class="offre-description-item">
+                                                                    1 publication par semaine </div>
+                                                                <div class="offre-description-item">
+                                                                    Animation et modération </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="back">
+                                                    <div class="card">
+                                                        <div class="card-body basic-background">
+                                                            <div class="offre-title">
+                                                                <i class="fa fa-info offre-icon"></i> details
+                                                            </div>
+                                                            <div class="offre-description">
+                                                                <div class="offre-description-item">
+                                                                    Mise en ligne et Partage </div>
+                                                                <div class="offre-description-item">
+                                                                    <del>Gestion des contacts</del>
+                                                                </div>
+                                                                <div class="offre-description-item">
+                                                                    <del>Création des maquette</del>
+                                                                </div>
+                                                                <div class="offre-description-item">
+                                                                    <del>1 sondage par année</del>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="offre-item">
+                                                <div class="front">
+                                                    <div class="card">
+                                                        <div class="card-body standar-background">
+                                                            <div class="offre-title">
+                                                                <i class="fa fa-flash offre-icon"></i>
+                                                                STANDAR
+                                                            </div>
+                                                            <div class="offre-description">
+                                                                <div class="offre-description-item">
+                                                                    8 heures par mois </div>
+                                                                <div class="offre-description-item">
+                                                                    1 réseau au choix </div>
+                                                                <div class="offre-description-item">
+                                                                    2 publication par semaine </div>
+                                                                <div class="offre-description-item">
+                                                                    Animation et modération </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="back">
+                                                    <div class="card">
+                                                        <div class="card-body standar-background">
+                                                            <div class="offre-title">
+                                                                <i class="fa fa-info offre-icon"></i> details
+                                                            </div>
+                                                            <div class="offre-description">
+                                                                <div class="offre-description-item">
+                                                                    Mise en ligne et Partage </div>
+                                                                <div class="offre-description-item">
+                                                                    Gestion des contacts </div>
+                                                                <div class="offre-description-item">
+                                                                    Création des maquette </div>
+                                                                <div class="offre-description-item">
+                                                                    1 sondage par année </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="offre-item">
+                                                <div class="front">
+                                                    <div class="card">
+                                                        <div class="card-body premium-background">
+                                                            <div class="offre-title">
+                                                                <i class="fa fa-flash offre-icon"></i>
+                                                                PREMIUM
+                                                            </div>
+                                                            <div class="offre-description">
+                                                                <div class="offre-description-item">
+                                                                    11 heures par mois </div>
+                                                                <div class="offre-description-item">
+                                                                    2 réseaux au choix </div>
+                                                                <div class="offre-description-item">
+                                                                    4 publication par semaine </div>
+                                                                <div class="offre-description-item">
+                                                                    Animation et modération </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="back">
+                                                    <div class="card">
+                                                        <div class="card-body premium-background">
+                                                            <div class="offre-title">
+                                                                <i class="fa fa-info offre-icon"></i> details
+                                                            </div>
+                                                            <div class="offre-description">
+                                                                <div class="offre-description-item">
+                                                                    Mise en ligne et Partage </div>
+                                                                <div class="offre-description-item">
+                                                                    Gestion des contacts </div>
+                                                                <div class="offre-description-item">
+                                                                    Création des maquette </div>
+                                                                <div class="offre-description-item">
+                                                                    2 sondage par année </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="offre-item">
+                                                <div class="front">
+                                                    <div class="card">
+                                                        <div class="card-body gold-background">
+                                                            <div class="offre-title">
+                                                                <i class="fa fa-flash offre-icon"></i>
+                                                                GOLD
+                                                            </div>
+                                                            <div class="offre-description">
+                                                                <div class="offre-description-item">
+                                                                    16 heures par mois </div>
+                                                                <div class="offre-description-item">
+                                                                    2 réseaux au choix </div>
+                                                                <div class="offre-description-item">
+                                                                    6 publication par semaine </div>
+                                                                <div class="offre-description-item">
+                                                                    Animation et modération </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="back">
+                                                    <div class="card">
+                                                        <div class="card-body gold-background">
+                                                            <div class="offre-title">
+                                                                <i class="fa fa-info offre-icon"></i> details
+                                                            </div>
+                                                            <div class="offre-description">
+                                                                <div class="offre-description-item">
+                                                                    Mise en ligne et Partage </div>
+                                                                <div class="offre-description-item">
+                                                                    Gestion des contacts </div>
+                                                                <div class="offre-description-item">
+                                                                    Création des maquette </div>
+                                                                <div class="offre-description-item">
+                                                                    3 sondage par année </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="offre-item">
+                                                <div class="front">
+                                                    <div class="card">
+                                                        <div class="card-body platinium-background">
+                                                            <div class="offre-title">
+                                                                <i class="fa fa-flash offre-icon"></i>
+                                                                PLATINIUM
+                                                            </div>
+                                                            <div class="offre-description">
+                                                                <div class="offre-description-item">
+                                                                    19 heures par mois </div>
+                                                                <div class="offre-description-item">
+                                                                    3 réseaux au choix </div>
+                                                                <div class="offre-description-item">
+                                                                    8 publication par semaine </div>
+                                                                <div class="offre-description-item">
+                                                                    Animation et modération </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="back">
+                                                    <div class="card">
+                                                        <div class="card-body platinium-background">
+                                                            <div class="offre-title">
+                                                                <i class="fa fa-info offre-icon"></i> details
+                                                            </div>
+                                                            <div class="offre-description">
+                                                                <div class="offre-description-item">
+                                                                    Mise en ligne et Partage </div>
+                                                                <div class="offre-description-item">
+                                                                    Gestion des contacts </div>
+                                                                <div class="offre-description-item">
+                                                                    Création des maquette </div>
+                                                                <div class="offre-description-item">
+                                                                    4 sondage par année </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h3
+                                            style="color: #6D8299;font-family:'Nunito', sans-serif;font-size: 1.5rem; margin-top: 3rem; margin-bottom: 1rem;">
                                             Packs Site Web</h3>
                                         <style>
                                             .box-container {
