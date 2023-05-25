@@ -13,7 +13,7 @@
         }
 
         .merriweather {
-            font-family: 'Merriweather', serif;
+          font-family: 'Nunito', sans-serif;
         }
 
         * {
@@ -65,14 +65,14 @@
         .solution-web .solution-web-card .solution-web-card-header {
             display: flex;
             justify-content: space-between;
-             font-family: 'Nunito', sans-serif;
+            font-family: 'Nunito', sans-serif;
             font-weight: bold;
             margin-bottom: 10px;
         }
 
         .solution-web .solution-web-card .solution-web-card-body {
             background-color: #009fe33b;
-             font-family: 'Nunito', sans-serif;
+            font-family: 'Nunito', sans-serif;
             color: black;
             width: 100%;
             height: 90%;
@@ -198,7 +198,6 @@
                                             <div style="color: rgb(0, 159, 227); font-size: small;"> Identité visuelle
                                             </div>
                                             <div content="Cliquez ici pour cacher" data-tippy-directive="" tabindex="0"><i
-                                                   
                                                     style="color: rgb(0, 159, 227); cursor: pointer;"></i></div>
                                         </div>
                                         <div class="solution-web-card-body fadeInOut">
@@ -230,8 +229,8 @@
                                             <div style="color: rgb(0, 159, 227); font-size: small;"> Impression offset
                                                 commerciaux </div>
                                             <div content="Cliquez ici pour cacher" data-tippy-directive=""
-                                                tabindex="0"><i
-                                                    style="color: rgb(0, 159, 227); cursor: pointer;"></i></div>
+                                                tabindex="0"><i style="color: rgb(0, 159, 227); cursor: pointer;"></i>
+                                            </div>
                                         </div>
                                         <div class="solution-web-card-body fadeInOut">
                                             <div class="solution-web-card-body-item"> Cartes
@@ -268,8 +267,8 @@
                                             <div style="color: rgb(0, 159, 227); font-size: small;"> Impression offset
                                                 administratifs </div>
                                             <div content="Cliquez ici pour cacher" data-tippy-directive=""
-                                                tabindex="0"><i
-                                                    style="color: rgb(0, 159, 227); cursor: pointer;"></i></div>
+                                                tabindex="0"><i style="color: rgb(0, 159, 227); cursor: pointer;"></i>
+                                            </div>
                                         </div>
                                         <div class="solution-web-card-body fadeInOut">
                                             <div class="solution-web-card-body-item"> Carte de
@@ -307,8 +306,8 @@
                                             <div style="color: rgb(0, 159, 227); font-size: small;"> Impression offset
                                                 industriels </div>
                                             <div content="Cliquez ici pour cacher" data-tippy-directive=""
-                                                tabindex="0"><i
-                                                    style="color: rgb(0, 159, 227); cursor: pointer;"></i></div>
+                                                tabindex="0"><i style="color: rgb(0, 159, 227); cursor: pointer;"></i>
+                                            </div>
                                         </div>
                                         <div class="solution-web-card-body fadeInOut">
                                             <div class="solution-web-card-body-item"> Étiquettes
@@ -328,8 +327,8 @@
                                             <div style="color: rgb(0, 159, 227); font-size: small;"> Impression numérique /
                                                 Petit format </div>
                                             <div content="Cliquez ici pour cacher" data-tippy-directive=""
-                                                tabindex="0"><i
-                                                    style="color: rgb(0, 159, 227); cursor: pointer;"></i></div>
+                                                tabindex="0"><i style="color: rgb(0, 159, 227); cursor: pointer;"></i>
+                                            </div>
                                         </div>
                                         <div class="solution-web-card-body fadeInOut">
                                             <div class="solution-web-card-body-item"> Carte de
@@ -367,8 +366,8 @@
                                             <div style="color: rgb(0, 159, 227); font-size: small;"> Impression numérique /
                                                 Grand format </div>
                                             <div content="Cliquez ici pour cacher" data-tippy-directive=""
-                                                tabindex="0"><i
-                                                    style="color: rgb(0, 159, 227); cursor: pointer;"></i></div>
+                                                tabindex="0"><i style="color: rgb(0, 159, 227); cursor: pointer;"></i>
+                                            </div>
                                         </div>
                                         <div class="solution-web-card-body fadeInOut">
                                             <div class="solution-web-card-body-item"> Bâche
@@ -399,8 +398,8 @@
                                             <div style="color: rgb(0, 159, 227); font-size: small;"> Objets publicitaires /
                                                 Textiles </div>
                                             <div content="Cliquez ici pour cacher" data-tippy-directive=""
-                                                tabindex="0"><i
-                                                    style="color: rgb(0, 159, 227); cursor: pointer;"></i></div>
+                                                tabindex="0"><i style="color: rgb(0, 159, 227); cursor: pointer;"></i>
+                                            </div>
                                         </div>
                                         <div class="solution-web-card-body fadeInOut">
                                             <div class="solution-web-card-body-item">
@@ -439,8 +438,8 @@
                                             <div style="color: rgb(0, 159, 227); font-size: small;"> Objets publicitaires /
                                                 Signalisation </div>
                                             <div content="Cliquez ici pour cacher" data-tippy-directive=""
-                                                tabindex="0"><i
-                                                    style="color: rgb(0, 159, 227); cursor: pointer;"></i></div>
+                                                tabindex="0"><i style="color: rgb(0, 159, 227); cursor: pointer;"></i>
+                                            </div>
                                         </div>
                                         <div class="solution-web-card-body fadeInOut">
                                             <div class="solution-web-card-body-item"> Agenda
@@ -475,8 +474,413 @@
                             </div>
                             <div class="tab-pane fade available" id="nav-digital" role="tabpanel"
                                 aria-labelledby="nav-digital-tab">
-                                <div class="row row-cols-1 row-cols-md-2 g-4">
-                                    <h1>tttttttttttttttttttt</h1>
+                                <div class="">
+                                    <div id="tag-2" class="desc_solutions r-tabs-panel r-tabs-state-active"
+                                        style="display: block;">
+                                        <style>
+                                            @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap');
+                                        </style>
+                                      
+                                        <br>
+                                        <h3
+                                            style="color: #6D8299;font-family:'Nunito', sans-serif;;font-size: 1.5rem; margin-bottom: 2rem;">
+                                            Packs Site Web</h3>
+                                        <style>
+                                            .box-container {
+                                                display: grid;
+                                                grid-template-columns: 1fr 1fr 1fr 1fr;
+                                                grid-gap: 10px;
+                                            }
+
+                                            .card-box {
+                                                float: left;
+                                                font-size: 1.2em;
+                                                margin: 1% 0 0 1%;
+                                                perspective: 800px;
+                                                transition: all 0.3s ease 0s;
+                                            }
+
+                                            .card-box:hover .card-package {
+                                                transform: rotateY(180deg);
+                                            }
+
+                                            .card-box .card-package {
+                                                cursor: default;
+                                                height: 300px;
+                                                border-radius: 5px;
+                                                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                                                transform-style: preserve-3d;
+                                                transition: transform 0.4s ease 0s;
+                                                width: 100%;
+                                                -webkit-animation: giro 1s 1;
+                                                animation: giro 1s 1;
+                                            }
+
+                                            .card-box .card-package .front,
+                                            .card-box .card-package .back {
+                                                backface-visibility: hidden;
+                                                box-sizing: border-box;
+                                                color: white;
+                                                display: block;
+                                                height: 100%;
+                                                border-radius: 5px;
+                                                padding: 0.8em;
+                                                position: absolute;
+                                                width: 100%;
+                                            }
+
+                                            .card-box .card-package .back {
+                                                transform: rotateY(180deg);
+                                            }
+
+                                            .card-box:nth-child(2) .card-package {
+                                                -webkit-animation: giro 1.5s 1;
+                                                animation: giro 1.5s 1;
+                                            }
+
+                                            .card-box:nth-child(3) .card-package {
+                                                -webkit-animation: giro 2s 1;
+                                                animation: giro 2s 1;
+                                            }
+
+                                            .card-box:nth-child(4) .card-package {
+                                                -webkit-animation: giro 2.5s 1;
+                                                animation: giro 2.5s 1;
+                                            }
+
+                                            @-webkit-keyframes giro {
+                                                from {
+                                                    transform: rotateY(180deg);
+                                                }
+
+                                                to {
+                                                    transform: rotateY(0deg);
+                                                }
+                                            }
+
+                                            @keyframes giro {
+                                                from {
+                                                    transform: rotateY(180deg);
+                                                }
+
+                                                to {
+                                                    transform: rotateY(0deg);
+                                                }
+                                            }
+
+                                            @media screen and (max-width: 767px) {
+                                                .card-box {
+                                                    margin-left: 2.8%;
+                                                    margin-top: 3%;
+                                                    width: 46%;
+                                                }
+
+                                                .card-box .card-package {
+                                                    height: 285px;
+                                                }
+
+                                                .card-box:last-child {
+                                                    margin-bottom: 3%;
+                                                }
+                                            }
+
+                                            @media screen and (max-width: 480px) {
+                                                .card-box {
+                                                    width: 94.5%;
+                                                }
+
+                                                .card-box .card-package {
+                                                    height: 260px;
+                                                }
+                                            }
+
+                                            /* colors */
+                                            .package-start {
+                                                color: rgb(215, 129, 10)
+                                            }
+
+                                            .package-presence {
+                                                color: rgb(159, 182, 8)
+                                            }
+
+                                            .package-essentiel {
+                                                color: rgb(11, 92, 156)
+                                            }
+
+                                            .package-ecommerce {
+                                                color: rgb(117, 63, 25)
+                                            }
+
+                                            .package-background-start {
+                                                background-color: rgb(215, 129, 10)
+                                            }
+
+                                            .package-background-presence {
+                                                background-color: rgb(159, 182, 8)
+                                            }
+
+                                            .package-background-essentiel {
+                                                background-color: rgb(11, 92, 156)
+                                            }
+
+                                            .package-background-ecommerce {
+                                                background-color: rgb(117, 63, 25)
+                                            }
+
+                                            .package-container {
+                                                position: absolute;
+                                                right: 15px;
+                                                top: 114px;
+                                            }
+
+                                            .package-container .package-web-pack {
+                                                font-family: 'Nunito', sans-serif;
+                                                font-size: small;
+                                            }
+
+                                            .package-container .package-title {
+                                                font-family: 'Nunito', sans-serif;
+                                                font-size: large;
+                                                text-transform: uppercase;
+                                            }
+
+                                            .package-container .package-description {
+                                                font-family: 'Nunito', sans-serif;
+                                                font-size: small;
+                                            }
+
+                                            .package-container-back {
+                                               font-family: 'Nunito', sans-serif;
+                                            }
+
+                                            .package-container-back .package-back-title {
+                                               font-family: 'Nunito', sans-serif;
+                                                border-bottom: 1px solid white;
+                                                margin-bottom: 10px;
+                                                text-transform: uppercase;
+                                            }
+
+                                            .package-container-back .package-back-description {
+                                               font-family: 'Nunito', sans-serif;
+                                                font-size: small;
+                                            }
+
+                                            .package-container-back .package-back-list {
+                                               font-family: 'Nunito', sans-serif;
+                                                margin-top: 10px;
+                                            }
+
+                                            .package-container-back .package-back-list-item {
+                                               font-family: 'Nunito', sans-serif;
+                                                font-size: small;
+                                                padding-bottom: 5px;
+                                            }
+                                            
+                                        </style>
+                                        <div id="solution-web" class="box-container">
+                                            <div class="card-box">
+                                                <div class="card-package">
+                                                    <div class="front package-background-start"
+                                                        style="background-image: url(&quot;http://localhost:8000/addons/img/web-start.png&quot;); background-repeat: no-repeat; background-size: 160px;">
+                                                        <div class="package-container">
+                                                            <div class="package-web-pack"> Web Pack </div>
+                                                            <div class="package-title"> star </div>
+                                                            <div class="package-description"> Site dynamique </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="back package-background-start">
+                                                        <div class="package-container-back">
+                                                            <div class="package-back-title"> star </div>
+                                                            <div class="package-back-description"> Pour site internet de
+                                                                présentation, Notre offre pour petit budget sans sacrifier
+                                                                la qualité. Tout est inclus dans ce Pack Web pour la
+                                                                création d’un site internet vitrine. </div>
+                                                            <div class="package-back-list">
+                                                                <div class="package-back-list-item"><i
+                                                                        ></i>
+                                                                    4 pages web
+                                                                </div>
+                                                                <div class="package-back-list-item"><i
+                                                                        ></i>
+                                                                    hébergement
+                                                                </div>
+                                                                <div class="package-back-list-item"><i
+                                                                        ></i>
+                                                                    nom de domaine au choix
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-box">
+                                                <div class="card-package">
+                                                    <div class="front package-background-presence"
+                                                        style="background-image: url(&quot;http://localhost:8000/addons/img/web-presence.png&quot;); background-repeat: no-repeat; background-size: 160px;">
+                                                        <div class="package-container">
+                                                            <div class="package-web-pack"> Web Pack </div>
+                                                            <div class="package-title"> presence </div>
+                                                            <div class="package-description"> Site dynamique </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="back package-background-presence">
+                                                        <div class="package-container-back">
+                                                            <div class="package-back-title"> presence </div>
+                                                            <div class="package-back-description"> Pour site internet
+                                                                vitrine design percutant spécifique à votre image, ergonomie
+                                                                soignée. Le Pack Présence est la solution par excellence
+                                                            </div>
+                                                            <div class="package-back-list">
+                                                                <div class="package-back-list-item"><i
+                                                                        ></i>
+                                                                    jusqu'a 10 pages web
+                                                                </div>
+                                                                <div class="package-back-list-item"><i
+                                                                        ></i>
+                                                                    hébergement
+                                                                </div>
+                                                                <div class="package-back-list-item"><i
+                                                                        ></i>
+                                                                    nom de domaine au choix
+                                                                </div>
+                                                                <div class="package-back-list-item"><i
+                                                                        ></i>
+                                                                    Pages et functions supplémentaires
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-box">
+                                                <div class="card-package">
+                                                    <div class="front package-background-essentiel"
+                                                        style="background-image: url(&quot;http://localhost:8000/addons/img/web-essentiel.png&quot;); background-repeat: no-repeat; background-size: 160px;">
+                                                        <div class="package-container">
+                                                            <div class="package-web-pack"> Web Pack </div>
+                                                            <div class="package-title"> essentiel </div>
+                                                            <div class="package-description"> Site dynamique </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="back package-background-essentiel">
+                                                        <div class="package-container-back">
+                                                            <div class="package-back-title"> essentiel </div>
+                                                            <div class="package-back-description"> Pour site internet
+                                                                administrable en complément de la création de site web. Une
+                                                                interface simple et sécurisée vous permettra de mettre à
+                                                                jour votre site web </div>
+                                                            <div class="package-back-list">
+                                                                <div class="package-back-list-item"><i
+                                                                        ></i>
+                                                                    Pages web illimitées
+                                                                </div>
+                                                                <div class="package-back-list-item"><i
+                                                                        ></i>
+                                                                    Back office et nom de domaine
+                                                                </div>
+                                                                <div class="package-back-list-item"><i
+                                                                        ></i>
+                                                                    Pages et functions supplémentaires
+                                                                </div>
+                                                                <div class="package-back-list-item"><i
+                                                                        ></i>
+                                                                    Réferencement naturelle, hébergement ...
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card-box">
+                                                <div class="card-package">
+                                                    <div class="front package-background-ecommerce"
+                                                        style="background-image: url(&quot;http://localhost:8000/addons/img/web-ecommerce.png&quot;); background-repeat: no-repeat; background-size: 160px;">
+                                                        <div class="package-container">
+                                                            <div class="package-web-pack"> Web Pack </div>
+                                                            <div class="package-title"> e-commerce </div>
+                                                            <div class="package-description"> Site dynamique </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="back package-background-ecommerce">
+                                                        <div class="package-container-back">
+                                                            <div class="package-back-title"> e-commerce </div>
+                                                            <div class="package-back-description"> Votre boutique en ligne
+                                                                complète et efficace, le Pack e-Commerce comprend l’ensemble
+                                                                des fonctionnalités nécessaires pour le succès de la vente
+                                                                en ligne. </div>
+                                                            <div class="package-back-list">
+                                                                <div class="package-back-list-item"><i
+                                                                        ></i>
+                                                                    Pages web illimitées
+                                                                </div>
+                                                                <div class="package-back-list-item"><i
+                                                                        ></i>
+                                                                    Module de vente et paiement en ligne
+                                                                </div>
+                                                                <div class="package-back-list-item"><i
+                                                                        ></i>
+                                                                    Gestion des commandes et des clients ...
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <script>
+                                            var web = new Vue({
+                                                el: '#solution-web',
+                                                data: {
+                                                    list: {
+                                                        start: {
+                                                            title: 'star',
+                                                            type: 'dynamique',
+                                                            description: 'Pour site internet de présentation, Notre offre pour petit budget sans sacrifier la qualité. Tout est inclus dans ce Pack Web pour la création d’un site internet vitrine.',
+                                                            content: {
+                                                                item1: '4 pages web',
+                                                                item2: 'hébergement',
+                                                                item3: 'nom de domaine au choix',
+                                                            }
+                                                        },
+                                                        presence: {
+                                                            title: 'presence',
+                                                            type: 'dynamique',
+                                                            description: 'Pour site internet vitrine design percutant spécifique à votre image, ergonomie soignée. Le Pack Présence est la solution par excellence',
+                                                            content: {
+                                                                item1: 'jusqu\'a 10 pages web',
+                                                                item2: 'hébergement',
+                                                                item3: 'nom de domaine au choix',
+                                                                item4: 'Pages et functions supplémentaires',
+                                                            }
+                                                        },
+                                                        essentiel: {
+                                                            title: 'essentiel',
+                                                            type: 'dynamique',
+                                                            description: 'Pour site internet administrable en complément de la création de site web. Une interface simple et sécurisée vous permettra de mettre à jour votre site web',
+                                                            content: {
+                                                                item1: 'Pages web illimitées',
+                                                                item2: 'Back office et nom de domaine',
+                                                                item3: 'Pages et functions supplémentaires',
+                                                                item4: 'Réferencement naturelle, hébergement ...',
+                                                            }
+                                                        },
+                                                        ecommerce: {
+                                                            title: 'e-commerce',
+                                                            type: 'dynamique',
+                                                            description: 'Votre boutique en ligne complète et efficace, le Pack e-Commerce comprend l’ensemble des fonctionnalités nécessaires pour le succès de la vente en ligne.',
+                                                            content: {
+                                                                item1: 'Pages web illimitées',
+                                                                item2: 'Module de vente et paiement en ligne',
+                                                                item3: 'Gestion de boutique',
+                                                                item3: 'Gestion des commandes et des clients ...',
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            });
+                                        </script>
+                                    </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade available" id="nav-visual" role="tabpanel"
