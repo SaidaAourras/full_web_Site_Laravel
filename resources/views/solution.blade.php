@@ -7,13 +7,17 @@
     <style>
         /* @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap'); */
 
+        .card-header {
+          border-bottom: none;
+}
+          
         .redressed {
             font-family: 'Nunito', sans-serif;
 
         }
 
         .merriweather {
-          font-family: 'Nunito', sans-serif;
+            font-family: 'Nunito', sans-serif;
         }
 
         * {
@@ -480,7 +484,7 @@
                                         <style>
                                             @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap');
                                         </style>
-                                      
+
                                         <br>
                                         <h3
                                             style="color: #6D8299;font-family:'Nunito', sans-serif;;font-size: 1.5rem; margin-bottom: 2rem;">
@@ -506,7 +510,7 @@
 
                                             .card-box .card-package {
                                                 cursor: default;
-                                                height: 300px;
+                                                height: 200px;
                                                 border-radius: 5px;
                                                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
                                                 transform-style: preserve-3d;
@@ -524,7 +528,7 @@
                                                 display: block;
                                                 height: 100%;
                                                 border-radius: 5px;
-                                                padding: 0.8em;
+                                                padding: 0.2rem 2rem 1rem 2rem;
                                                 position: absolute;
                                                 width: 100%;
                                             }
@@ -630,7 +634,7 @@
                                             .package-container {
                                                 position: absolute;
                                                 right: 15px;
-                                                top: 114px;
+                                                top: 70px;
                                             }
 
                                             .package-container .package-web-pack {
@@ -650,32 +654,31 @@
                                             }
 
                                             .package-container-back {
-                                               font-family: 'Nunito', sans-serif;
+                                                font-family: 'Nunito', sans-serif;
                                             }
 
                                             .package-container-back .package-back-title {
-                                               font-family: 'Nunito', sans-serif;
-                                                border-bottom: 1px solid white;
-                                                margin-bottom: 10px;
+                                                font-family: 'Nunito', sans-serif;
                                                 text-transform: uppercase;
                                             }
 
                                             .package-container-back .package-back-description {
-                                               font-family: 'Nunito', sans-serif;
-                                                font-size: small;
+                                                font-family: 'Nunito', sans-serif;
+                                                font-size: 0.7rem;
+                                                text-align: initial;
+
                                             }
 
                                             .package-container-back .package-back-list {
-                                               font-family: 'Nunito', sans-serif;
+                                                font-family: 'Nunito', sans-serif;
                                                 margin-top: 10px;
                                             }
 
                                             .package-container-back .package-back-list-item {
-                                               font-family: 'Nunito', sans-serif;
+                                                font-family: 'Nunito', sans-serif;
                                                 font-size: small;
-                                                padding-bottom: 5px;
+                                                text-align: initial
                                             }
-                                            
                                         </style>
                                         <div id="solution-web" class="box-container">
                                             <div class="card-box">
@@ -696,16 +699,13 @@
                                                                 la qualité. Tout est inclus dans ce Pack Web pour la
                                                                 création d’un site internet vitrine. </div>
                                                             <div class="package-back-list">
-                                                                <div class="package-back-list-item"><i
-                                                                        ></i>
+                                                                <div class="package-back-list-item"><i></i>
                                                                     4 pages web
                                                                 </div>
-                                                                <div class="package-back-list-item"><i
-                                                                        ></i>
+                                                                <div class="package-back-list-item"><i></i>
                                                                     hébergement
                                                                 </div>
-                                                                <div class="package-back-list-item"><i
-                                                                        ></i>
+                                                                <div class="package-back-list-item"><i></i>
                                                                     nom de domaine au choix
                                                                 </div>
                                                             </div>
@@ -731,20 +731,16 @@
                                                                 soignée. Le Pack Présence est la solution par excellence
                                                             </div>
                                                             <div class="package-back-list">
-                                                                <div class="package-back-list-item"><i
-                                                                        ></i>
+                                                                <div class="package-back-list-item"><i></i>
                                                                     jusqu'a 10 pages web
                                                                 </div>
-                                                                <div class="package-back-list-item"><i
-                                                                        ></i>
+                                                                <div class="package-back-list-item"><i></i>
                                                                     hébergement
                                                                 </div>
-                                                                <div class="package-back-list-item"><i
-                                                                        ></i>
+                                                                <div class="package-back-list-item"><i></i>
                                                                     nom de domaine au choix
                                                                 </div>
-                                                                <div class="package-back-list-item"><i
-                                                                        ></i>
+                                                                <div class="package-back-list-item"><i></i>
                                                                     Pages et functions supplémentaires
                                                                 </div>
                                                             </div>
@@ -770,20 +766,16 @@
                                                                 interface simple et sécurisée vous permettra de mettre à
                                                                 jour votre site web </div>
                                                             <div class="package-back-list">
-                                                                <div class="package-back-list-item"><i
-                                                                        ></i>
+                                                                <div class="package-back-list-item"><i></i>
                                                                     Pages web illimitées
                                                                 </div>
-                                                                <div class="package-back-list-item"><i
-                                                                        ></i>
+                                                                <div class="package-back-list-item"><i></i>
                                                                     Back office et nom de domaine
                                                                 </div>
-                                                                <div class="package-back-list-item"><i
-                                                                        ></i>
+                                                                <div class="package-back-list-item"><i></i>
                                                                     Pages et functions supplémentaires
                                                                 </div>
-                                                                <div class="package-back-list-item"><i
-                                                                        ></i>
+                                                                <div class="package-back-list-item"><i></i>
                                                                     Réferencement naturelle, hébergement ...
                                                                 </div>
                                                             </div>
@@ -809,16 +801,13 @@
                                                                 des fonctionnalités nécessaires pour le succès de la vente
                                                                 en ligne. </div>
                                                             <div class="package-back-list">
-                                                                <div class="package-back-list-item"><i
-                                                                        ></i>
+                                                                <div class="package-back-list-item"><i></i>
                                                                     Pages web illimitées
                                                                 </div>
-                                                                <div class="package-back-list-item"><i
-                                                                        ></i>
+                                                                <div class="package-back-list-item"><i></i>
                                                                     Module de vente et paiement en ligne
                                                                 </div>
-                                                                <div class="package-back-list-item"><i
-                                                                        ></i>
+                                                                <div class="package-back-list-item"><i></i>
                                                                     Gestion des commandes et des clients ...
                                                                 </div>
                                                             </div>
