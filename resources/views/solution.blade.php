@@ -7,6 +7,11 @@
     <style>
         /* @import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap'); */
 
+        .fa-check:before {
+            content: "\f00c";
+            padding-right: 0.5rem;
+        }
+
         .offre-list {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -77,9 +82,12 @@
             /* border-radius: 0px 15px 0px 0px; */
             color: white;
         }
-.offre-description-item{
-  font-size: 1rem;F
-}
+
+        .offre-description-item {
+            font-size: 1rem;
+            F
+        }
+
         .basic-background {
             background-color: rgb(10, 174, 151);
             /* border-radius: 10px 0px 0px 0px; */
@@ -1187,99 +1195,62 @@
                                 <div class="row row-cols-1 row-cols-md-2 g-4">
                                     <div class="col-12">
                                         <div class="col-md-12">
-                                            <img src="http://localhost:8000/addons/img/detailsProjet.jpg"
-                                                class="img-fluid" alt="..." />
+                                            <img src="http://localhost:8000/addons/img/icons_visuel.png" class="img-fluid"
+                                                style="margin: 3rem auto;" alt="..." />
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="card-body px-0">
-                                            <h3 class="card-title">Card title</h3>
-                                            <p class="card-text">
-
-
-                                                <li>visualvisualvisual et panneaux de chantier</li>
-                                                <li>Signalisations publicitaires</li>
-                                                <li>Drapeaux publicitaire</li>
-
-                                            </p>
+                                            <div class="industrie-content">
+                                                <div class="industrie-content-title text-start"> Avec GMC, vous faites le
+                                                    choix d’un
+                                                    bon support publicitaire pour être repéré en un coup d’œil : </div>
+                                                <div class=" text-start industrie-content-list">
+                                                    <div class="industrie-content-list-item">
+                                                        <ul
+                                                            style="  list-style-type: none; padding-left: 0 ;margin-top: 1rem;">
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #EB6409; font-size: 1rem ;"></i>
+                                                                Enseignes
+                                                                publicitaires
+                                                            </li>
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #EB6409; font-size: 1rem"></i> Panneaux
+                                                                signalétiques
+                                                            </li>
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #EB6409; font-size: 1rem"></i> Habillage
+                                                                et Marquage des véhicules
+                                                            </li>
+                                                            <li> <i class="fa-solid fa-check"
+                                                                    style="color: #EB6409; font-size: 1rem"></i>Totem
+                                                                publicitaire
+                                                            </li>
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #EB6409; font-size: 1rem"></i> Lettrage
+                                                                en relief
+                                                            </li>
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #EB6409; font-size: 1rem"></i> Palissades
+                                                                et panneaux de chantier
+                                                            </li>
+                                                            <li> <i class="fa-solid fa-check"
+                                                                    style="color: #EB6409; font-size: 1rem"></i>Signalisations
+                                                                publicitaires
+                                                            </li>
+                                                            <li> <i class="fa-solid fa-check"
+                                                                    style="color: #EB6409; font-size: 1rem"></i>Drapeaux
+                                                                publicitaires
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade available" id="nav-edit" role="tabpanel"
-                                aria-labelledby="nav-edit-tab">
-                                <div class="row row-cols-1 row-cols-md-2 g-4">
-                                    <div class="col-12">
-                                        <div class="col-md-12">
-                                            <img src="http://localhost:8000/addons/img/detailsProjet.jpg"
-                                                class="img-fluid" alt="..." />
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="card-body px-0">
-                                            <h3 class="card-title">Card title</h3>
-                                            <p class="card-text">
 
-                                                <li>enseignes pulicitaires</li>
-
-
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade available" id="nav-design" role="tabpanel"
-                                aria-labelledby="nav-design-tab">
-                                <div class="row row-cols-1 row-cols-md-2 g-4">
-                                    <div class="col-12">
-                                        <div class="col-md-12">
-                                            <img src="http://localhost:8000/addons/img/detailsProjet.jpg"
-                                                class="img-fluid" alt="..." />
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="card-body px-0">
-                                            <h3 class="card-title">Card title</h3>
-                                            <p class="card-text">
-
-                                                <li>enseignes pulicitaires</li>
-
-                                                <li>Drapeaux publicitaire</li>
-
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade available" id="nav-tech" role="tabpanel"
-                                aria-labelledby="nav-tech-tab">
-                                <div class="row row-cols-1 row-cols-md-2 g-4">
-                                    <div class="col-12">
-                                        <div class="col-md-12">
-                                            <img src="http://localhost:8000/addons/img/detailsProjet.jpg"
-                                                class="img-fluid" alt="..." />
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="card-body px-0">
-                                            <h3 class="card-title">Card title</h3>
-                                            <p class="card-text">
-
-                                                <li>enseignes ttttttttttttt</li>
-                                                <li> Panneaus signalétiques </li>
-                                                <li> Habillage alucobonde</li>
-                                                <li>Marquage véhicules</li>
-                                                <li>Totem publicitaire</li>
-                                                <li>Lettrage en relief</li>
-                                                <li>Palissades et panneaux de chantier</li>
-                                                <li>Signalisations publicitaires</li>
-                                                <li>Drapeaux publicitaire</li>
-
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
                         </div>
                     </div>
@@ -1298,6 +1269,7 @@
         document.getElementById('img-bg-header').style.margin = "0px";
     </script>
 
+    <script src="https://kit.fontawesome.com/8efc22d7af.js" crossorigin="anonymous"></script>
 
 
 @endsection
