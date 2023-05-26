@@ -1136,7 +1136,7 @@
                                     <div class="col-12">
                                         <div class="col-md-12">
                                             <img src="http://localhost:8000/addons/img/icons_visuel.png" class="img-fluid"
-                                                style="margin: 3rem auto;" alt="..." />
+                                               alt="..." />
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -1190,7 +1190,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="tab-pane fade available" id="nav-edit" role="tabpanel"
                                 aria-labelledby="nav-edit-tab">
 
@@ -1210,6 +1209,43 @@
 
 
                             </div>
+                            <div class="tab-pane fade available" id="nav-design" role="tabpanel"
+                            aria-labelledby="nav-design-tab">
+                            <div id="tag-5" class="desc_solutions r-tabs-panel r-tabs-state-active" style="display: block;text-align: initial;
+                            ">
+                                {{-- <center>
+                                    <span style="color: #484444;">Renvoyez une image professionnelle</span>
+                                </center> --}}
+                                <div class="row justify-content-center">
+                                    <h4 style="color: #936037; text-align: center">Solutions Aménagement &amp; Agencement</h4>
+
+                                    <div class="col col-md-5">
+                                        <img src="http://localhost:8000/addons/img/icons_design.png" alt="GMC Design" class="img-solutions img-fluid">
+                                    </div>
+                                </div>
+                                <br>
+                                <h4 style="color: #936037">Aménagement &amp; décoration de bureaux</h4>
+                                <p style="color: black">Proposition des services en décoration de bureaux d'entreprise, d'open space et tout autres bureaux professionnels que vous souhaitez redynamiser ou réaménager.</p>
+                                <p style="color: black">Objets chinés, meubles, stores, cadres muraux, faux plafond, adhésifs imprimés, papiers peints, parquets…, nous disposons de nombreuses solutions et de matériaux pour créer, ensemble, une décoration d'intérieure à votre image.</p>
+                                <h4 style="color: #936037">Agencement et organisation d'événement</h4>
+                                <p style="color: black">Pour que l'agencement de vos stands, corners, salons, congrès et séminaires soit un véritable succès, donner une image valorisante auprès de vos collaborateurs, partenaires ou clients, GMC vous apporte des idées, de savoir-faire en matière d'agencement et d'organisation d'événements, en prenant en charge le déroulement de l'événement depuis la logistique technique jusqu'à l'organisation complète.</p>
+                            </div>
+                            {{-- <div class="card-body text-dark">
+                                <h4 class="card-text" style="color: #49AD33">Vos références
+                                    professionnelles...</h4>
+                                <div class="row row-cols-1  g-4">
+                                    <div class="col-12">
+                                        <img src="http://localhost:8000/addons/img/gmc-edit-solution.jpg"
+                                            class="img-fluid" style="margin: 3rem auto;" alt="..." />
+                                    </div>
+
+                                </div>
+                            </div> --}}
+
+
+
+
+                        </div>
                         </div>
                     </div>
                 </div>
