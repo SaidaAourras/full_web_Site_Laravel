@@ -433,11 +433,10 @@
         <div class="container">
             <div class="row">
                 <div class="card bg-transparent text-center mb-4">
-                    <div class="card-body text-dark">
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content With
-                            supporting text below as a natural lead-in to additional content With supporting text below as a
-                            natural lead-in to additional content.</p>
-                    </div>
+                    {{-- <div class="card-body text-dark">
+                        <p class="card-text">Chez "GMC", nous nous engageons à offrir à chaque client une stratégie et des
+                            idées de création adaptées à leurs besoins. Nous sommes là pour donner vie à vos projets .</p>
+                    </div> --}}
                     <div class="card-header bg-transparent  merriweather fs-4">
                         <nav>
                             <div class="nav nav-tabs justify-content-center " id="nav-tab" role="tablist">
@@ -760,7 +759,7 @@
                             </div>
                             <div class="tab-pane fade available" id="nav-digital" role="tabpanel"
                                 aria-labelledby="nav-digital-tab">
-                                <h4 style="color: #E72787;margin:2.5rem 0">SSolutions Web & Réseaux Sociaux</h4>
+                                <h4 style="color: #E72787;margin:2.5rem 0">Solutions Web & Réseaux Sociaux</h4>
 
                                 <div class="">
                                     <div id="tag-2" class="desc_solutions r-tabs-panel r-tabs-state-active"
@@ -1142,13 +1141,14 @@
                                     <div class="col-12">
                                         <div class="card-body px-0">
                                             <div class="industrie-content">
-                                                <div class="industrie-content-title text-start"> Avec GMC, vous faites le
+                                                <div class="industrie-content-title text-start"
+                                                    style="color: black;font-size: 1.3rem"> Avec GMC, vous faites le
                                                     choix d’un
                                                     bon support publicitaire pour être repéré en un coup d’œil : </div>
                                                 <div class=" text-start industrie-content-list">
                                                     <div class="industrie-content-list-item">
                                                         <ul
-                                                            style="  list-style-type: none; padding-left: 0 ;margin-top: 1rem;">
+                                                            style="  list-style-type: none; padding-left: 0 ;margin-top: 1rem; color: black;font-size: 1.1rem">
                                                             <li><i class="fa-solid fa-check"
                                                                     style="color: #EB6409; font-size: 1rem ;"></i>
                                                                 Enseignes
@@ -1194,12 +1194,19 @@
                                 aria-labelledby="nav-edit-tab">
 
                                 <div class="card-body text-dark">
-                                    <h4 class="card-text" style="color: #49AD33">Vos références
+                                    <h4 class="card-text" style="color: #49AD33; margin-bottom: 6rem">Vos références
                                         professionnelles...</h4>
                                     <div class="row row-cols-1  g-4">
+                                        <a href="https://felem.ma/">
+                                            <img src="http://localhost:8000/addons/img/felem2023.png" alt=""
+                                                style="width: 30%; margin: auto">
+                                        </a>
+
                                         <div class="col-12">
-                                            <img src="http://localhost:8000/addons/img/gmc-edit-solution.jpg"
-                                                class="img-fluid" style="margin: 3rem auto;" alt="..." />
+                                            <a href="https://felem.ma/"><img
+                                                    src="http://localhost:8000/addons/img/gmc-edit-solution.jpg"
+                                                    class="img-fluid"alt="..." /></a>
+
                                         </div>
 
                                     </div>
@@ -1243,39 +1250,55 @@
                                 </div>
                             </div>
 
+
                             <div class="tab-pane fade available" id="nav-tech" role="tabpanel"
                                 aria-labelledby="nav-tech-tab">
-                                <div id="tag-6" style="text-align: initial" class="desc_solutions r-tabs-panel r-tabs-state-active"
-                                    style="display: block;">
-                                    <h4 style="color: #24388D; text-align: center">Solutions INFORMATIQUES</h4>
-
-                                  
-                                    <div class="row justify-content-center">
-                                        <div class="col col-md-5">
-                                            <img src="http://localhost:8000/addons/img/icons_tech.png" alt="GMC Tech" class="img-solutions img-fluid">
+                                <h4 style="color: #24388D; text-align: center;margin-bottom: 2rem">Solutions INFORMATIQUES
+                                </h4>
+                                <div class="row row-cols-1 row-cols-md-2 g-4">
+                                    <div class="col-12">
+                                        <div class="col col-md-12">
+                                            <img src="http://localhost:8000/addons/img/icons_tech.png" alt="GMC Tech"
+                                                class="img-solutions img-fluid" style="max-width: 80%">
                                         </div>
                                     </div>
-                                    <br>
-                                    <ul>
-                                        <li>Audit &amp; Consulting infrastructure et métier</li>
-                                        <li>Formations certifiées : Sécurité, Réseau, Système et Storage</li>
-                                        <li>Etude et accompagnement des projets SI – métier et infrastructure</li>
-                                        <li>Accompagnement à la transformation numérique (PE, MPE et MGE)</li>
-                                        <li>Mise en place des solutions métiers – négoce, finance, production et GTA (ERP,
-                                            FRP…)</li>
-                                        <li>Développement des solutions sur mesure</li>
-                                        <li>Mise en place des infrastructures informatiques physiques et virtuelles selon
-                                            les exigences et les normes IT</li>
-                                        <li>Conception et mise en place des solutions de reprise / continuité d’activité
-                                            (Local et Cloud)</li>
-                                        <li>Monitoring des infrastructures H24/7</li>
-                                        <li>Support qualifié : base de données, réseau, système et Storage</li>
-                                        <li>Service infogérance adapté aux besoins des clients</li>
-                                    </ul>
+                                    <div class="col-12">
+                                        <div class="card-body px-0">
+                                            <div class="industrie-content">
 
-
+                                                <div class=" text-start industrie-content-list">
+                                                    <div class="industrie-content-list-item">
+                                                        <ul style="color: black;font-size: 1rem;margin-top: 1.5rem">
+                                                            <li>Audit &amp; Consulting infrastructure et métier</li>
+                                                            <li>Formations certifiées : Sécurité, Réseau, Système et Storage
+                                                            </li>
+                                                            <li>Etude et accompagnement des projets SI – métier et
+                                                                infrastructure</li>
+                                                            <li>Accompagnement à la transformation numérique (PE, MPE et
+                                                                MGE)</li>
+                                                            <li>Mise en place des solutions métiers – négoce, finance,
+                                                                production et GTA (ERP,
+                                                                FRP…)</li>
+                                                            <li>Développement des solutions sur mesure</li>
+                                                            <li>Mise en place des infrastructures informatiques physiques et
+                                                                virtuelles selon
+                                                                les exigences et les normes IT</li>
+                                                            <li>Conception et mise en place des solutions de reprise /
+                                                                continuité d’activité
+                                                                (Local et Cloud)</li>
+                                                            <li>Monitoring des infrastructures H24/7</li>
+                                                            <li>Support qualifié : base de données, réseau, système et
+                                                                Storage</li>
+                                                            <li>Service infogérance adapté aux besoins des clients</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+
 
 
                         </div>
