@@ -198,6 +198,196 @@
             margin-top: 2rem
         }
 
+        .box-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 10px;
+        }
+
+        .card-box {
+            float: left;
+            font-size: 1.2em;
+            margin: 1% 0 0 1%;
+            perspective: 800px;
+            transition: all 0.3s ease 0s;
+        }
+
+        .card-box:hover .card-package {
+            transform: rotateY(180deg);
+        }
+
+        .card-box .card-package {
+            cursor: default;
+            height: 200px;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            transform-style: preserve-3d;
+            transition: transform 0.4s ease 0s;
+            width: 100%;
+            -webkit-animation: giro 1s 1;
+            animation: giro 1s 1;
+        }
+
+        .card-box .card-package .front,
+        .card-box .card-package .back {
+            backface-visibility: hidden;
+            box-sizing: border-box;
+            color: white;
+            display: block;
+            height: 100%;
+            border-radius: 5px;
+            padding: 0.2rem 2rem 1rem 2rem;
+            position: absolute;
+            width: 100%;
+        }
+
+        .card-box .card-package .back {
+            transform: rotateY(180deg);
+        }
+
+        .card-box:nth-child(2) .card-package {
+            -webkit-animation: giro 1.5s 1;
+            animation: giro 1.5s 1;
+        }
+
+        .card-box:nth-child(3) .card-package {
+            -webkit-animation: giro 2s 1;
+            animation: giro 2s 1;
+        }
+
+        .card-box:nth-child(4) .card-package {
+            -webkit-animation: giro 2.5s 1;
+            animation: giro 2.5s 1;
+        }
+
+        @-webkit-keyframes giro {
+            from {
+                transform: rotateY(180deg);
+            }
+
+            to {
+                transform: rotateY(0deg);
+            }
+        }
+
+        @keyframes giro {
+            from {
+                transform: rotateY(180deg);
+            }
+
+            to {
+                transform: rotateY(0deg);
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .card-box {
+                margin-left: 2.8%;
+                margin-top: 3%;
+                width: 46%;
+            }
+
+            .card-box .card-package {
+                height: 285px;
+            }
+
+            .card-box:last-child {
+                margin-bottom: 3%;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .card-box {
+                width: 94.5%;
+            }
+
+            .card-box .card-package {
+                height: 260px;
+            }
+        }
+
+        /* colors */
+        .package-start {
+            color: rgb(215, 129, 10)
+        }
+
+        .package-presence {
+            color: rgb(159, 182, 8)
+        }
+
+        .package-essentiel {
+            color: rgb(11, 92, 156)
+        }
+
+        .package-ecommerce {
+            color: rgb(117, 63, 25)
+        }
+
+        .package-background-start {
+            background-color: rgb(215, 129, 10)
+        }
+
+        .package-background-presence {
+            background-color: rgb(159, 182, 8)
+        }
+
+        .package-background-essentiel {
+            background-color: rgb(11, 92, 156)
+        }
+
+        .package-background-ecommerce {
+            background-color: rgb(117, 63, 25)
+        }
+
+        .package-container {
+            position: absolute;
+            right: 15px;
+            top: 70px;
+        }
+
+        .package-container .package-web-pack {
+            font-family: 'Nunito', sans-serif;
+            font-size: small;
+        }
+
+        .package-container .package-title {
+            font-family: 'Nunito', sans-serif;
+            font-size: large;
+            text-transform: uppercase;
+        }
+
+        .package-container .package-description {
+            font-family: 'Nunito', sans-serif;
+            font-size: small;
+        }
+
+        .package-container-back {
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .package-container-back .package-back-title {
+            font-family: 'Nunito', sans-serif;
+            text-transform: uppercase;
+        }
+
+        .package-container-back .package-back-description {
+            font-family: 'Nunito', sans-serif;
+            font-size: 0.7rem;
+            text-align: initial;
+
+        }
+
+        .package-container-back .package-back-list {
+            font-family: 'Nunito', sans-serif;
+            margin-top: 10px;
+        }
+
+        .package-container-back .package-back-list-item {
+            font-family: 'Nunito', sans-serif;
+            font-size: small;
+            text-align: initial
+        }
+
         @media only screen and (max-width: 600px) {
             .solution-web {
                 grid-template-columns: 1fr;
@@ -206,6 +396,34 @@
             .r-tabs .r-tabs-nav {
                 display: none !important;
             }
+
+        }
+
+        @media only screen and (max-width: 992px) {
+            .offre-list {
+                grid-template-columns: 1fr;
+            }
+
+            #solution-web {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 10px;
+                padding: 2rem 0 0 0;
+            }
+
+            .card-box .card-package .front,
+            .card-box .card-package .back {
+                backface-visibility: hidden;
+                box-sizing: border-box;
+                color: white;
+                display: block;
+                height: 100%;
+                border-radius: 5px;
+                padding: 1.2rem 2rem 1rem 2rem;
+                position: absolute;
+                width: 100%;
+            }
+
         }
     </style>
 
@@ -258,48 +476,7 @@
                         <div class="tab-content" id="nav-tabContent">
                             <div class="tab-pane fade show active" id="nav-print" role="tabpanel"
                                 aria-labelledby="nav-print-tab">
-                                {{-- <div class="row row-cols-1 row-cols-md-3 g-4">
-                                    <div class="col">
-                                        <div class="card h-100">
-                                            <div class="card-body">
-                                                <h5 class="card-title">IDENTITE VISUELLE</h5>
-                                                <ul>
-                                                    <li class="list-group-item">LOGOTYPE</li>
-                                                    <li class="list-group-item"> iDENTITE VISUELLE</li>
-                                                    <li class="list-group-item">CHARTE GRPHIQUE</li>
-                                                    <li class="list-group-item">CONCEPTION ET CREATION </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card h-100">
-                                            <div class="card-body py-5">
-                                                <h5 class="card-title">OBJETS & TEXTILES</h5>
-                                                <ul>
-                                                    <li class="list-group-item">SIGNALISATION PAR OBJET</li>
-                                                    <li class="list-group-item"> TEXTILES PUBLICITAIRE</li>
-                                                    <li class="list-group-item">SUBLIMATION</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card h-100">
-                                            <div class="card-body">
-                                                <h5 class="card-title">IMRESSION OFFSET & NUMERIQUE</h5>
-                                                <ul>
-                                                    <li class="list-group-item">BROCHURES</li>
-                                                    <li class="list-group-item"> DEPLIANTS </li>
-                                                    <li class="list-group-item"> PAPTIER ENTETE</li>
-                                                    <li class="list-group-item">AFFICHES</li>
-                                                    <li class="list-group-item">PROSPECTUS</li>
-                                                    <li class="list-group-item">AUTOCOLLANTS</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> --}}
+
 
                                 <div id="solution-pubs" class="solution-web">
                                     <div class="solution-web-card noselect">
@@ -600,7 +777,7 @@
                                                     <div class="card">
                                                         <div class="card-body basic-background">
                                                             <div class="offre-title">
-                                                                <i ></i>
+                                                                <i></i>
                                                                 BASIC
                                                             </div>
                                                             <div class="offre-description">
@@ -620,7 +797,7 @@
                                                     <div class="card">
                                                         <div class="card-body basic-background">
                                                             <div class="offre-title">
-                                                                 details
+                                                                details
                                                             </div>
                                                             <div class="offre-description">
                                                                 <div class="offre-description-item">
@@ -644,7 +821,7 @@
                                                     <div class="card">
                                                         <div class="card-body standar-background">
                                                             <div class="offre-title">
-                                                                <i ></i>
+                                                                <i></i>
                                                                 STANDAR
                                                             </div>
                                                             <div class="offre-description">
@@ -664,7 +841,7 @@
                                                     <div class="card">
                                                         <div class="card-body standar-background">
                                                             <div class="offre-title">
-                                                                 details
+                                                                details
                                                             </div>
                                                             <div class="offre-description">
                                                                 <div class="offre-description-item">
@@ -685,7 +862,7 @@
                                                     <div class="card">
                                                         <div class="card-body premium-background">
                                                             <div class="offre-title">
-                                                                <i ></i>
+                                                                <i></i>
                                                                 PREMIUM
                                                             </div>
                                                             <div class="offre-description">
@@ -705,7 +882,7 @@
                                                     <div class="card">
                                                         <div class="card-body premium-background">
                                                             <div class="offre-title">
-                                                                 details
+                                                                details
                                                             </div>
                                                             <div class="offre-description">
                                                                 <div class="offre-description-item">
@@ -726,7 +903,7 @@
                                                     <div class="card">
                                                         <div class="card-body gold-background">
                                                             <div class="offre-title">
-                                                                <i ></i>
+                                                                <i></i>
                                                                 GOLD
                                                             </div>
                                                             <div class="offre-description">
@@ -746,7 +923,7 @@
                                                     <div class="card">
                                                         <div class="card-body gold-background">
                                                             <div class="offre-title">
-                                                                 details
+                                                                details
                                                             </div>
                                                             <div class="offre-description">
                                                                 <div class="offre-description-item">
@@ -767,7 +944,7 @@
                                                     <div class="card">
                                                         <div class="card-body platinium-background">
                                                             <div class="offre-title">
-                                                                <i ></i>
+                                                                <i></i>
                                                                 PLATINIUM
                                                             </div>
                                                             <div class="offre-description">
@@ -787,7 +964,7 @@
                                                     <div class="card">
                                                         <div class="card-body platinium-background">
                                                             <div class="offre-title">
-                                                                 details
+                                                                details
                                                             </div>
                                                             <div class="offre-description">
                                                                 <div class="offre-description-item">
@@ -807,197 +984,7 @@
                                         <h3
                                             style="text-align: initial;color: #6D8299;font-family:'Nunito', sans-serif;font-size: 1.5rem; margin-top: 3rem; margin-bottom: 1rem;">
                                             Packs Site Web</h3>
-                                        <style>
-                                            .box-container {
-                                                display: grid;
-                                                grid-template-columns: 1fr 1fr 1fr 1fr;
-                                                grid-gap: 10px;
-                                            }
 
-                                            .card-box {
-                                                float: left;
-                                                font-size: 1.2em;
-                                                margin: 1% 0 0 1%;
-                                                perspective: 800px;
-                                                transition: all 0.3s ease 0s;
-                                            }
-
-                                            .card-box:hover .card-package {
-                                                transform: rotateY(180deg);
-                                            }
-
-                                            .card-box .card-package {
-                                                cursor: default;
-                                                height: 200px;
-                                                border-radius: 5px;
-                                                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-                                                transform-style: preserve-3d;
-                                                transition: transform 0.4s ease 0s;
-                                                width: 100%;
-                                                -webkit-animation: giro 1s 1;
-                                                animation: giro 1s 1;
-                                            }
-
-                                            .card-box .card-package .front,
-                                            .card-box .card-package .back {
-                                                backface-visibility: hidden;
-                                                box-sizing: border-box;
-                                                color: white;
-                                                display: block;
-                                                height: 100%;
-                                                border-radius: 5px;
-                                                padding: 0.2rem 2rem 1rem 2rem;
-                                                position: absolute;
-                                                width: 100%;
-                                            }
-
-                                            .card-box .card-package .back {
-                                                transform: rotateY(180deg);
-                                            }
-
-                                            .card-box:nth-child(2) .card-package {
-                                                -webkit-animation: giro 1.5s 1;
-                                                animation: giro 1.5s 1;
-                                            }
-
-                                            .card-box:nth-child(3) .card-package {
-                                                -webkit-animation: giro 2s 1;
-                                                animation: giro 2s 1;
-                                            }
-
-                                            .card-box:nth-child(4) .card-package {
-                                                -webkit-animation: giro 2.5s 1;
-                                                animation: giro 2.5s 1;
-                                            }
-
-                                            @-webkit-keyframes giro {
-                                                from {
-                                                    transform: rotateY(180deg);
-                                                }
-
-                                                to {
-                                                    transform: rotateY(0deg);
-                                                }
-                                            }
-
-                                            @keyframes giro {
-                                                from {
-                                                    transform: rotateY(180deg);
-                                                }
-
-                                                to {
-                                                    transform: rotateY(0deg);
-                                                }
-                                            }
-
-                                            @media screen and (max-width: 767px) {
-                                                .card-box {
-                                                    margin-left: 2.8%;
-                                                    margin-top: 3%;
-                                                    width: 46%;
-                                                }
-
-                                                .card-box .card-package {
-                                                    height: 285px;
-                                                }
-
-                                                .card-box:last-child {
-                                                    margin-bottom: 3%;
-                                                }
-                                            }
-
-                                            @media screen and (max-width: 480px) {
-                                                .card-box {
-                                                    width: 94.5%;
-                                                }
-
-                                                .card-box .card-package {
-                                                    height: 260px;
-                                                }
-                                            }
-
-                                            /* colors */
-                                            .package-start {
-                                                color: rgb(215, 129, 10)
-                                            }
-
-                                            .package-presence {
-                                                color: rgb(159, 182, 8)
-                                            }
-
-                                            .package-essentiel {
-                                                color: rgb(11, 92, 156)
-                                            }
-
-                                            .package-ecommerce {
-                                                color: rgb(117, 63, 25)
-                                            }
-
-                                            .package-background-start {
-                                                background-color: rgb(215, 129, 10)
-                                            }
-
-                                            .package-background-presence {
-                                                background-color: rgb(159, 182, 8)
-                                            }
-
-                                            .package-background-essentiel {
-                                                background-color: rgb(11, 92, 156)
-                                            }
-
-                                            .package-background-ecommerce {
-                                                background-color: rgb(117, 63, 25)
-                                            }
-
-                                            .package-container {
-                                                position: absolute;
-                                                right: 15px;
-                                                top: 70px;
-                                            }
-
-                                            .package-container .package-web-pack {
-                                                font-family: 'Nunito', sans-serif;
-                                                font-size: small;
-                                            }
-
-                                            .package-container .package-title {
-                                                font-family: 'Nunito', sans-serif;
-                                                font-size: large;
-                                                text-transform: uppercase;
-                                            }
-
-                                            .package-container .package-description {
-                                                font-family: 'Nunito', sans-serif;
-                                                font-size: small;
-                                            }
-
-                                            .package-container-back {
-                                                font-family: 'Nunito', sans-serif;
-                                            }
-
-                                            .package-container-back .package-back-title {
-                                                font-family: 'Nunito', sans-serif;
-                                                text-transform: uppercase;
-                                            }
-
-                                            .package-container-back .package-back-description {
-                                                font-family: 'Nunito', sans-serif;
-                                                font-size: 0.7rem;
-                                                text-align: initial;
-
-                                            }
-
-                                            .package-container-back .package-back-list {
-                                                font-family: 'Nunito', sans-serif;
-                                                margin-top: 10px;
-                                            }
-
-                                            .package-container-back .package-back-list-item {
-                                                font-family: 'Nunito', sans-serif;
-                                                font-size: small;
-                                                text-align: initial
-                                            }
-                                        </style>
                                         <div id="solution-web" class="box-container">
                                             <div class="card-box">
                                                 <div class="card-package">
@@ -1103,7 +1090,7 @@
                                             </div>
                                             <div class="card-box">
                                                 <div class="card-package">
-                                                    <div class="front package-background-ecommerce"
+                                                    <div id="mobile" class="front package-background-ecommerce"
                                                         style="background-image: url(&quot;http://localhost:8000/addons/img/web-ecommerce.png&quot;); background-repeat: no-repeat; background-size: 160px;">
                                                         <div class="package-container">
                                                             <div class="package-web-pack"> Web Pack </div>
@@ -1135,58 +1122,7 @@
                                             </div>
                                         </div>
 
-                                        <script>
-                                            var web = new Vue({
-                                                el: '#solution-web',
-                                                data: {
-                                                    list: {
-                                                        start: {
-                                                            title: 'star',
-                                                            type: 'dynamique',
-                                                            description: 'Pour site internet de présentation, Notre offre pour petit budget sans sacrifier la qualité. Tout est inclus dans ce Pack Web pour la création d’un site internet vitrine.',
-                                                            content: {
-                                                                item1: '4 pages web',
-                                                                item2: 'hébergement',
-                                                                item3: 'nom de domaine au choix',
-                                                            }
-                                                        },
-                                                        presence: {
-                                                            title: 'presence',
-                                                            type: 'dynamique',
-                                                            description: 'Pour site internet vitrine design percutant spécifique à votre image, ergonomie soignée. Le Pack Présence est la solution par excellence',
-                                                            content: {
-                                                                item1: 'jusqu\'a 10 pages web',
-                                                                item2: 'hébergement',
-                                                                item3: 'nom de domaine au choix',
-                                                                item4: 'Pages et functions supplémentaires',
-                                                            }
-                                                        },
-                                                        essentiel: {
-                                                            title: 'essentiel',
-                                                            type: 'dynamique',
-                                                            description: 'Pour site internet administrable en complément de la création de site web. Une interface simple et sécurisée vous permettra de mettre à jour votre site web',
-                                                            content: {
-                                                                item1: 'Pages web illimitées',
-                                                                item2: 'Back office et nom de domaine',
-                                                                item3: 'Pages et functions supplémentaires',
-                                                                item4: 'Réferencement naturelle, hébergement ...',
-                                                            }
-                                                        },
-                                                        ecommerce: {
-                                                            title: 'e-commerce',
-                                                            type: 'dynamique',
-                                                            description: 'Votre boutique en ligne complète et efficace, le Pack e-Commerce comprend l’ensemble des fonctionnalités nécessaires pour le succès de la vente en ligne.',
-                                                            content: {
-                                                                item1: 'Pages web illimitées',
-                                                                item2: 'Module de vente et paiement en ligne',
-                                                                item3: 'Gestion de boutique',
-                                                                item3: 'Gestion des commandes et des clients ...',
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            });
-                                        </script>
+
                                     </div>
                                 </div>
                             </div>
@@ -1251,15 +1187,82 @@
                                 </div>
                             </div>
 
+                            <div class="tab-pane fade available" id="nav-edit" role="tabpanel"
+                                aria-labelledby="nav-edit-tab">
+                                <div class="card-body text-dark">
+                                    <h4 class="card-text" style="color: #000000;margin-top: 2.5rem">Vos références professionnelles...</h4>
+                                    <div class="row row-cols-1  g-4">
+                                        <div class="col-12">
+                                                <img src="http://localhost:8000/addons/img/gmc-edit-solution.jpg"
+                                                    class="img-fluid" style="margin: 3rem auto;" alt="..." />
+                                        </div>
 
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     {{-- vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv --}}
+    <script>
+        var web = new Vue({
+            el: '#solution-web',
+            data: {
+                list: {
+                    start: {
+                        title: 'star',
+                        type: 'dynamique',
+                        description: 'Pour site internet de présentation, Notre offre pour petit budget sans sacrifier la qualité. Tout est inclus dans ce Pack Web pour la création d’un site internet vitrine.',
+                        content: {
+                            item1: '4 pages web',
+                            item2: 'hébergement',
+                            item3: 'nom de domaine au choix',
+                        }
+                    },
+                    presence: {
+                        title: 'presence',
+                        type: 'dynamique',
+                        description: 'Pour site internet vitrine design percutant spécifique à votre image, ergonomie soignée. Le Pack Présence est la solution par excellence',
+                        content: {
+                            item1: 'jusqu\'a 10 pages web',
+                            item2: 'hébergement',
+                            item3: 'nom de domaine au choix',
+                            item4: 'Pages et functions supplémentaires',
+                        }
+                    },
+                    essentiel: {
+                        title: 'essentiel',
+                        type: 'dynamique',
+                        description: 'Pour site internet administrable en complément de la création de site web. Une interface simple et sécurisée vous permettra de mettre à jour votre site web',
+                        content: {
+                            item1: 'Pages web illimitées',
+                            item2: 'Back office et nom de domaine',
+                            item3: 'Pages et functions supplémentaires',
+                            item4: 'Réferencement naturelle, hébergement ...',
+                        }
+                    },
+                    ecommerce: {
+                        title: 'e-commerce',
+                        type: 'dynamique',
+                        description: 'Votre boutique en ligne complète et efficace, le Pack e-Commerce comprend l’ensemble des fonctionnalités nécessaires pour le succès de la vente en ligne.',
+                        content: {
+                            item1: 'Pages web illimitées',
+                            item2: 'Module de vente et paiement en ligne',
+                            item3: 'Gestion de boutique',
+                            item3: 'Gestion des commandes et des clients ...',
+                        }
+                    }
+                }
+            }
+        });
+    </script>
     <script>
         const element = document.getElementById("chnageTitle");
         element.innerHTML = "Solution ";
