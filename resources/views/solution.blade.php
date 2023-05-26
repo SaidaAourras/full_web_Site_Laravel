@@ -1136,7 +1136,7 @@
                                     <div class="col-12">
                                         <div class="col-md-12">
                                             <img src="http://localhost:8000/addons/img/icons_visuel.png" class="img-fluid"
-                                               alt="..." />
+                                                alt="..." />
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -1210,42 +1210,74 @@
 
                             </div>
                             <div class="tab-pane fade available" id="nav-design" role="tabpanel"
-                            aria-labelledby="nav-design-tab">
-                            <div id="tag-5" class="desc_solutions r-tabs-panel r-tabs-state-active" style="display: block;text-align: initial;
-                            ">
-                                {{-- <center>
+                                aria-labelledby="nav-design-tab">
+                                <div id="tag-5" class="desc_solutions r-tabs-panel r-tabs-state-active"
+                                    style="display: block;text-align: initial;">
+                                    {{-- <center>
                                     <span style="color: #484444;">Renvoyez une image professionnelle</span>
                                 </center> --}}
-                                <div class="row justify-content-center">
-                                    <h4 style="color: #936037; text-align: center">Solutions Aménagement &amp; Agencement</h4>
+                                    <div class="row justify-content-center">
+                                        <h4 style="color: #936037; text-align: center">Solutions Aménagement &amp;
+                                            Agencement</h4>
 
-                                    <div class="col col-md-5">
-                                        <img src="http://localhost:8000/addons/img/icons_design.png" alt="GMC Design" class="img-solutions img-fluid">
+                                        <div class="col col-md-5">
+                                            <img src="http://localhost:8000/addons/img/icons_design.png" alt="GMC Design"
+                                                class="img-solutions img-fluid">
+                                        </div>
                                     </div>
+                                    <br>
+                                    <h4 style="color: #936037">Aménagement &amp; décoration de bureaux</h4>
+                                    <p style="color: black">Proposition des services en décoration de bureaux d'entreprise,
+                                        d'open space et tout autres bureaux professionnels que vous souhaitez redynamiser ou
+                                        réaménager.</p>
+                                    <p style="color: black">Objets chinés, meubles, stores, cadres muraux, faux plafond,
+                                        adhésifs imprimés, papiers peints, parquets…, nous disposons de nombreuses solutions
+                                        et de matériaux pour créer, ensemble, une décoration d'intérieure à votre image.</p>
+                                    <h4 style="color: #936037">Agencement et organisation d'événement</h4>
+                                    <p style="color: black">Pour que l'agencement de vos stands, corners, salons, congrès
+                                        et séminaires soit un véritable succès, donner une image valorisante auprès de vos
+                                        collaborateurs, partenaires ou clients, GMC vous apporte des idées, de savoir-faire
+                                        en matière d'agencement et d'organisation d'événements, en prenant en charge le
+                                        déroulement de l'événement depuis la logistique technique jusqu'à l'organisation
+                                        complète.</p>
                                 </div>
-                                <br>
-                                <h4 style="color: #936037">Aménagement &amp; décoration de bureaux</h4>
-                                <p style="color: black">Proposition des services en décoration de bureaux d'entreprise, d'open space et tout autres bureaux professionnels que vous souhaitez redynamiser ou réaménager.</p>
-                                <p style="color: black">Objets chinés, meubles, stores, cadres muraux, faux plafond, adhésifs imprimés, papiers peints, parquets…, nous disposons de nombreuses solutions et de matériaux pour créer, ensemble, une décoration d'intérieure à votre image.</p>
-                                <h4 style="color: #936037">Agencement et organisation d'événement</h4>
-                                <p style="color: black">Pour que l'agencement de vos stands, corners, salons, congrès et séminaires soit un véritable succès, donner une image valorisante auprès de vos collaborateurs, partenaires ou clients, GMC vous apporte des idées, de savoir-faire en matière d'agencement et d'organisation d'événements, en prenant en charge le déroulement de l'événement depuis la logistique technique jusqu'à l'organisation complète.</p>
                             </div>
-                            {{-- <div class="card-body text-dark">
-                                <h4 class="card-text" style="color: #49AD33">Vos références
-                                    professionnelles...</h4>
-                                <div class="row row-cols-1  g-4">
-                                    <div class="col-12">
-                                        <img src="http://localhost:8000/addons/img/gmc-edit-solution.jpg"
-                                            class="img-fluid" style="margin: 3rem auto;" alt="..." />
+
+                            <div class="tab-pane fade available" id="nav-tech" role="tabpanel"
+                                aria-labelledby="nav-tech-tab">
+                                <div id="tag-6" style="text-align: initial" class="desc_solutions r-tabs-panel r-tabs-state-active"
+                                    style="display: block;">
+                                    <h4 style="color: #24388D; text-align: center">Solutions INFORMATIQUES</h4>
+
+                                  
+                                    <div class="row justify-content-center">
+                                        <div class="col col-md-5">
+                                            <img src="http://localhost:8000/addons/img/icons_tech.png" alt="GMC Tech" class="img-solutions img-fluid">
+                                        </div>
                                     </div>
+                                    <br>
+                                    <ul>
+                                        <li>Audit &amp; Consulting infrastructure et métier</li>
+                                        <li>Formations certifiées : Sécurité, Réseau, Système et Storage</li>
+                                        <li>Etude et accompagnement des projets SI – métier et infrastructure</li>
+                                        <li>Accompagnement à la transformation numérique (PE, MPE et MGE)</li>
+                                        <li>Mise en place des solutions métiers – négoce, finance, production et GTA (ERP,
+                                            FRP…)</li>
+                                        <li>Développement des solutions sur mesure</li>
+                                        <li>Mise en place des infrastructures informatiques physiques et virtuelles selon
+                                            les exigences et les normes IT</li>
+                                        <li>Conception et mise en place des solutions de reprise / continuité d’activité
+                                            (Local et Cloud)</li>
+                                        <li>Monitoring des infrastructures H24/7</li>
+                                        <li>Support qualifié : base de données, réseau, système et Storage</li>
+                                        <li>Service infogérance adapté aux besoins des clients</li>
+                                    </ul>
+
 
                                 </div>
-                            </div> --}}
+                            </div>
 
 
-
-
-                        </div>
                         </div>
                     </div>
                 </div>
