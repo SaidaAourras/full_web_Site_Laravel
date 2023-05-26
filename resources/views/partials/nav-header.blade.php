@@ -1,7 +1,7 @@
 <div class="container-fluid position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
         <div class="container">
-            <a href="/index" class="navbar-brand p-0">
+            <a href="/home" class="navbar-brand p-0">
                 <img style="width: 10rem;" class="m-0" src="http://localhost:8000/addons/img/logo-GMC.svg"
                     alt="">
             </a>
@@ -10,7 +10,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="/index" class="nav-item nav-link active">Accueil</a>
+                    <a href="/home" class="nav-item nav-link active">Accueil</a>
                     <a href="/about" class="nav-item nav-link">À propos </a>
                     <a href="/solutions" class="nav-item nav-link">Solutions</a>
                     <a href="/portfolio" class="nav-item nav-link">Portfolio</a>

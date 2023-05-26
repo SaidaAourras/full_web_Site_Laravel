@@ -21,7 +21,7 @@
 
             <nav class="cc-navbar navbar navbar-expand-lg position-fixed navbar-dark w-100">
                 <div class="container-fluid">
-                  <a class="navbar-brand text-uppercase fw-bolder mx-3 py-3" href="/index"> 
+                  <a class="navbar-brand text-uppercase fw-bolder mx-3 py-3" href="/home"> 
                     <img style="width: 10rem;" class="m-0" src="addons/img/logo-GMC.svg" alt="">
                 </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 

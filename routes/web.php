@@ -21,7 +21,7 @@ use App\Models\Project;
 
 
 //home page
-Route::get('/index', function () {
+Route::get('/home', function () {
     $references = Reference::all();
     $blogs = Blog::latest()->paginate(3);
     return view('index')->with([

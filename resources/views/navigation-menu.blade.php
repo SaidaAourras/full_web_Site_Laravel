@@ -7,7 +7,7 @@
 
 
                 <div class="shrink-0 flex items-center">
-                    <a class="navbar-brand text-uppercase fw-bolder mx-3 py-3" href="/index"> 
+                    <a class="navbar-brand text-uppercase fw-bolder mx-3 py-3" href="/home"> 
                         <img style="width: 10rem;" class="m-0" src="addons/img/logo-GMC.svg" alt="">
                     </a>
                     <a  id="displaynone1" class="nav-link active" aria-current="page" href="/"

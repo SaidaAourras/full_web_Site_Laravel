@@ -206,7 +206,7 @@
                         <h4 class="mb-3" style="color: #009FE3;">Solutions Print & Publicité</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
+                        <a class="btn btn-lg btn-primary rounded" href="solutions">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -222,7 +222,7 @@
                         <h4 class="mb-3" style="color: #E72787;">Solutions Web & Réseaux Sociaux</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
+                        <a class="btn btn-lg btn-primary rounded" href="solutions">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -238,7 +238,7 @@
                         <h4 class="mb-3" style="color: #EB6409;">Solutions Publicité industrielle</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
+                        <a class="btn btn-lg btn-primary rounded" href="solutions">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -253,7 +253,7 @@
                         <h4 class="mb-3" style="color: #49AD33;">Solutions EDITION</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
+                        <a class="btn btn-lg btn-primary rounded" href="solutions">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -269,7 +269,7 @@
                         <h4 class="mb-3" style="color: #936037;">Solutions Aménagement & Agencement</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
+                        <a class="btn btn-lg btn-primary rounded" href="solutions">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -284,7 +284,7 @@
                         <h4 class="mb-3" style="color: #24388D;">Solutions INFORMATIQUES</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
+                        <a class="btn btn-lg btn-primary rounded" href="solutions">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -309,7 +309,7 @@
                     unes de nos dernières réalisations. Nous serions ravis que vous en ferez partie...</h6>
             </div>
             <div class="row">
-              
+
                 <div class="col-sm-4">
                     <div class="img-wrapper">
                         <img src="addons/img/folio-1.jpg"
@@ -462,37 +462,37 @@
                 <h5 class="fw-bold text-primary text-uppercase">DERNIER BLOG</h5>
                 <h3 class="mb-0">Lisez les derniers articles de notre article de blog</h3>
             </div>
-            
+
             <div class="row g-5">
-                
+
                 @foreach ($blogs as $blog)
-                
-                <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s"
-                    style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('./image_blog/'.$blog->image)}}" alt="">
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>{{$blog->created_at}}</small>
+                    <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s"
+                        style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
+                        <div class="blog-item bg-light rounded overflow-hidden">
+                            <div class="blog-img position-relative overflow-hidden">
+                                <img class="img-fluid" src="{{ asset('./image_blog/' . $blog->image) }}" alt="">
                             </div>
-                            <h4 class="mb-3">{{$blog->title_two}}</h4>
-                            <p>{{$blog->title}}</p>
-                            <a class="text-uppercase" href="{{route('blogProjet', $blog->title)}}">Read More <i
-                                    class="bi bi-arrow-right"></i></a>
+                            <div class="p-4">
+                                <div class="d-flex mb-3">
+
+                                    <small><i
+                                            class="far fa-calendar-alt text-primary me-2"></i>{{ $blog->created_at }}</small>
+                                </div>
+                                <h4 class="mb-3">{{ $blog->title_two }}</h4>
+                                <p>{{ $blog->title }}</p>
+                                <a class="text-uppercase" href="{{ route('blogProjet', $blog->title) }}">Read More <i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
                 @endforeach
                 <a style="text-decoration:none" href="/blog" class=" py-3 px-4 color-primary text-center"
-                data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">Voir
-                plus</a>
+                    data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">Voir
+                    plus</a>
             </div>
         </div>
     </div>
     <!-- Blog Start -->
 
-    
+
 @endsection
