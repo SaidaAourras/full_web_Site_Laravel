@@ -1268,28 +1268,28 @@
 
                                                 <div class=" text-start industrie-content-list">
                                                     <div class="industrie-content-list-item">
-                                                        <ul style="color: black;font-size: 1rem;margin-top: 1.5rem">
-                                                            <li>Audit &amp; Consulting infrastructure et métier</li>
-                                                            <li>Formations certifiées : Sécurité, Réseau, Système et Storage
+                                                        <ul style="color: black;font-size: 1rem;margin-top: 1.5rem; list-style: none;">
+                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Audit &amp; Consulting infrastructure et métier</li>
+                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Formations certifiées : Sécurité, Réseau, Système et Storage
                                                             </li>
-                                                            <li>Etude et accompagnement des projets SI – métier et
+                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Etude et accompagnement des projets SI – métier et
                                                                 infrastructure</li>
-                                                            <li>Accompagnement à la transformation numérique (PE, MPE et
+                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Accompagnement à la transformation numérique (PE, MPE et
                                                                 MGE)</li>
-                                                            <li>Mise en place des solutions métiers – négoce, finance,
+                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Mise en place des solutions métiers – négoce, finance,
                                                                 production et GTA (ERP,
                                                                 FRP…)</li>
-                                                            <li>Développement des solutions sur mesure</li>
-                                                            <li>Mise en place des infrastructures informatiques physiques et
+                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Développement des solutions sur mesure</li>
+                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Mise en place des infrastructures informatiques physiques et
                                                                 virtuelles selon
                                                                 les exigences et les normes IT</li>
-                                                            <li>Conception et mise en place des solutions de reprise /
+                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Conception et mise en place des solutions de reprise /
                                                                 continuité d’activité
                                                                 (Local et Cloud)</li>
-                                                            <li>Monitoring des infrastructures H24/7</li>
-                                                            <li>Support qualifié : base de données, réseau, système et
+                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Monitoring des infrastructures H24/7</li>
+                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Support qualifié : base de données, réseau, système et
                                                                 Storage</li>
-                                                            <li>Service infogérance adapté aux besoins des clients</li>
+                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Service infogérance adapté aux besoins des clients</li>
                                                         </ul>
                                                     </div>
                                                 </div>
