@@ -477,7 +477,7 @@
                             <div class="tab-pane fade show active" id="nav-print" role="tabpanel"
                                 aria-labelledby="nav-print-tab">
 
-
+                                <h4 style="color: #009FE3;margin:2.5rem 0">Solutions Print &amp; Publicité</h4>
                                 <div id="solution-pubs" class="solution-web">
                                     <div class="solution-web-card noselect">
                                         <div class="solution-web-card-header">
@@ -760,6 +760,8 @@
                             </div>
                             <div class="tab-pane fade available" id="nav-digital" role="tabpanel"
                                 aria-labelledby="nav-digital-tab">
+                                <h4 style="color: #E72787;margin:2.5rem 0">SSolutions Web & Réseaux Sociaux</h4>
+
                                 <div class="">
                                     <div id="tag-2" class="desc_solutions r-tabs-panel r-tabs-state-active"
                                         style="display: block;">
@@ -1128,6 +1130,8 @@
                             </div>
                             <div class="tab-pane fade available" id="nav-visual" role="tabpanel"
                                 aria-labelledby="nav-visual-tab">
+                                <h4 style="color: #EB6409;margin:2.5rem 0">Solutions Publicité industrielle</h4>
+
                                 <div class="row row-cols-1 row-cols-md-2 g-4">
                                     <div class="col-12">
                                         <div class="col-md-12">
@@ -1189,12 +1193,14 @@
 
                             <div class="tab-pane fade available" id="nav-edit" role="tabpanel"
                                 aria-labelledby="nav-edit-tab">
+
                                 <div class="card-body text-dark">
-                                    <h4 class="card-text" style="color: #000000;margin-top: 2.5rem">Vos références professionnelles...</h4>
+                                    <h4 class="card-text" style="color: #49AD33">Vos références
+                                        professionnelles...</h4>
                                     <div class="row row-cols-1  g-4">
                                         <div class="col-12">
-                                                <img src="http://localhost:8000/addons/img/gmc-edit-solution.jpg"
-                                                    class="img-fluid" style="margin: 3rem auto;" alt="..." />
+                                            <img src="http://localhost:8000/addons/img/gmc-edit-solution.jpg"
+                                                class="img-fluid" style="margin: 3rem auto;" alt="..." />
                                         </div>
 
                                     </div>
