@@ -1218,42 +1218,62 @@
                             </div>
                             <div class="tab-pane fade available" id="nav-design" role="tabpanel"
                                 aria-labelledby="nav-design-tab">
-                                <div id="tag-5" class="desc_solutions r-tabs-panel r-tabs-state-active"
-                                    style="display: block;text-align: initial;">
-                                    {{-- <center>
-                                    <span style="color: #484444;">Renvoyez une image professionnelle</span>
-                                </center> --}}
-                                    <div class="row justify-content-center">
-                                        <h4 style="color: #936037; text-align: center">Solutions Aménagement &amp;
-                                            Agencement</h4>
+                                <h4 style="color: #936037; text-align: center;margin-bottom: 3rem;">Solutions Aménagement &amp;
+                                    Agencement</h4>
 
-                                        <div class="col col-md-5">
+                                <div class="row row-cols-1 row-cols-md-2 g-4">
+                                    <div class="col-12">
+                                        <div class="col col-md-12">
                                             <img src="http://localhost:8000/addons/img/icons_design.png" alt="GMC Design"
                                                 class="img-solutions img-fluid">
                                         </div>
                                     </div>
-                                    <br>
-                                    <h4 style="color: #936037">Aménagement &amp; décoration de bureaux</h4>
-                                    <p style="color: black">Proposition des services en décoration de bureaux d'entreprise,
-                                        d'open space et tout autres bureaux professionnels que vous souhaitez redynamiser ou
-                                        réaménager.</p>
-                                    <p style="color: black">Objets chinés, meubles, stores, cadres muraux, faux plafond,
-                                        adhésifs imprimés, papiers peints, parquets…, nous disposons de nombreuses solutions
-                                        et de matériaux pour créer, ensemble, une décoration d'intérieure à votre image.</p>
-                                    <h4 style="color: #936037">Agencement et organisation d'événement</h4>
-                                    <p style="color: black">Pour que l'agencement de vos stands, corners, salons, congrès
-                                        et séminaires soit un véritable succès, donner une image valorisante auprès de vos
-                                        collaborateurs, partenaires ou clients, GMC vous apporte des idées, de savoir-faire
-                                        en matière d'agencement et d'organisation d'événements, en prenant en charge le
-                                        déroulement de l'événement depuis la logistique technique jusqu'à l'organisation
-                                        complète.</p>
+                                    <div class="col-12">
+                                        <div class="card-body px-0">
+                                            <div class="industrie-content">
+
+                                                <div class=" text-start industrie-content-list">
+                                                    <div class="industrie-content-list-item">
+                                                        <h5 style="color: #936037">Aménagement &amp; décoration de bureaux
+                                                        </h5>
+                                                        <p style="color: black">Proposition des services en décoration de
+                                                            bureaux d'entreprise,
+                                                            d'open space et tout autres bureaux professionnels que vous
+                                                            souhaitez redynamiser ou
+                                                            réaménager.</p>
+                                                        <p style="color: black">Objets chinés, meubles, stores, cadres
+                                                            muraux, faux plafond,
+                                                            adhésifs imprimés, papiers peints, parquets…, nous disposons de
+                                                            nombreuses solutions
+                                                            et de matériaux pour créer, ensemble, une décoration
+                                                            d'intérieure à votre image.</p>
+                                                        <h4 style="color: #936037">Agencement et organisation d'événement
+                                                        </h4>
+                                                        <p style="color: black">Pour que l'agencement de vos stands,
+                                                            corners, salons, congrès
+                                                            et séminaires soit un véritable succès, donner une image
+                                                            valorisante auprès de vos
+                                                            collaborateurs, partenaires ou clients, GMC vous apporte des
+                                                            idées, de savoir-faire
+                                                            en matière d'agencement et d'organisation d'événements, en
+                                                            prenant en charge le
+                                                            déroulement de l'événement depuis la logistique technique
+                                                            jusqu'à l'organisation
+                                                            complète.</p>
+
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
-
-
                             <div class="tab-pane fade available" id="nav-tech" role="tabpanel"
                                 aria-labelledby="nav-tech-tab">
-                                <h4 style="color: #24388D; text-align: center;margin-bottom: 2rem">Solutions INFORMATIQUES
+                                <h4 style="color: #24388D; text-align: center;margin-bottom: 2rem">Solutions Informatiques
                                 </h4>
                                 <div class="row row-cols-1 row-cols-md-2 g-4">
                                     <div class="col-12">
@@ -1268,28 +1288,51 @@
 
                                                 <div class=" text-start industrie-content-list">
                                                     <div class="industrie-content-list-item">
-                                                        <ul style="color: black;font-size: 1rem;margin-top: 1.5rem; list-style: none;">
-                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Audit &amp; Consulting infrastructure et métier</li>
-                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Formations certifiées : Sécurité, Réseau, Système et Storage
+                                                        <ul
+                                                            style="color: black;font-size: 1rem;margin-top: 1.5rem; list-style: none;">
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #24388D; font-size: 1rem ;"></i>Audit
+                                                                &amp; Consulting infrastructure et métier</li>
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #24388D; font-size: 1rem ;"></i>Formations
+                                                                certifiées : Sécurité, Réseau, Système et Storage
                                                             </li>
-                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Etude et accompagnement des projets SI – métier et
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #24388D; font-size: 1rem ;"></i>Etude et
+                                                                accompagnement des projets SI – métier et
                                                                 infrastructure</li>
-                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Accompagnement à la transformation numérique (PE, MPE et
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #24388D; font-size: 1rem ;"></i>Accompagnement
+                                                                à la transformation numérique (PE, MPE et
                                                                 MGE)</li>
-                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Mise en place des solutions métiers – négoce, finance,
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #24388D; font-size: 1rem ;"></i>Mise en
+                                                                place des solutions métiers – négoce, finance,
                                                                 production et GTA (ERP,
                                                                 FRP…)</li>
-                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Développement des solutions sur mesure</li>
-                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Mise en place des infrastructures informatiques physiques et
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #24388D; font-size: 1rem ;"></i>Développement
+                                                                des solutions sur mesure</li>
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #24388D; font-size: 1rem ;"></i>Mise en
+                                                                place des infrastructures informatiques physiques et
                                                                 virtuelles selon
                                                                 les exigences et les normes IT</li>
-                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Conception et mise en place des solutions de reprise /
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #24388D; font-size: 1rem ;"></i>Conception
+                                                                et mise en place des solutions de reprise /
                                                                 continuité d’activité
                                                                 (Local et Cloud)</li>
-                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Monitoring des infrastructures H24/7</li>
-                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Support qualifié : base de données, réseau, système et
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #24388D; font-size: 1rem ;"></i>Monitoring
+                                                                des infrastructures H24/7</li>
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #24388D; font-size: 1rem ;"></i>Support
+                                                                qualifié : base de données, réseau, système et
                                                                 Storage</li>
-                                                            <li><i class="fa-solid fa-check" style="color: #24388D; font-size: 1rem ;"></i>Service infogérance adapté aux besoins des clients</li>
+                                                            <li><i class="fa-solid fa-check"
+                                                                    style="color: #24388D; font-size: 1rem ;"></i>Service
+                                                                infogérance adapté aux besoins des clients</li>
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -1298,9 +1341,6 @@
                                     </div>
                                 </div>
                             </div>
-
-
-
                         </div>
                     </div>
                 </div>
