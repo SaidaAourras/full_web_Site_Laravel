@@ -600,7 +600,7 @@
                                                     <div class="card">
                                                         <div class="card-body basic-background">
                                                             <div class="offre-title">
-                                                                <i class="fa fa-flash offre-icon"></i>
+                                                                <i ></i>
                                                                 BASIC
                                                             </div>
                                                             <div class="offre-description">
@@ -620,7 +620,7 @@
                                                     <div class="card">
                                                         <div class="card-body basic-background">
                                                             <div class="offre-title">
-                                                                <i class="fa fa-info offre-icon"></i> details
+                                                                 details
                                                             </div>
                                                             <div class="offre-description">
                                                                 <div class="offre-description-item">
@@ -644,7 +644,7 @@
                                                     <div class="card">
                                                         <div class="card-body standar-background">
                                                             <div class="offre-title">
-                                                                <i class="fa fa-flash offre-icon"></i>
+                                                                <i ></i>
                                                                 STANDAR
                                                             </div>
                                                             <div class="offre-description">
@@ -664,7 +664,7 @@
                                                     <div class="card">
                                                         <div class="card-body standar-background">
                                                             <div class="offre-title">
-                                                                <i class="fa fa-info offre-icon"></i> details
+                                                                 details
                                                             </div>
                                                             <div class="offre-description">
                                                                 <div class="offre-description-item">
@@ -685,7 +685,7 @@
                                                     <div class="card">
                                                         <div class="card-body premium-background">
                                                             <div class="offre-title">
-                                                                <i class="fa fa-flash offre-icon"></i>
+                                                                <i ></i>
                                                                 PREMIUM
                                                             </div>
                                                             <div class="offre-description">
@@ -705,7 +705,7 @@
                                                     <div class="card">
                                                         <div class="card-body premium-background">
                                                             <div class="offre-title">
-                                                                <i class="fa fa-info offre-icon"></i> details
+                                                                 details
                                                             </div>
                                                             <div class="offre-description">
                                                                 <div class="offre-description-item">
@@ -726,7 +726,7 @@
                                                     <div class="card">
                                                         <div class="card-body gold-background">
                                                             <div class="offre-title">
-                                                                <i class="fa fa-flash offre-icon"></i>
+                                                                <i ></i>
                                                                 GOLD
                                                             </div>
                                                             <div class="offre-description">
@@ -746,7 +746,7 @@
                                                     <div class="card">
                                                         <div class="card-body gold-background">
                                                             <div class="offre-title">
-                                                                <i class="fa fa-info offre-icon"></i> details
+                                                                 details
                                                             </div>
                                                             <div class="offre-description">
                                                                 <div class="offre-description-item">
@@ -767,7 +767,7 @@
                                                     <div class="card">
                                                         <div class="card-body platinium-background">
                                                             <div class="offre-title">
-                                                                <i class="fa fa-flash offre-icon"></i>
+                                                                <i ></i>
                                                                 PLATINIUM
                                                             </div>
                                                             <div class="offre-description">
@@ -787,7 +787,7 @@
                                                     <div class="card">
                                                         <div class="card-body platinium-background">
                                                             <div class="offre-title">
-                                                                <i class="fa fa-info offre-icon"></i> details
+                                                                 details
                                                             </div>
                                                             <div class="offre-description">
                                                                 <div class="offre-description-item">
