@@ -222,7 +222,7 @@
             <h1 class="mb-0 mt-5">Pour nous  le point de départ, c'est vous </h1>
         </div> --}}
 
-        <!-- Testimonial Start -->
+        {{-- <!-- Testimonial Start -->
         <div class="container-fluid wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
                 <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
@@ -285,7 +285,7 @@
                 </div>
             </div>
         </div>
-        <!-- Testimonial End -->
+        <!-- Testimonial End --> --}}
     </div>
     <!-- About End -->
 
