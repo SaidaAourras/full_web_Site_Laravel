@@ -6,6 +6,7 @@ use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 use App\Models\Reference;
 use App\Models\Blog;
+use App\Models\Category;
 use App\Models\Project;
 
 /*
@@ -22,9 +23,13 @@ use App\Models\Project;
 
 //home page
 Route::get('/home', function () {
+    $categories = Category::all();
+    $projects = Project::all();
     $references = Reference::all();
     $blogs = Blog::latest()->paginate(3);
     return view('index')->with([
+        'categories' => $categories,
+        'projects' => $projects,
         'blogs' => $blogs,
         'references' => $references
     ]);

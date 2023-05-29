@@ -309,80 +309,28 @@
                     unes de nos dernières réalisations. Nous serions ravis que vous en ferez partie...</h6>
             </div>
             <div class="row">
-
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="addons/img/folio-1.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
+                @foreach ($categories as $category)
+                    <div class="col-sm-4">
+                        @php
+                            $latestProject = $projects->where('category_id', $category->id)->last();
+                        @endphp
+                        
+                        @if ($latestProject)
+                            <div class="img-wrapper">
+                                <img src="{{ asset('./image_project/'.$latestProject->image)}}"
+                                    alt="Project Image">
+                                <div class="overlay">
+                                    <div class="overlay-infos">
+                                        <h5>{{ $latestProject->title }}</h5>
+                                        <a href="{{ route('showProject' , $latestProject->title)}}"><i class="ti-zoom-in"></i></a>
+                                        <a href="{{ route('showProject' , $latestProject->title)}}"><i class="ti-link"></i></a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        @endif
                     </div>
-                    <div class="img-wrapper">
-                        <img src="addons/img/folio-2.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{-- <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="addons/img/folio-3.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="addons/img/folio-4.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="img-wrapper">
-                        <img src="addons/img/folio-5.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="addons/img/folio-6.jpg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, Creative studio Landing page">
-                        <div class="overlay">
-                            <div class="overlay-infos">
-                                <h5>Project Title</h5>
-                                <a href="javascript:void(0)"><i class="ti-zoom-in"></i></a>
-                                <a href="javascript:void(0)"><i class="ti-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
-            </div>
+                @endforeach
+          </div>
             <a style="text-decoration:none" href="/portfolio" class=" py-3 px-4 color-primary text-center"
                 data-wow-delay="0.9s" style="visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">Voir
                 plus</a>
