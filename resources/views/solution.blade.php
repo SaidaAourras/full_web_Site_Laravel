@@ -1402,7 +1402,7 @@
     </script>
     <script>
         const element = document.getElementById("chnageTitle");
-        element.innerHTML = "Solution ";
+        element.innerHTML = "Solutions ";
         document.getElementById('img-bg-header').style.background =
             "url(http://localhost:8000/addons/img/referenceBg1.png) center center fixed no-repeat";
         document.getElementById('img-bg-header').style.backgroundSize = "cover";

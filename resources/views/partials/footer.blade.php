@@ -72,14 +72,15 @@
                                <h3 class="text-light mb-0">Pages</h3>
                            </div>
                            <div class="link-animated d-flex flex-column justify-content-start">
-                               <a class="text-light mb-2" href="#"><i
+                               <a class="text-light mb-2" href="/home"><i
                                        class="bi bi-arrow-right text-primary me-2"></i>Accueil</a>
-                               <a class="text-light mb-2" href="#"><i
+                               <a class="text-light mb-2" href="/about"><i
                                        class="bi bi-arrow-right text-primary me-2"></i>À propos </a>
-                               <a class="text-light mb-2" href="#"><i
-                                       class="bi bi-arrow-right text-primary me-2"></i>Politique de confidentialité</a>
-                               <a class="text-light mb-2" href="#"><i
-                                       class="bi bi-arrow-right text-primary me-2"></i>Mentions légales</a>
+                               <a class="text-light mb-2" href="/solutions"><i
+                                       class="bi bi-arrow-right text-primary me-2"></i>Solutions</a>
+                               <a class="text-light mb-2" href="/contact"><i
+                                       class="bi bi-arrow-right text-primary me-2"></i>Contact
+</a>
 
 
 
