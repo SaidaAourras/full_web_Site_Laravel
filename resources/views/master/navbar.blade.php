@@ -21,8 +21,8 @@
 
             <nav class="cc-navbar navbar navbar-expand-lg position-fixed navbar-dark w-100">
                 <div class="container-fluid">
-                  <a class="navbar-brand text-uppercase fw-bolder mx-3 py-3" href="/home"> 
-                    <img style="width: 10rem;" class="m-0" src="addons/img/logo-GMC.svg" alt="">
+                  <a class="navbar-brand text-uppercase fw-bolder mx-3 py-3" href="/"> 
+                    <img style="width: 10rem;" class="m-0" src="addons/img0/gmclogo.png" alt="">
                 </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
                           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                       <li class="nav-item pe-4">
-                        <a class="nav-link active" aria-current="page"  href="{{ route('home') }}">Accueil</a>
+                        <a class="nav-link active" aria-current="page"  href="{{ route('dashboard') }}">Accueil</a>
                       </li>
                       <li class="nav-item pe-4">
                         <a class="nav-link" href="{{ route('reference.create') }}">Add Reference</a>

@@ -15,7 +15,7 @@
                     <h2>Thank you for your message</h2>
                 </div>
                 <div class="text-center">
-                    <a href="/home">
+                    <a href="/">
                         <button class="btn btn-success btn-lg">Return <i class="fa-solid fa-house"></i></button>
                     </a>
                 </div>
