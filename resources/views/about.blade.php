@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div style="margin-top: 8rem" class="col-lg-7 m-auto">
-                    <div class="section-title position-relative pb-3 mb-5">
+                    <div class="section-title position-relative pb-3 mb-5 mt-5">
                         <h3 class="mb-0">Global Marketing Consulting,
                             La seule distance qui nous sépare, c’est un nouveau départ</h3>
                     </div>

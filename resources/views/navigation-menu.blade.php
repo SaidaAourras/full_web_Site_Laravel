@@ -8,7 +8,7 @@
 
                 <div class="shrink-0 flex items-center">
                     <a class="navbar-brand text-uppercase fw-bolder mx-3 py-3" href="/"> 
-                        <img style="width: 10rem;" class="m-0" src="addons/img/gmclogo.png" alt="">
+                        <img style="width: 10rem;" class="m-0" src="addons/img/gmclogo.svg" alt="">
                     </a>
                     <a  id="displaynone1" class="nav-link active" aria-current="page" href="http://localhost:8000/dashboard"
                         style="color:black;">Acceuil</a>

@@ -22,7 +22,7 @@
             <nav class="cc-navbar navbar navbar-expand-lg position-fixed navbar-dark w-100">
                 <div class="container-fluid">
                   <a class="navbar-brand text-uppercase fw-bolder mx-3 py-3" href="/"> 
-                    <img style="width: 10rem;" class="m-0" src="addons/img0/gmclogo.png" alt="">
+                    <img style="width: 10rem;" class="m-0" src="addons/img0/gmclogo.svg" alt="">
                 </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
                           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
