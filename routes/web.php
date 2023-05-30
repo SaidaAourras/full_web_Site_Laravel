@@ -22,7 +22,7 @@ use App\Models\Project;
 
 
 //home page
-Route::get('/home', function () {
+Route::get('/', function () {
     $categories = Category::all();
     $projects = Project::all();
     $references = Reference::all();
@@ -57,7 +57,7 @@ Route::get('/blog/{title}', [App\Http\Controllers\BlogController::class, 'show']
 
 // CRUD REFERENCE
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/referencee', [App\Http\Controllers\ReferenceController::class, 'index'])->name('referencee');
 Route::get('/reference', [App\Http\Controllers\ReferenceController::class, 'indexView'])->name('reference');
 Route::get('/create/reference', [App\Http\Controllers\ReferenceController::class, 'create'])->name('reference.create');

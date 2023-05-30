@@ -1247,8 +1247,8 @@
                                                             nombreuses solutions
                                                             et de matériaux pour créer, ensemble, une décoration
                                                             d'intérieure à votre image.</p>
-                                                        <h4 style="color: #936037">Agencement et organisation d'événement
-                                                        </h4>
+                                                        <h5 style="color: #936037">Agencement et organisation d'événement
+                                                        </h5>
                                                         <p style="color: black">Pour que l'agencement de vos stands,
                                                             corners, salons, congrès
                                                             et séminaires soit un véritable succès, donner une image

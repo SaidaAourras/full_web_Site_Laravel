@@ -22,7 +22,7 @@
             <div class="text-center mb-6">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
 
-                    <small class="me-5 text-light nav-item nav-link"><a style="color:#000000" href="{{ route('portfolio') }}">All projects</a></small>
+                    <small class="me-5 text-light nav-item nav-link"><a style="color:#000000" href="{{ route('portfolio') }}">Toute les projets</a></small>
 
 
                     @foreach ($categories as $category)
