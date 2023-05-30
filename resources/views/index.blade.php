@@ -91,11 +91,11 @@
                         commune.</p>
                     {{-- <div class="row g-0 mb-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Award Winning</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Plan D'affaires Gagnant</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Personnel Professionnel</h5>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Assistance 24/7</h5>
                             <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
                         </div>
                     </div> --}}
@@ -138,16 +138,16 @@
                                 style="width: 60px; height: 60px;">
                                 <i class="fa fa-cubes text-white"></i>
                             </div>
-                            <h4>Best In Industry</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                            <h4>Référence De L'industrie </h4>
+                            <p class="mb-0" style="visibility: hidden">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
                                 style="width: 60px; height: 60px;">
                                 <i class="fa fa-award text-white"></i>
                             </div>
-                            <h4>Award Winning</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                            <h4>Plan D'affaires Gagnant</h4>
+                            <p class="mb-0" style="visibility: hidden">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
                         </div>
                     </div>
                 </div>
@@ -164,16 +164,16 @@
                                 style="width: 60px; height: 60px;">
                                 <i class="fa fa-users-cog text-white"></i>
                             </div>
-                            <h4>Professional Staff</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                            <h4>Personnel Professionnel</h4>
+                            <p class="mb-0" style="visibility: hidden">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
                             <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
                                 style="width: 60px; height: 60px;">
                                 <i class="fa fa-phone-alt text-white"></i>
                             </div>
-                            <h4>24/7 Support</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                            <h4>Assistance 24/7</h4>
+                            <p class="mb-0" style="visibility: hidden">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
                         </div>
                     </div>
                 </div>
@@ -204,8 +204,7 @@
                                 alt="">
                         </div>
                         <h4 class="mb-3" style="color: #009FE3;">Solutions Print & Publicité</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
-                        </p>
+                        
                         <a class="btn btn-lg btn-primary rounded" href="solutions">
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -220,8 +219,7 @@
                                 alt="">
                         </div>
                         <h4 class="mb-3" style="color: #E72787;">Solutions Web & Réseaux Sociaux</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
-                        </p>
+                        
                         <a class="btn btn-lg btn-primary rounded" href="solutions">
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -236,8 +234,7 @@
                                 alt="">
                         </div>
                         <h4 class="mb-3" style="color: #EB6409;">Solutions Publicité industrielle</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
-                        </p>
+                        
                         <a class="btn btn-lg btn-primary rounded" href="solutions">
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -251,8 +248,7 @@
                             <img style="width: 250px; padding-bottom: 2rem" src="addons/img/gmc_edit.png" alt="">
                         </div>
                         <h4 class="mb-3" style="color: #49AD33;">Solutions EDITION</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
-                        </p>
+                        
                         <a class="btn btn-lg btn-primary rounded" href="solutions">
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -267,8 +263,7 @@
                                 alt="">
                         </div>
                         <h4 class="mb-3" style="color: #936037;">Solutions Aménagement & Agencement</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
-                        </p>
+                        
                         <a class="btn btn-lg btn-primary rounded" href="solutions">
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -282,8 +277,7 @@
                             <img style="width: 250px; padding-bottom: 2rem" src="addons/img/gmc_tech.png" alt="">
                         </div>
                         <h4 class="mb-3" style="color: #24388D;">Solutions INFORMATIQUES</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed
-                        </p>
+                        
                         <a class="btn btn-lg btn-primary rounded" href="solutions">
                             <i class="bi bi-arrow-right"></i>
                         </a>
