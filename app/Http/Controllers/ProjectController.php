@@ -83,7 +83,7 @@ class ProjectController extends Controller
         $this->validate($request,[
             'title'=> 'required|min:3|max:100',       
             'link'=> 'required',            
-            'discp'=> 'required|min:3|max:100',            
+            'discp'=> 'required|min:3',            
             'category_id'=> 'required',            
 
             
@@ -97,7 +97,7 @@ class ProjectController extends Controller
             'category_id' => $request->category_id,
         ]);
         return redirect()->route('project')->with([
-                'success' => 'project added'
+                'success' => 'Project created'
              ]) ;
     }
 
@@ -129,6 +129,7 @@ class ProjectController extends Controller
         $categories = Category::all();
         $project = Project::find($id);
         return view('edit.editProject' ,compact('categories'))->with([
+            'categories' => $categories,
               'project' => $project
         ]);
     }
@@ -145,7 +146,7 @@ class ProjectController extends Controller
         $this->validate($request,[
             'title'=> 'required|min:3|max:100',                     
             'link'=> 'required',            
-            'discp'=> 'required|min:3|max:100',            
+            'discp'=> 'required|min:3',            
             'category_id'=> 'required',    
             
         ]);
@@ -175,7 +176,7 @@ class ProjectController extends Controller
             'category_id' => $request->category_id,
       ]);
            return redirect()->route('project')->with([
-              'success' => 'project updated '
+              'success' => 'Project updated '
            ]) ;
     }
 
@@ -190,7 +191,7 @@ class ProjectController extends Controller
         $project = Project::find($id);
         $project->delete();
         return redirect()->route('project')->with([
-          'success' => 'Reference supprime'
+          'success' => 'Project Created'
         ]);
     }
 }

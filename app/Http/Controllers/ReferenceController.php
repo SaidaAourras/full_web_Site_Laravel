@@ -49,7 +49,7 @@ class ReferenceController extends Controller
               'logo'  => $image_name,
         ]);
              return redirect()->route('referencee')->with([
-                'success' => 'la reference ajoute '
+                'success' => 'Reference created '
              ]) ;
     }
 
@@ -97,7 +97,7 @@ class ReferenceController extends Controller
             'logo'  => $reference->logo,
       ]);
            return redirect()->route('referencee')->with([
-              'success' => 'la reference est modifiee '
+              'success' => 'Reference updated '
            ]) ;
     }
 
@@ -105,7 +105,7 @@ class ReferenceController extends Controller
         $reference = Reference::find($id);
         $reference->delete();
         return redirect()->route('referencee')->with([
-          'success' => 'Reference supprime'
+          'success' => 'Reference deleted'
         ]);
     }
 

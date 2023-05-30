@@ -71,7 +71,7 @@ class BlogController extends Controller
             'discp' => $request->discp,
         ]);
         return redirect()->route('blogs')->with([
-                        'success' => 'blog added'
+                        'success' => 'Blog created'
                      ]) ;
     }
 
@@ -146,7 +146,7 @@ class BlogController extends Controller
         
         ]);
         return redirect()->route('blogs')->with([
-            'success' => 'blog updated'
+            'success' => 'Blog updated'
         ]);
     }
 

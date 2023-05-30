@@ -22,7 +22,7 @@
   <div class="col-sm-4 ">
     <div class="card bg-tr overflow-hidden shadow-xl sm:rounded-lg">
       <div class="card-body">
-        <h5 class="card-title">all references</h5>
+        <h5 class="card-title">all References</h5>
         <p class="card-text"></p>
         <a href="{{route('referencee')}}" class="btn btn-success">Check it</a>
       </div>
@@ -40,7 +40,7 @@
   <div class="col-sm-4">
       <div class="card overflow-hidden shadow-xl sm:rounded-lg">
         <div class="card-body">
-          <h5 class="card-title">all project</h5>
+          <h5 class="card-title">all Projects</h5>
           <p class="card-text"></p>
           <a href="{{route('project')}}" class="btn btn-success">check it</a>
         </div>
@@ -58,7 +58,7 @@
     <div class="col-sm-4">
       <div class="card overflow-hidden shadow-xl sm:rounded-lg">
         <div class="card-body">
-          <h5 class="card-title">all Contact</h5>
+          <h5 class="card-title">all Contacts</h5>
           <p class="card-text"></p>
           <a href="{{route('contact')}}" class="btn btn-success">check it</a>
         </div>

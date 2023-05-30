@@ -47,7 +47,7 @@ class CategoryController extends Controller
               'name' => $request->name,
         ]);
              return redirect()->route('category')->with([
-                'success' => 'bien'
+                'success' => 'Category created'
              ]) ;
     }
 
@@ -86,7 +86,7 @@ class CategoryController extends Controller
             'name' => $request->name,
       ]);
            return redirect()->route('category')->with([
-              'success' => 'la category est modifiee '
+              'success' => 'category updated '
            ]) ;
     }
 
@@ -100,7 +100,7 @@ class CategoryController extends Controller
         $category = Category::find($id);
         $category->delete();
         return redirect()->route('category')->with([
-          'success' => 'category supprime'
+          'success' => 'category deleted'
         ]);
     }
 }

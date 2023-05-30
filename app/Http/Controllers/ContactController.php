@@ -50,7 +50,7 @@ class ContactController extends Controller
     $contact = Contact::find($id);
     $contact->delete();
     return redirect()->route('contact')->with([
-      'success' => 'deleted'
+      'success' => 'Contact deleted'
     ]);
 }
 

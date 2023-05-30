@@ -23,7 +23,7 @@
         <div class="card header-color  border-shortand">
             <div class="card-header text-white header-color">
                 <h3 class="card-title">
-                   Modifier {{ $project->title }}
+                   Edit {{ $project->title }}
                 </h3>
             </div>
             <div class="card-body body-trensparent">
@@ -41,7 +41,7 @@
                         </div>
                       <div class="mb-2">
                           <label for="link">Link</label>
-                          <input type="url" id="link" name="link  banner-desc" value="{{$project->link}}"  class="form-control  border-shortand" aria-label="With textarea"  required>
+                          <input type="url" name="link" placeholder="https://example.com" value="{{$project->link}}"  class="form-control  border-shortand" aria-label="With textarea"  required>
                       </div>
                       <div class="mb-2">
                           <label for="description  banner-desc">Description</label>

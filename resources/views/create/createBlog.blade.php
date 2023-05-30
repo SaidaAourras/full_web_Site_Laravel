@@ -5,7 +5,7 @@
 @endsection
 
 @section('name')
-    create new blog
+    create new Blog
 @endsection
 
 @section('content')
@@ -23,7 +23,7 @@
         <div class="card  header-color border-shortand">
             <div class="card-header text-white header-color">
                 <h3 class="card-title">
-                    add
+                    Create Blog
                 </h3>
             </div>
             <div class="card-body body-trensparent">
