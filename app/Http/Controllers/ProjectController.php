@@ -18,7 +18,7 @@ class ProjectController extends Controller
     
         public function index()
     {
-        $projects = Project::all();
+        $projects = Project::latest()->paginate(4);
         return view('home.project')->with([
             'projects' => $projects
         ]);
