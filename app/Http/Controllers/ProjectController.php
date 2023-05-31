@@ -191,7 +191,7 @@ class ProjectController extends Controller
         $project = Project::find($id);
         $project->delete();
         return redirect()->route('project')->with([
-          'success' => 'Project Created'
+          'success' => 'Project delated'
         ]);
     }
 }
