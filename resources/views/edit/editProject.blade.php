@@ -48,12 +48,18 @@
                           <textarea type="text" id="description" name="discp" placeholder="Enter a description"  class="form-control  border-shortand" aria-label="With textarea" >{{$project->discp}}</textarea>
                       </div>
                       <div class="mb-2">
-                          <label for="category_id" class="form-label  banner-desc">Category</label>
+                          {{-- <label for="category_id" class="form-label  banner-desc">Category</label>
                           <select class="form-select  border-shortand" name="category_id"  aria-label="Default select example">
                               @foreach($categories as $category)
-                                  <option value="{{ $category->id }}" selected>{{ $category->name }}</option>
+                                  <option value="{{ $category->id }}" >{{ $category->name }}</option>
                               @endforeach
-                          </select>
+                          </select> --}}
+                          <label for="category_id" class="form-label  banner-desc">Category</label>
+                          <select class="form-select border-shortand" name="category_id" aria-label="Default select example">
+                            @foreach($categories as $category)
+                                <option value="{{ $category->id }}" {{ $category->id == $project->category->id ? 'selected' : '' }}>{{ $category->name }}</option>
+                            @endforeach
+                        </select>
                       </div>
                       <div class="mb-2">
                           <button class="btn btn-outline-success">
@@ -69,7 +75,7 @@
     </div>
 @endsection
 @section('script')
-    
+
 @endsection
 
 
