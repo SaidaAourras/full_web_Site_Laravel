@@ -1,5 +1,5 @@
 #to run
-# >php artisan serve
-# >npm install
-# >npm run dev
+# php artisan serve
+# npm install
+# npm run dev
 
